@@ -1,0 +1,14 @@
+Before commiting you need to check if the idenfySDK Target version and build is incremented by one.
+
+After that make a STAGE_SDK-* Tag. Commit if needed before the tag. Push the updates. Wait for the build result.
+
+If the build is successful, test it locally with using testing branch. If everything is alright, tag it PROD_SDK-* and push new tag. Wait for the deployment.
+
+Building Static SDK:
+
+Comment out use_frameworks! in the podfile
+Comment out Sentry pod
+delete weak_framework Sentry from project setttings
+pod cache clean --all, pod deintegate. Delete podfile.lock, clear derrived data
+Install new pods
+Build the SDK as usual with bitrise

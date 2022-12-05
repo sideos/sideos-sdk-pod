@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Your Name/SideosPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '11.0'
+  s.ios.vendored_frameworks = 'SideosXCFSDK.xcframework' # Your XCFramework
   s.source_files = 'SideosPod/Classes/**/*'
+  s.dependency 'iDenfySDK/iDenfyLiveness', '~> 7.7.1'
   
   # s.resource_bundles = {
   #   'SideosPod' => ['SideosPod/Assets/*.png']

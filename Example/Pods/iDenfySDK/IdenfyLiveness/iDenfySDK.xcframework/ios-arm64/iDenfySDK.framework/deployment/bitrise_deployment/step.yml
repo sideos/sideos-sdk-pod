@@ -1,0 +1,45 @@
+title: browserstack-upload
+summary: |
+    iDenfy SDK CI/CD
+description: |
+  iDenfy SDK CI/CD
+published_at: 2018-10-05T19:01:57.318895784+02:00
+host_os_tags:
+  - osx-10.10
+project_type_tags:
+  - ios
+type_tags:
+  - test
+toolkit:
+  bash:
+    entry_file: step.sh
+deps:
+  brew:
+    - name: git
+    - name: wget
+    - name: jq
+  apt_get:
+    - name: git
+    - name: wget
+    - name: jq
+is_requires_admin_user: true
+is_always_run: false
+is_skippable: false
+run_if: ""
+inputs:
+  - opts:
+      description: |
+        Bitrise deploy dir
+      is_required: true
+      summary:
+        bitrise deploy dir
+      title: A Bitrise deploy dir
+    upload_path: $BITRISE_DEPLOY_DIR
+  - opts:
+      description: |
+        Project dir
+      is_required: true
+      summary:
+        project dir
+      title: Project dir
+    upload_path: $PROJECT_DIR

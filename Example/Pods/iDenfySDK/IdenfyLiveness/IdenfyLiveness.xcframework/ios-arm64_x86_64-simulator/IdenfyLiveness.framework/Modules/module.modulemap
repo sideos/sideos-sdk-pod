@@ -1,0 +1,11 @@
+framework module IdenfyLiveness {
+  umbrella header "IdenfyLiveness.h"
+
+  export *
+  module * { export * }
+}
+
+module IdenfyLiveness.Swift {
+    header "IdenfyLiveness-Swift.h"
+    requires objc
+}

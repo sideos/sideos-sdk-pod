@@ -1,0 +1,197 @@
+{"groups": [
+  {
+    "groupFriendlyName": "Informatia ta",
+    "fields": [
+      {
+        "fieldKey": "firstName",
+        "fieldFriendlyName": "Nume",
+        "uiFieldDescriptionText": "Nume"
+      },
+      {
+        "fieldKey": "lastName",
+        "fieldFriendlyName": "Nume de familie",
+        "uiFieldDescriptionText": "Nume de familie"
+      },
+      {
+        "fieldKey": "placeOfBirth",
+        "fieldFriendlyName": "Locul nașterii",
+        "uiFieldDescriptionText": "Locul nașterii"
+      },
+      {
+        "fieldKey": "nationality",
+        "fieldFriendlyName": "Naţionalitate",
+        "uiFieldDescriptionText": "Naţionalitate"
+      },
+      {
+        "fieldKey": "givenName",
+        "fieldFriendlyName": "Nume dat",
+        "uiFieldDescriptionText": "Nume dat"
+      },
+      {
+        "fieldKey": "fullName",
+        "fieldFriendlyName": "Numele complet",
+        "uiFieldDescriptionText": "Numele complet"
+      },
+      {
+        "fieldKey": "dateOfBirth",
+        "fieldFriendlyName": "Data de nastere",
+        "uiFieldDescriptionText": "Data de nastere"
+      },
+      {
+        "fieldKey": "middleName",
+        "fieldFriendlyName": "Al doilea prenume",
+        "uiFieldDescriptionText": "Al doilea prenume"
+      }
+    ],
+    "groupKey": "userInfo"
+  },
+  {
+    "groupFriendlyName": "Adresa ta",
+    "fields": [
+      {
+        "fieldKey": "zipCode",
+        "fieldFriendlyName": "Cod poștal",
+        "uiFieldDescriptionText": "Cod poștal"
+      },
+      {
+        "fieldKey": "country",
+        "fieldFriendlyName": "Țară",
+        "uiFieldDescriptionText": "Țară"
+      },
+      {
+        "fieldKey": "address3",
+        "fieldFriendlyName": "Linia de adresa 3",
+        "uiFieldDescriptionText": "Linia de adresa 3"
+      },
+      {
+        "fieldKey": "address2",
+        "fieldFriendlyName": "Linia de adresa 2",
+        "uiFieldDescriptionText": "Linia de adresa 2"
+      },
+      {
+        "fieldKey": "city",
+        "fieldFriendlyName": "Oraș",
+        "uiFieldDescriptionText": "Oraș"
+      },
+      {
+        "fieldKey": "address1",
+        "fieldFriendlyName": "Linia de adresa 1",
+        "uiFieldDescriptionText": "Linia de adresa 1"
+      },
+      {
+        "fieldKey": "state",
+        "fieldFriendlyName": "Stat",
+        "uiFieldDescriptionText": "Stat"
+      }
+    ],
+    "groupKey": "addressInfo"
+  },
+  {
+    "groupFriendlyName": "Trăsături fizice și diverse",
+    "fields": [
+      {
+        "fieldKey": "sex",
+        "fieldFriendlyName": "Gen",
+        "uiFieldDescriptionText": "Gen"
+      },
+      {
+        "fieldKey": "weight",
+        "fieldFriendlyName": "Greutate",
+        "uiFieldDescriptionText": "Greutate"
+      },
+      {
+        "fieldKey": "eyes",
+        "fieldFriendlyName": "Ochi",
+        "uiFieldDescriptionText": "Ochi"
+      },
+      {
+        "fieldKey": "height",
+        "fieldFriendlyName": "Înălţime",
+        "uiFieldDescriptionText": "Înălţime"
+      }
+    ],
+    "groupKey": "secondaryUserInfo"
+  },
+  {
+    "groupFriendlyName": "Informații suplimentare",
+    "fields": [
+      {
+        "fieldKey": "customField1",
+        "fieldFriendlyName": "Custom Field 1",
+        "uiFieldDescriptionText": "Custom Field 1"
+      },
+      {
+        "fieldKey": "customField2",
+        "fieldFriendlyName": "Custom Field 2",
+        "uiFieldDescriptionText": "Custom Field 2"
+      },
+      {
+        "fieldKey": "customField3",
+        "fieldFriendlyName": "Custom Field 3",
+        "uiFieldDescriptionText": "Custom Field 3"
+      },
+      {
+        "fieldKey": "customField4",
+        "fieldFriendlyName": "Custom Field 4",
+        "uiFieldDescriptionText": "Custom Field 4"
+      }
+    ],
+    "groupKey": "customFields"
+  },
+  {
+    "groupFriendlyName": "Detalii de identitate cu fotografie",
+    "fields": [
+      {
+        "fieldKey": "issuingAuthority",
+        "fieldFriendlyName": "Autoritatea emitentă",
+        "uiFieldDescriptionText": "Autoritatea emitentă"
+      },
+      {
+        "fieldKey": "dateOfExpiration",
+        "fieldFriendlyName": "Data de expirare",
+        "uiFieldDescriptionText": "Data de expirare"
+      },
+      {
+        "fieldKey": "countryCode",
+        "fieldFriendlyName": "Codul tarii",
+        "uiFieldDescriptionText": "Codul tarii"
+      },
+      {
+        "fieldKey": "passportType",
+        "fieldFriendlyName": "Tipul pașaportului",
+        "uiFieldDescriptionText": "Tipul pașaportului"
+      },
+      {
+        "fieldKey": "dateOfIssue",
+        "fieldFriendlyName": "Data emiterii",
+        "uiFieldDescriptionText": "Data emiterii"
+      },
+      {
+        "fieldKey": "idNumber",
+        "fieldFriendlyName": "ID-ul cu fotografie#",
+        "uiFieldDescriptionText": "ID-ul cu fotografie #"
+      },
+      {
+        "fieldKey": "idNumber2",
+        "fieldFriendlyName": "ID secundar #",
+        "uiFieldDescriptionText": "ID secundar #"
+      },
+      {
+        "fieldKey": "mrzLine3",
+        "fieldFriendlyName": "MRZ 3",
+        "uiFieldDescriptionText": "MRZ 3"
+      },
+      {
+        "fieldKey": "mrzLine1",
+        "fieldFriendlyName": "MRZ 1",
+        "uiFieldDescriptionText": "MRZ 1"
+      },
+      {
+        "fieldKey": "mrzLine2",
+        "fieldFriendlyName": "MRZ 2",
+        "uiFieldDescriptionText": "MRZ 2"
+      }
+    ],
+    "groupKey": "idInfo"
+  }
+]}

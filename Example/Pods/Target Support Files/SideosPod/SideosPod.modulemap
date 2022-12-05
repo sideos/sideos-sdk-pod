@@ -1,0 +1,6 @@
+framework module SideosPod {
+  umbrella header "SideosPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

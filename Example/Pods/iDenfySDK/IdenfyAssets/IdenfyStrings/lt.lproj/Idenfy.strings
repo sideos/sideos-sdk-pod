@@ -1,0 +1,718 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Privatumo politika";
+"idenfy_privacy_policy_agree_button_title_v2" = "SUTINKU";
+"idenfy_privacy_policy_disagree_button_title_v2" = "NESUTINKU";
+"idenfy_privacy_policy_alert_title_v2" = "INFORMACIJA";
+"idenfy_privacy_policy_alert_description_v2" = "Norėdami tęsti procesą, turite sutikti su taisyklėmis. Jei nesutinkate, atšaukite identifikacijos procesą arba uždarykite langą.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "NORIU SUTIKT";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "ATŠAUKTI";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "TĘSTI";
+"idenfy_questionnaire_email_error_message_v2" = "Įveskite teisingą el. pašto adresą!";
+"idenfy_questionnaire_url_error_message_v2" = "Įveskite teisingą svetainės adresą!";
+"idenfy_questionnaire_tel_error_message_v2" = "Įveskite teisingą telefono numerį!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Pasirinkite savo tiekėją";
+"idenfy_provider_selection_common_information_description_v2" = "Pasirinkite savo komunalinių paslaugų tiekėją";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Ieškoti tiekėjo…";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Prijunkite savo paskyrą";
+"idenfy_provider_login_view_common_information_description_v2" = "Įveskite savo komunalinių paslaugų tiekėjo internetinės svetainės prisijungimo duomenis";
+"idenfy_provider_login_view_username_hint_title_v2" = "Vartotojo vardas";
+"idenfy_provider_login_view_password_hint_title_v2" = "Slaptažodis";
+"idenfy_provider_login_view_continue_button_title_v2" = "TĘSTI";
+"idenfy_provider_login_view_login_retry_title_v2" = "Netinkami prisijungimo duomenys";
+"idenfy_provider_login_view_login_retry_description_v2" = "Įveskite teisingus prisijungimo duomenis ir bandykite dar kartą!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Prisijungimas nepavyko";
+"idenfy_provider_login_view_login_failed_description_v2" = "Mums nepavyko jūsų prijungti…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Paskyros patvirtinimas";
+"idenfy_mfa_method_selection_view_description_v2" = "Pasirinkite norimą autentifikavimo metodą iš žemiau pateiktų parinkčių";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Autentifikavimo metodas";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Vienkartinis slaptažodis";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Saugumo klausimas ir atsakymas";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "TĘSTI";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Autentifikuokite save";
+"idenfy_mfa_captcha_method_description_v2" = "Įveskite koduką, kurį matote paveikslėlyje žemiau";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Matomas kodukas";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "TĘSTI";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Autentifikuokite save";
+"idenfy_mfa_code_method_description_v2" = "Įveskite autentifikavimo kodą, kurį gavote į savo telefoną ar el. paštu";
+"idenfy_mfa_code_method_code_hint_v2" = "Autentifikavimo kodas";
+"idenfy_mfa_question_method_title_v2" = "Prašome atsakyti į žemiau pateiktą klausimą";
+"idenfy_mfa_question_method_answer_hint_v2" = "Jūsų atsakymas";
+"idenfy_mfa_notification_method_title_v2" = "Patvirtinkite prieigą naudodami savo teikėjo programėlę";
+"idenfy_mfa_notification_method_description_v2" = "Kai baigsite, paspauskite mygtuką TĘSTI";
+"idenfy_mfa_pass_code_method_title_v2" = "Autentifikuokite save";
+"idenfy_mfa_pass_code_method_description_v2" = "Įveskite prieigos kodą, kurį nustatėte su savo paslaugų teikėju";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Prieigos kodas";
+"idenfy_mfa_general_view_continue_button_title_v2" = "TĘSTI";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Pradėti identifikaciją";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Šalis, išdavusi dokumentą";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Pradžia";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Pasirinkite dokumento išdavimo šalį";
+"idenfy_country_selection_view_information_description_v2" = "Prašome pasirinkti šalį, kurioje buvo išduotas dokumentas";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Ieškoti dokumentą išdavusios šalies…";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Pasirinkite kalbą";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "TĘSTI";
+"idenfy_documents_selection_view_information_title_v2" = "Dokumento tipo pasirinkimas";
+"idenfy_documents_selection_view_information_description_v2" = "Kurį dokumento tipą naudosite identifikavimui?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Pasas";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "Tapatybės kortelė";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Kitas dokumentas";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Vairuotojo pažymėjimas";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Leidimas gyventi";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Viza";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelė";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimas gyventi";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Rusijos nacionalinis pasas";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Rusijos tarptautinis pasas";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "JK laikinas vairuotojo pažymėjimas";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Rinkėjo kortelė";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Sena asmens tapatybės kortelė";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Kelionės kortelė";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Nuotraukų kortelė";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Karinė (veterano) kortelė";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Amžiaus įrodymo kortelė";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Diplomatinis ID";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "PAN kortelė";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Aadhaar kortelė";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Patvirtinkite dokumento tipą";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Prašome paruošti **tapatybės kortelę** identifikavimui";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Prašome paruošti **pasą** identifikavimui";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Prašome paruošti **leidimą gyventi** identifikavimui";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Prašome paruošti **vairuotojo pažymėjimą** identifikavimui";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Prašome paruošti **documentą** identifikavimui";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Prašome paruošti";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "tapatybės kortelę";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "pasą";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "leidimą gyventi";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "vairuotojo pažymėjimą";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "dokumentą";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "vizą";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "JAV sienos kirtimo kortelę";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "Austrijos prieglobsčio leidimą gyventi";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "Rusijos nacionalinį pasą";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "Rusijos tarptautinį pasą";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "JK laikiną vairuotojo pažymėjimą";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "rinkėjo kortelę";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "seną asmens tapatybės kortelę";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "kelionės kortelę";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "nuotraukų kortelę";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "karinę (veterano) kortelę";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "amžiaus įrodymo kortelę";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "diplomatinis ID";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "PAN kortelę";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar kortelę";
+"idenfy_confirmation_view_information_description_part_3_v2" = "identifikavimui";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Identifikacijos procesą sudaro 5 žingsniai:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Identifikacijos procesą sudaro";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "žingsniai:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Dokumento priekio nuotrauka";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Dokumento galo nuotrauka";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Veido nuotrauka";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Gyvumo patikra";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Paso viršelio nuotrauka";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Adreso patvirtinimo nuotrauka";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Antrojo adreso patvirtinimo nuotrauka";
+"idenfy_confirmation_view_upload_image_title_v2" = "Galite įkelti nuotrauką kiekviename žingsnyje";
+"idenfy_confirmation_view_begin_identification_title_v2" = "PRADĖTI IDENTIFIKACIJOS PROCESĄ";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "TĘSTI";
+
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "TĘSTI PO **x** …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Įsitikinkite, kad esate šviesioje aplinkoje";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Kai pasirodys, spauskite «Aš Pasiruošęs» ir sekite instrukcijas";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Norėdami atlikti šį patikrinimą, turėsite priartėti ar nutolti nuo kameros";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Prašome sekti instrukcijas pateiktas žemiau:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Įsitikinkite, kad pasirinkto dokumento nuotrauka yra:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Aiškiai matoma ir ryški";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Gerai apšviesta ir neuždengta šešėlio";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Neuždengta šviesos atspindžių";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Neuždengta pirštu ir telpa į baltą rėmelį";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Orginalaus dokumento, o ne jo kopijos";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Tapatybės kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Tapatybės kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Dokumento priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Dokumento galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Leidimo gyventi priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Leidimo gyventi galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Paso viršelis";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Paso asmens duomenų lapas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Adreso patvirtinimas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Antrasis adreso patvirtinimas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Vizos priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Vizos galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės priekinė dalis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės galinė dalis";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Rinkėjo kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Rinkėjo kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Kelionės kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Kelionės kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Nuotraukų kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Nuotraukų kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Karinės (veterano) kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Karinės (veterano) kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "PAN kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "PAN kortelės galas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės priekis";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės galas";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Įstatykite dokumentą į rėmelį ir nufotografuokite";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Įstatykite dokumentą į rėmelį ir palaukite, kol jis bus nuskaitytas";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Pasirinkite failo tipą";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Kokio tipo failą norėtumėte įkelti?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Nuotrauka";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Kaip atlikti identifikaciją?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "PRALEISTI INSTRUKCIJAS";
+
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Įsitikinkite, kad jūsų asmenukė aiškiai matoma ir telpa į baltą rėmelį";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Įsitikinkite, kad šviesos šaltinis yra priešais, o ne už jūsų";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Įsitikinkite, kad pasirinkto dokumento nuotrauka yra: Aiškiai matoma ir ryški";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Įsitikinkite, kad pasirinkto dokumento nuotrauka yra: Gerai apšviesta ir neuždengta šešėlio";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Įsitikinkite, kad pasirinkto dokumento nuotrauka yra: Neuždengta šviesos atspindžių";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Įsitikinkite, kad pasirinkto dokumento nuotrauka yra: Neuždengta pirštu ir telpa į baltą rėmelį";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "Tapatybės kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "Tapatybės kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Dokumento priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Dokumento galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Leidimo gyventi priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Leidimo gyventi galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Paso viršelis";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Paso asmens duomenų lapas";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adreso patvirtinimas";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Antrasis adreso patvirtinimas";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Vizos priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Vizos galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės priekinė dalis";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės galinė dalis";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Rinkėjo kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Rinkėjo kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Kelionės kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Kelionės kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Nuotraukų kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Nuotraukų kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Karinės (veterano) kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Karinės (veterano) kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "PAN kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "PAN kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "Ar jūsų **tapatybės kortelės priekis** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "Ar jūsų **tapatybės kortelės galas** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "Ar jūsų **dokumento priekis** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "Ar jūsų **dokumento galas** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "Ar jūsų **leidimo gyventi priekis** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "Ar jūsų **leidimo gyventi galas** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "Ar jūsų **vairuotojo pažymėjimo priekis** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "Ar jūsų **vairuotojo pažymėjimo galas** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "Ar jūsų **paso viršelis** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "Ar jūsų **adreso patvirtinimo nuotrauka** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "Ar jūsų **antroji adreso patvirtinimo nuotrauka** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "Ar jūsų **paso asmens duomenų lapas** yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Ar jūsų";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "tapatybės kortelės priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "tapatybės kortelės galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "dokumento priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "dokumento galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "leidimo gyventi priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "leidimo gyventi galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "vairuotojo pažymėjimo priekis";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "vairuotojo pažymėjimo galas";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "paso viršelis";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "adreso patvirtinimo nuotrauka";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "antroji adreso patvirtinimo nuotrauka";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "paso asmens duomenų lapas";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "yra rėmelyje ir ryškiai matomas?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Ar aiškiai matoma jūsų veido nuotrauka?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Ar galite aiškiai perskaityti išsamią dokumento informaciją?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Ar tai dokumento galinė dalis?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Ar galite aiškiai perskaityti išsamią dokumento informaciją?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Ar galite aiškiai perskaityti išsamią dokumento informaciją?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Ar tikrai norite įkelti šį failą?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Įstatykite savo veidą į rėmelį ir atlikite aiškiai matomą nuotrauką";
+"idenfy_face_camera_preview_title_v2" = "Nufotografuokite savo veidą";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Patvirtinkite veido nuotrauką";
+"idenfy_face_camera_results_description_v2" = "Ar jūsų veidas įstatytas į rėmelį ir aiškiai matomas?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "Ar jūsų **veidas** įstatytas į rėmelį ir aiškiai matomas?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Ar jūsų veidas yra aiškiai matomas ir pakankamai arti apžiūrai?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Apžiūrėkite nuotrauką";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Powered by iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "PAKARTOTI";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "TAIP, TĘSTI";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Tapatybės kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Tapatybės kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Dokumento priekis";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Dokumento galas";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Leidimo gyventi priekis";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Leidimo gyventi galas";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo priekis";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo galas";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Paso viršelis";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Paso asmens duomenų lapas";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adreso patvirtinimas";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Antrasis adreso patvirtinimas";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Vizos priekis";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Vizos galas";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės priekinė dalis";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės galinė dalis";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi priekis";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi galas";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso priekis";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso galas";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso priekis";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso galas";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo priekis";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo galas";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Rinkėjo kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Rinkėjo kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Kelionės kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Kelionės kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Nuotraukų kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Nuotraukų kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Karinės (veterano) kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Karinės (veterano) kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "PAN kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "PAN kortelės galas";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės priekis";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės galas";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Patvirtinkite veido nuotrauką";
+"idenfy_upload_results_view_cropping_description_v2" = "Išcentruokite nuotrauką apkirpimui";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "PASIRINKITE KITĄ NUOTRAUKĄ";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "TĘSTI";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Viršytas maksimalus failo dydis";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Pasirinkite failą, kurio dydis yra ne didesnis kaip 5 MB";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Tikrinami duomenys…";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Prašome palaukti kol tikrinami duomenys!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Identifikacija nepavyko";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Tapatybės kortelės priekis";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Tapatybės kortelės galas";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Paso viršelis";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Adreso patvirtinimas";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Antrasis adreso patvirtinimas";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Paso asmens duomenų lapas";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Dokumento priekis";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Dokumento galas";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Leidimo gyventi priekis";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Leidimo gyventi galas";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo priekis";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Vairuotojo pažymėjimo galas";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Vizos priekis";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Vizos galas";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės priekinė dalis";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "JAV sienos kirtimo kortelės galinė dalis";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi priekis";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Austrijos prieglobsčio leidimo gyventi galas";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso priekis";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Rusijos nacionalinio paso galas";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso priekis";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Rusijos tarptautinio paso galas";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo priekis";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "JK laikino vairuotojo pažymėjimo galas";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Rinkėjo kortelės priekis";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Rinkėjo kortelės galas";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės priekis";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Senos asmens tapatybės kortelės galas";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Kelionės kortelės priekis";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Kelionės kortelės galas";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Nuotraukų kortelės priekis";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Nuotraukų kortelės galas";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Karinės (veterano) kortelės priekis";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Karinės (veterano) kortelės galas";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės priekis";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Amžiaus patvirtinimo kortelės galas";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės priekis";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomatinės tapatybės kortelės galas";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "PAN kortelės priekis";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "PAN kortelės galas";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės priekis";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Aadhaar kortelės galas";
+"idenfy_identification_results_step_face" = "Veido nuotrauka";
+"idenfy_identification_results_retake_button_title_v2" = "PAKARTOTI";
+"idenfy_identification_results_error_continue_button_title_v2" = "TĘSTI";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Prašome įsitikinti ar jūsų dokumentas turi kompiuterių skaitomą zoną";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Kompiuterių skaitoma zona (KSZ) dažniausiai susideda iš dviejų (pasas) arba trijų (asmens tapatybės kortelė) simbolių eilučių. KSZ pavyzdys yra pateiktas paveikslėlyje žemiau ir pažymėtas raudonu stačiakampiu.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "GRĮŽTI ATGAL";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "AŠ ĮSITIKINĘS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Dokumentas nerastas. Įsitikinkite, kad rodomas dokumentas yra";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "ir dokumento išdavimo šalis yra";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "TAPATYBĖS KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "LEIDIMAS GYVENTI";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "VAIRUOTOJO PAŽYMĖJIMAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOKUMENTAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VIZA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "JAV SIENOS KIRTIMO KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "AUSTRIJOS PRIEGLOBSČIO LEIDIMAS GYVENTI";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "RUSIJOS NACIONALINIS PASAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "RUSIJOS TARPTAUTINIS PASAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "JK LAIKINAS VAIRUOTOJO PAŽYMĖJIMAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "RINKĖJO KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "SENA ASMENS TAPATYBĖS KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "KELIONĖS KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "NUOTRAUKŲ KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "KARINĖ (VETERANO) KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "AMŽIAUS ĮRODYMO KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "DIPLOMATINIS ID";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "PAN KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "AADHAAR KORTELĖ";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Įsitikinkite, kad rodomo dokumento išdavimo šalis yra";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Identifikacija pavyko";
+"idenfy_identification_results_success_fragment_description_v2" = " ";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Identifikacija atlikta";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Jūsų informacija buvo pateikta";
+"idenfy_identification_results_suspected_view_description_v2" = "Jei turite klausimų, susisiekite su mūsų klientų aptarnavimo komanda";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "TĘSTI";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Identifikacija pateikta";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Jūsų tapatybę reikia papildomai peržiūrėti rankiniu būdu. Jums bus pranešta, kai peržiūra bus baigta.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Paprastai tai trunka nuo 1 iki 5 minučių.";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "GRĮŽTI Į PASKYRĄ";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Papildoma duomenų peržiūra";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Automatizuota dirbtinio intelekto patikra yra baigta";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "LIKĘS LAIKAS";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Nutraukti identifikaciją";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Ar Jūs tikrai norite nutraukti identifikaciją?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "TAIP";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "NE";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Jums pavyko atlikti identifikaciją!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Dėkojame";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "TĘSTI";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Identifikacija Nepavyko";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "Negalėjome patvirtinti jūsų tapatybės";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Prašome susisiekti";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "dėl tolimesnės informacijos";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "TĘSTI";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Ar galime naudoti jūsų kamerą?";
+"idenfy_camera_permissions_view_information_description_v2" = "Mums reikalinga kameros prieiga, kad galėtume atlikti dokumnto ir veido nuotraukas.";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Eikite į nustatymus, paspauskite „Leidimai“, kad suteiktumėte prieigą prie kameros";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "EITI Į NUSTATYMUS";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Laikykite paso vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Laikykite ID kortelės vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Laikykite dokumento vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Prilieskite paso vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Prilieskite ID kortelės vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Prilieskite dokumento vidurį prie telefono viršaus";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Skaitomas dokumentas...";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Skaitoma nuotrauka...";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Dokumento skaitymas baigtas";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "TĘSTI";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Prašome palaukti...";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Ups! Įvyko klaida.";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Ryšys nutrūko. Priglauskite telefoną arčiau!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Laikas baigėsi";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "NFC skaitymo laikas baigėsi";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "TĘSTI";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "NFC yra išjungtas";
+"idenfy_nfc_required_view_information_description_v2" = "Prieš tęsdami, įjunkite NFC įrenginio nustatymuose";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Jūs nutraukėte identifikacijos procesą";
+"idenfy_additional_support_view_description" = "Identifikavimo procesas nebuvo atliktas. Jei turite klausimų, susisiekite su mūsų klientų aptarnavimo komanda";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "GRĮŽTI ATGAL";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Suteikite prieigą";
+
+/*Idenfy Error messages*/
+"IDENFY_SERVER_ERROR_MESSAGE" = "Ups! Įvyko klaida.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Sesijos laikas baigėsi!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Per daug bandymų!";
+"IDENFY_FACE_LIVENESS_MESSAGE" = "Per daug kartų nepavyko veido patikra";
+"IDENFY_NFC_FAILED_MESSAGE" = "NFC autentifikavimas nepavyko!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Grįžti";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Įkeliama dokumento priekio nuotrauka...";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Įkeliama dokumento galo nuotrauka...";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Įkeliama dokumento veido nuotrauka...";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Tikrinamas asmens tikrumas...";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Įkeliama paso viršelio nuotrauka...";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Įkeliama adreso patvirtinimo nuotrauka…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Įkeliama antrojo adreso patvirtinimo nuotrauka...";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Ryšio problemos. Įsitikinkite, kad interneto ryšys yra stabilus";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Toliau";
+"idenfy_alert_title_manual_reviewing_information" = "INFORMACIJA";
+"idenfy_alert_message_manual_reviewing_information" = "Atliekant identifikaciją Jūs pasirinkote kitą dokumentą, ne id kortelę ar pasą, todėl mes papildomai patikrinsime identifikaciją.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Toliau";
+"idenfy_alert_title_liveness_default_error" = "INFORMACIJA";
+"idenfy_alert_message_liveness_default_error" = "Nepavyko patikrinti asmens tikrumo, bandykite dar kartą.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Veido patikrinimo laikas baigėsi. Bandykite dar kartą.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Tęsti";
+"idenfy_alert_title_document_analysis_information" = "O NE!";
+"idenfy_alert_message_document_analysis_information" = "Nepavyko nustatyti dokumento tipo. Sekančiame žingsnyje prašome pasirinkti dokumento tipą.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Ar Jūs tikrai norite nutraukti identifikaciją?";
+"idenfy_alert_title_abort_identification_information" = "Nutraukti identifikaciją";
+"idenfy_alert_positive_button_abort_identification_information" = "TAIP";
+"idenfy_alert_negative_button_abort_identification_information" = "NE";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Ar tikrai norite pradėti iš naujo?";
+"idenfy_alert_title_restart_identification_information" = "Bandyti iš naujo";
+"idenfy_alert_positive_button_restart_identification_information" = "TAIP";
+"idenfy_alert_negative_button_restart_identification_information" = "NE";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Analizuojame...";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Prašome palaukti.";
+
+/* Introduction strings */
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Rodykite pasą";
+"idenfy_instructions_passport_correct_text" = "Įsitikinkite, kad identifikacijos metu rodote pasą, o ne kitą dokumentą.";
+
+"idenfy_instructions_passport_mrz_title" = "Pasas turi MRZ zoną";
+"idenfy_instructions_passport_mrz_text" = "Įsitikinkite, kad jūsų dokumentas turi MRZ zoną (2 simbolių eilutės). Jeigu jūsų dokumentas neturi MRZ zonos, dokumentų pasirinkimo lange pasirinkite \"KITI DOKUMENTAI\".";
+
+"idenfy_instructions_passport_fits_frame_title" = "Pasas telpa baltuose rėmeliuose";
+"idenfy_instructions_passport_fits_frame_text" = "Įsitikinkite, jog pasas telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_passport_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_passport_finger_text" = "Neuždenkite pirštu veido ar kitos dokumente esančios informacijos.";
+
+"idenfy_instructions_passport_reflection_title" = "Nėra šviesos atspindžio";
+"idenfy_instructions_passport_reflection_text" = "Įsitikinkite, kad šviesos atspindys ar dokumento holograma neuždengia veido ar kitos svarbios dokumento informacijos.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Rodykite ID kortelę";
+"idenfy_instructions_id_front_correct_text" = "Įsitikinkite, kad identifikacijos metu rodote ID kortelę, o ne kitą dokumentą.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "ID kortelės priekis telpa baltuose rėmeliuose";
+"idenfy_instructions_id_front_fit_frame_text" = "Įsitikinkite, jog ID kortelės priekis telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_id_front_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_id_front_finger_text" = "Neuždenkite pirštu veido ar kitos dokumente esančios informacijos.";
+
+"idenfy_instructions_id_front_reflection_title" = "Nėra šviesos atspindžio";
+"idenfy_instructions_id_front_reflection_text" = "Įsitikinkite, kad šviesos atspindys ar dokumento holograma neuždengia veido ar kitos svarbios dokumento informacijos.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Rodykite ID kortelės galą";
+"idenfy_instructions_id_back_correct_text" = "Įsitikinkite, kad rodote ID kortelės galą.";
+
+"idenfy_instructions_id_back_mrz_title" = "Dokumentas turi MRZ zoną";
+"idenfy_instructions_id_back_mrz_text" = "Įsitikinkite, kad jūsų dokumentas turi MRZ zoną (2 arba 3 simbolių eilutės). Jeigu jūsų dokumentas neturi MRZ zonos, dokumentų pasirinkimo lange pasirinkite \"KITI DOKUMENTAI\".";
+
+"idenfy_instructions_id_back_fit_frame_title" = "ID kortelės galas telpa baltuose rėmeliuose";
+"idenfy_instructions_id_back_fit_frame_text" = "Įsitikinkite, jog ID kortelės galas telpa į baltus rėmelius ir neišeina už rėmelio kraštų. Taip pat įsitikinkite, jog rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_id_back_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_id_back_finger_text" = "Neuždenkite pirštu dokumente esančios informacijos.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Rodykite leidimo gyventi dokumentą";
+"idenfy_instructions_residence_permit_front_correct_text" = "Įsitikinkite, kad identifikavimo metu rodote leidimo gyventi dokumentą, o ne kitą dokumentą.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "Leidimo gyventi dokumento priekis telpa į baltus rėmelius";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Įsitikinkite, kad leidimo gyventi dokumento priekis telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_residence_permit_front_finger_text" = "Neuždenkite pirštu veido ar kitos dokumente esančios informacijos.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Nėra šviesos atspindžio";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Įsitikinkite, kad šviesos atspindys ar dokumento holograma neuždengia veido ar kitos svarbios dokumento informacijos.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Rodykite leidimo gyventi dokumento galą";
+"idenfy_instructions_residence_permit_back_correct_text" = "Įsitikinkite, kad rodote leidimo gyventi dokumento galą.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "Dokumentas turi MRZ zoną";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Įsitikinkite, kad jūsų dokumentas turi MRZ zoną (2 arba 3 simbolių eilutės). Jeigu jūsų dokumentas neturi MRZ zonos, dokumentų pasirinkimo lange pasirinkite \"KITI DOKUMENTAI\".";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "Leidimo gyventi dokumento galas telpa į baltus rėmelius";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Įsitikinkite, kad leidimo gyventi dokumento galas telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_residence_permit_back_finger_text" = "Neuždenkite pirštu dokumente esančios informacijos.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Rodykite Vairuotojo pažymėjimą";
+"idenfy_instructions_driver_license_front_correct_text" = "Įsitikinkite, kad identifikavimo metu rodote Vairuotojo pažymėjimą, o ne kitą dokumentą.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Vairuotojo pažymėjimo priekis telpa į baltus rėmelius";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Įsitikinkite, kad Vairuotojo pažymėjimo priekis telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_driver_license_front_finger_text" = "Neuždenkite pirštu veido ar kitos dokumente esančios informacijos.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Nėra šviesos atspindžio";
+"idenfy_instructions_driver_license_front_reflection_text" = "Įsitikinkite, kad šviesos atspindys ar dokumento holograma neuždengia veido ar kitos svarbios dokumento informacijos.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Rodykite dokumentą, kuriame nėra MRZ zonos";
+"idenfy_instructions_other_front_mrz_text" = "Įsitikinkite, kad rodote dokumentą, kuriame nėra MRZ zonos.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "Dokumento priekis telpa į baltus rėmelius";
+"idenfy_instructions_other_front_fit_frame_text" = "Įsitikinkite, kad dokumento priekis telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_other_front_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_other_front_finger_text" = "Neuždenkite pirštu veido ar kitos dokumente esančios informacijos.";
+
+"idenfy_instructions_other_front_reflection_title" = "Nėra šviesos atspindžio";
+"idenfy_instructions_other_front_reflection_text" = "Įsitikinkite, kad šviesos atspindys ar dokumento holograma neuždengia veido ar kitos svarbios dokumento informacijos.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "Dokumento galas telpa į baltus rėmelius";
+"idenfy_instructions_other_back_fit_frame_text" = "Įsitikinkite, kad dokumento galas telpa į baltus rėmelius ir neišeina už rėmelio kraštų, taip pat rodomas dokumentas yra nesusiliejęs ir aiškiai įskaitomas.";
+
+"idenfy_instructions_other_back_finger_title" = "Pirštas neuždengia dokumento";
+"idenfy_instructions_other_back_finger_text" = "Neuždenkite pirštu dokumente esančios informacijos.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "Veidas telpa baltuose rėmeliuose";
+"idenfy_instructions_face_fit_frame_text" = "Įsitikinkite, kad jūsų veidas telpa į baltus rėmelius.";
+
+"idenfy_instructions_face_one_face_title" = "Matomas tik vienas veidas";
+"idenfy_instructions_face_one_face_text" = "Įsitikinkite, kad nuotraukoje nesimato aplinkinių veidų.";
+
+"idenfy_instructions_face_shadow_title" = "Veido nedengia šešėlis";
+"idenfy_instructions_face_shadow_text" = "Įsitikinkite, kad jūsų veidas yra gerai apšviestas ir ant jo nekrenta šešėlis.";
+
+"idenfy_instructions_face_zoom_title" = "Veidas telpa į rėmus";
+"idenfy_instructions_face_zoom_text" = "Įsitikinkite, kad veidas telpa į rėmą. Po to, kai atliksite veido nuotrauką, priartinkite veidą arčiau.";
+
+
+
+
+
+///*System Specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Kameros prieiga nesuteikta";
+"idenfy_alert_message_camera_permission_not_enabled" = "Prašome suteikti kameros prieigą aplikacijos nustatymuose: Settings > Privacy > Camera and turn on Camera access for this app.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "Gerai";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "Turite";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "bandymus patvirtinti savo tapatybę!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "Turite ***3** bandymus patvirtinti savo tapatybę!";
+"idenfy_face_authentication_initial_view_button_title" = "PRADĖKITE AUTENTIKIAVIMĄ";
+"idenfy_face_authentication_initial_view_alert_message" = "Veido autentifikavimas nepavyko!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Sėkmingas autentifikavimas";
+"idenfy_face_authentication_results_success_description" = "Jūsų tapatybė sėkmingai patvirtinta!";
+"idenfy_face_authentication_results_final_failed_title" = "Veido patvirtinimas nepavyko.";
+"idenfy_face_authentication_results_final_failed_description" = "Vykdykite ekrane nurodytus veiksmus ir užtikrinkite gerai apšviestą aplinką. Stenkitės vengti: suliejimo, šešėlio, akinimo, pirštų ar kitų objektų nuotraukoje.";
+"idenfy_face_authentication_results_failed_description" = "Veido patvirtinimas nepavyko. Vykdykite ekrane nurodytus veiksmus ir užtikrinkite gerai apšviestą aplinką. Stenkitės vengti: suliejimo, šešėlio, akinimo, pirštų ar kitų objektų nuotraukoje.";
+"idenfy_face_authentication_results_button_title" = "TĘSTI";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Nutraukti autentifikavimą";
+"idenfy_face_authentication_exit_alert_description" = "Ar tikrai norite nutraukti veido autentifikavimą?";

@@ -1,0 +1,197 @@
+{"groups": [
+  {
+    "groupFriendlyName": "Jūsų informacija",
+    "fields": [
+      {
+        "fieldKey": "firstName",
+        "fieldFriendlyName": "Vardas",
+        "uiFieldDescriptionText": "Vardas"
+      },
+      {
+        "fieldKey": "lastName",
+        "fieldFriendlyName": "Pavardė",
+        "uiFieldDescriptionText": "Pavardė"
+      },
+      {
+        "fieldKey": "placeOfBirth",
+        "fieldFriendlyName": "Gimimo vieta",
+        "uiFieldDescriptionText": "Gimimo vieta"
+      },
+      {
+        "fieldKey": "nationality",
+        "fieldFriendlyName": "Tautybė",
+        "uiFieldDescriptionText": "Tautybė"
+      },
+      {
+        "fieldKey": "givenName",
+        "fieldFriendlyName": "Duotas vardas",
+        "uiFieldDescriptionText": "Duotas vardas"
+      },
+      {
+        "fieldKey": "fullName",
+        "fieldFriendlyName": "Pilnas vardas",
+        "uiFieldDescriptionText": "Pilnas vardas"
+      },
+      {
+        "fieldKey": "dateOfBirth",
+        "fieldFriendlyName": "Gimimo data",
+        "uiFieldDescriptionText": "Gimimo data"
+      },
+      {
+        "fieldKey": "middleName",
+        "fieldFriendlyName": "Antras vardas",
+        "uiFieldDescriptionText": "Antras vardas"
+      }
+    ],
+    "groupKey": "userInfo"
+  },
+  {
+    "groupFriendlyName": "Jūsų adresas",
+    "fields": [
+      {
+        "fieldKey": "zipCode",
+        "fieldFriendlyName": "Pašto kodas",
+        "uiFieldDescriptionText": "Pašto kodas"
+      },
+      {
+        "fieldKey": "country",
+        "fieldFriendlyName": "Šalis",
+        "uiFieldDescriptionText": "Šalis"
+      },
+      {
+        "fieldKey": "address3",
+        "fieldFriendlyName": "Adreso linija 3",
+        "uiFieldDescriptionText": "Adreso linija 3"
+      },
+      {
+        "fieldKey": "address2",
+        "fieldFriendlyName": "Adreso linija 2",
+        "uiFieldDescriptionText": "Adreso linija 2"
+      },
+      {
+        "fieldKey": "city",
+        "fieldFriendlyName": "Miestas",
+        "uiFieldDescriptionText": "Miestas"
+      },
+      {
+        "fieldKey": "address1",
+        "fieldFriendlyName": "Adreso linija 1",
+        "uiFieldDescriptionText": "Adreso linija 1"
+      },
+      {
+        "fieldKey": "state",
+        "fieldFriendlyName": "Valstija",
+        "uiFieldDescriptionText": "Valstija"
+      }
+    ],
+    "groupKey": "addressInfo"
+  },
+  {
+    "groupFriendlyName": "Fizinės savybės ir kita",
+    "fields": [
+      {
+        "fieldKey": "sex",
+        "fieldFriendlyName": "Lytis",
+        "uiFieldDescriptionText": "Lytis"
+      },
+      {
+        "fieldKey": "weight",
+        "fieldFriendlyName": "Svoris",
+        "uiFieldDescriptionText": "Svoris"
+      },
+      {
+        "fieldKey": "eyes",
+        "fieldFriendlyName": "Akys",
+        "uiFieldDescriptionText": "Akys"
+      },
+      {
+        "fieldKey": "height",
+        "fieldFriendlyName": "Ūgis",
+        "uiFieldDescriptionText": "Ūgis"
+      }
+    ],
+    "groupKey": "secondaryUserInfo"
+  },
+  {
+    "groupFriendlyName": "Papildoma informacija",
+    "fields": [
+      {
+        "fieldKey": "customField1",
+        "fieldFriendlyName": "Custom Field 1",
+        "uiFieldDescriptionText": "Custom Field 1"
+      },
+      {
+        "fieldKey": "customField2",
+        "fieldFriendlyName": "Custom Field 2",
+        "uiFieldDescriptionText": "Custom Field 2"
+      },
+      {
+        "fieldKey": "customField3",
+        "fieldFriendlyName": "Custom Field 3",
+        "uiFieldDescriptionText": "Custom Field 3"
+      },
+      {
+        "fieldKey": "customField4",
+        "fieldFriendlyName": "Custom Field 4",
+        "uiFieldDescriptionText": "Custom Field 4"
+      }
+    ],
+    "groupKey": "customFields"
+  },
+  {
+    "groupFriendlyName": "ID nuotraukos informacija",
+    "fields": [
+      {
+        "fieldKey": "issuingAuthority",
+        "fieldFriendlyName": "Išduodanti institucija",
+        "uiFieldDescriptionText": "Išduodanti institucija"
+      },
+      {
+        "fieldKey": "dateOfExpiration",
+        "fieldFriendlyName": "Galiojimo pabaigos data",
+        "uiFieldDescriptionText": "Galiojimo pabaigos data"
+      },
+      {
+        "fieldKey": "countryCode",
+        "fieldFriendlyName": "Šalies kodas",
+        "uiFieldDescriptionText": "Šalies kodas"
+      },
+      {
+        "fieldKey": "passportType",
+        "fieldFriendlyName": "Paso tipase",
+        "uiFieldDescriptionText": "Paso tipas"
+      },
+      {
+        "fieldKey": "dateOfIssue",
+        "fieldFriendlyName": "Išleidimo data",
+        "uiFieldDescriptionText": "Išleidimo data"
+      },
+      {
+        "fieldKey": "idNumber",
+        "fieldFriendlyName": "Nuotraukos ID #",
+        "uiFieldDescriptionText": "Nuotraukos ID #"
+      },
+      {
+        "fieldKey": "idNumber2",
+        "fieldFriendlyName": "Antrinis ID #",
+        "uiFieldDescriptionText": "Antrinis ID #"
+      },
+      {
+        "fieldKey": "mrzLine3",
+        "fieldFriendlyName": "MRZ 3",
+        "uiFieldDescriptionText": "MRZ 3"
+      },
+      {
+        "fieldKey": "mrzLine1",
+        "fieldFriendlyName": "MRZ 1",
+        "uiFieldDescriptionText": "MRZ 1"
+      },
+      {
+        "fieldKey": "mrzLine2",
+        "fieldFriendlyName": "MRZ 2",
+        "uiFieldDescriptionText": "MRZ 2"
+      }
+    ],
+    "groupKey": "idInfo"
+  }
+]}

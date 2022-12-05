@@ -1,0 +1,197 @@
+{"groups": [
+  {
+    "groupFriendlyName": "Din information",
+    "fields": [
+      {
+        "fieldKey": "firstName",
+        "fieldFriendlyName": "Förnamn",
+        "uiFieldDescriptionText": "Förnamn"
+      },
+      {
+        "fieldKey": "lastName",
+        "fieldFriendlyName": "Efternamn",
+        "uiFieldDescriptionText": "Efternamn"
+      },
+      {
+        "fieldKey": "placeOfBirth",
+        "fieldFriendlyName": "Födelseort",
+        "uiFieldDescriptionText": "Födelseort"
+      },
+      {
+        "fieldKey": "nationality",
+        "fieldFriendlyName": "Nationalitet",
+        "uiFieldDescriptionText": "Nationalitet"
+      },
+      {
+        "fieldKey": "givenName",
+        "fieldFriendlyName": "Förnamn",
+        "uiFieldDescriptionText": "Förnamn"
+      },
+      {
+        "fieldKey": "fullName",
+        "fieldFriendlyName": "Fullständiga namn",
+        "uiFieldDescriptionText": "Fullständiga namn"
+      },
+      {
+        "fieldKey": "dateOfBirth",
+        "fieldFriendlyName": "Födelsedatum",
+        "uiFieldDescriptionText": "Födelsedatum"
+      },
+      {
+        "fieldKey": "middleName",
+        "fieldFriendlyName": "Mellannamn",
+        "uiFieldDescriptionText": "Mellannamn"
+      }
+    ],
+    "groupKey": "userInfo"
+  },
+  {
+    "groupFriendlyName": "Din adress",
+    "fields": [
+      {
+        "fieldKey": "zipCode",
+        "fieldFriendlyName": "Postnummer",
+        "uiFieldDescriptionText": "Postnummer"
+      },
+      {
+        "fieldKey": "country",
+        "fieldFriendlyName": "Land",
+        "uiFieldDescriptionText": "Land"
+      },
+      {
+        "fieldKey": "address3",
+        "fieldFriendlyName": "Adressrad 3",
+        "uiFieldDescriptionText": "Adressrad 3"
+      },
+      {
+        "fieldKey": "address2",
+        "fieldFriendlyName": "Adressrad 2",
+        "uiFieldDescriptionText": "Adressrad 2"
+      },
+      {
+        "fieldKey": "city",
+        "fieldFriendlyName": "Stad",
+        "uiFieldDescriptionText": "Stad"
+      },
+      {
+        "fieldKey": "address1",
+        "fieldFriendlyName": "Adressrad 1",
+        "uiFieldDescriptionText": "Adressrad 1"
+      },
+      {
+        "fieldKey": "state",
+        "fieldFriendlyName": "Stat",
+        "uiFieldDescriptionText": "Stat"
+      }
+    ],
+    "groupKey": "addressInfo"
+  },
+  {
+    "groupFriendlyName": "Fysiska egenskaper och diverse",
+    "fields": [
+      {
+        "fieldKey": "sex",
+        "fieldFriendlyName": "Kön",
+        "uiFieldDescriptionText": "Kön"
+      },
+      {
+        "fieldKey": "weight",
+        "fieldFriendlyName": "Vikt",
+        "uiFieldDescriptionText": "Vikt"
+      },
+      {
+        "fieldKey": "eyes",
+        "fieldFriendlyName": "Ögon",
+        "uiFieldDescriptionText": "Ögon"
+      },
+      {
+        "fieldKey": "height",
+        "fieldFriendlyName": "Höjd",
+        "uiFieldDescriptionText": "Höjd"
+      }
+    ],
+    "groupKey": "secondaryUserInfo"
+  },
+  {
+    "groupFriendlyName": "Ytterligare info",
+    "fields": [
+      {
+        "fieldKey": "customField1",
+        "fieldFriendlyName": "Custom Field 1",
+        "uiFieldDescriptionText": "Custom Field 1"
+      },
+      {
+        "fieldKey": "customField2",
+        "fieldFriendlyName": "Custom Field 2",
+        "uiFieldDescriptionText": "Custom Field 2"
+      },
+      {
+        "fieldKey": "customField3",
+        "fieldFriendlyName": "Custom Field 3",
+        "uiFieldDescriptionText": "Custom Field 3"
+      },
+      {
+        "fieldKey": "customField4",
+        "fieldFriendlyName": "Custom Field 4",
+        "uiFieldDescriptionText": "Custom Field 4"
+      }
+    ],
+    "groupKey": "customFields"
+  },
+  {
+    "groupFriendlyName": "Foto -ID Detaljer",
+    "fields": [
+      {
+        "fieldKey": "issuingAuthority",
+        "fieldFriendlyName": "Utfärdande myndighet",
+        "uiFieldDescriptionText": "Utfärdande myndighet"
+      },
+      {
+        "fieldKey": "dateOfExpiration",
+        "fieldFriendlyName": "Utgångsdatum",
+        "uiFieldDescriptionText": "Utgångsdatum"
+      },
+      {
+        "fieldKey": "countryCode",
+        "fieldFriendlyName": "Landskod",
+        "uiFieldDescriptionText": "Landskod"
+      },
+      {
+        "fieldKey": "passportType",
+        "fieldFriendlyName": "Typ av pass",
+        "uiFieldDescriptionText": "Typ av pass"
+      },
+      {
+        "fieldKey": "dateOfIssue",
+        "fieldFriendlyName": "Utfärdat datum",
+        "uiFieldDescriptionText": "Utfärdat datum"
+      },
+      {
+        "fieldKey": "idNumber",
+        "fieldFriendlyName": "Foto -ID #",
+        "uiFieldDescriptionText": "Foto -ID #"
+      },
+      {
+        "fieldKey": "idNumber2",
+        "fieldFriendlyName": "Sekundärt ID #",
+        "uiFieldDescriptionText": "Sekundärt ID #"
+      },
+      {
+        "fieldKey": "mrzLine3",
+        "fieldFriendlyName": "MRZ 3",
+        "uiFieldDescriptionText": "MRZ 3"
+      },
+      {
+        "fieldKey": "mrzLine1",
+        "fieldFriendlyName": "MRZ 1",
+        "uiFieldDescriptionText": "MRZ 1"
+      },
+      {
+        "fieldKey": "mrzLine2",
+        "fieldFriendlyName": "MRZ 2",
+        "uiFieldDescriptionText": "MRZ 2"
+      }
+    ],
+    "groupKey": "idInfo"
+  }
+]}

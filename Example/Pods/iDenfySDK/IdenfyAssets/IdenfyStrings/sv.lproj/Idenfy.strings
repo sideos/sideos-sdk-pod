@@ -1,0 +1,725 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Integritetspolicy";
+"idenfy_privacy_policy_agree_button_title_v2" = "HÅLLA MED";
+"idenfy_privacy_policy_disagree_button_title_v2" = "INSTÄMMER INTE ALLS";
+"idenfy_privacy_policy_alert_title_v2" = "INFORMATION";
+"idenfy_privacy_policy_alert_description_v2" = "För att fortsätta processen måste du godkänna reglerna. Om du inte accepterar, avbryt verifieringsprocessen eller stäng fönstret.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "JAG VILL HA MED";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "AVBRYT VERIFIERING";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_questionnaire_email_error_message_v2" = "Vänligen ange en giltig e-postadress!";
+"idenfy_questionnaire_url_error_message_v2" = "Vänligen ange en giltig webbadress!";
+"idenfy_questionnaire_tel_error_message_v2" = "Var vänlig och slå in ett giltigt telefonnummer!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Vänligen välj din leverantör";
+"idenfy_provider_selection_common_information_description_v2" = "Var god välj din utility bill provider från listan nedan";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Sök efter en leverantör ...";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Anslut ditt konto";
+"idenfy_provider_login_view_common_information_description_v2" = "Ange din inloggningsinformation för ditt Online Utility-konto";
+"idenfy_provider_login_view_username_hint_title_v2" = "Användarnamn";
+"idenfy_provider_login_view_password_hint_title_v2" = "Lösenord";
+"idenfy_provider_login_view_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_provider_login_view_login_retry_title_v2" = "Ogiltiga uppgifter";
+"idenfy_provider_login_view_login_retry_description_v2" = "Ange giltiga uppgifter och försök igen!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Inloggningen misslyckades";
+"idenfy_provider_login_view_login_failed_description_v2" = "Vi kunde inte logga in dig…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Konto verifikation";
+"idenfy_mfa_method_selection_view_description_v2" = "Välj önskad autentiseringsmetod från alternativen nedan";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Autentiseringsmetod";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Engångslösenord";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Säkerhetsfråga och svar";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Autentisera dig själv";
+"idenfy_mfa_captcha_method_description_v2" = "Vänligen ange captcha-koden du ser på bilden nedan";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Captcha kod";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Autentisera dig själv";
+"idenfy_mfa_code_method_description_v2" = "Vänligen ange koden du har fått till din telefon eller via e-post";
+"idenfy_mfa_code_method_code_hint_v2" = "Autentiseringskod";
+"idenfy_mfa_question_method_title_v2" = "Vänligen svara på frågan nedan";
+"idenfy_mfa_question_method_answer_hint_v2" = "Ditt svar";
+"idenfy_mfa_notification_method_title_v2" = "Vänligen verifiera åtkomsten via din leverantörs app";
+"idenfy_mfa_notification_method_description_v2" = "När du är klar, tryck på fortsätt-knappen";
+"idenfy_mfa_pass_code_method_title_v2" = "Autentisera dig själv";
+"idenfy_mfa_pass_code_method_description_v2" = "Vänligen ange lösenordet som du har ställt in hos din elleverantör";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Lösenord";
+"idenfy_mfa_general_view_continue_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Starta identitetsverifiering";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Ufärdandeland";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Nu börjar vi";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Välj utfärdande land";
+"idenfy_country_selection_view_information_description_v2" = "Vänligen välj det land där ditt dokument utfärdades";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Sök dokumentets land...";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Välj ett språk";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_documents_selection_view_information_title_v2" = "Välj ett dokument";
+"idenfy_documents_selection_view_information_description_v2" = "Vilken dokumenttyp skulle du vilja identifiera?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Pass";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "ID-kort";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Övrig";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Körkort";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Uppehållstillstånd";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Visum";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "USA:s gränsövergångskort";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Österrikiskt uppehållstillstånd för asyl";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Ryskt nationella pass";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Ryskt internationellt pass";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "UK provisoriskt körkort";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Väljkort";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Gammalt ID-kort";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Resekort";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Fotokort";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Militärt (veteran) kort";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Bevis på ålderskort";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Diplomatiskt ID";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "PAN-kort";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Aadhaar-kort";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Bekräfta dokumenttyp";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Vänligen ha ditt **identity card** redo för identifieringen";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Vänligen ha ditt **passport** för identifieringen";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Vänligen ha ditt **residence permit** för identifieringen";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Vänligen ha ditt **driver\&apos;s license** för identifieringen";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Vänligen ha ditt **document** för identifieringen";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Vänligen ha ditt";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "ID-kort";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "pass";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "uppehållstillstånd";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "körkort";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "dokument";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "visum";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "USA gränsövergångskort";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "österrikiska uppehållstillstånd för asyl";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "ryska nationella pass";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "ryska internationella pass";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "provisoriska körkort i Storbritannien";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "röstkort";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "gamla ID-kort";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "resekort";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "fotokort";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "militära (veteran) kort";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "åldersbevis";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "diplomatiska ID";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "PAN-kort";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar-kort";
+"idenfy_confirmation_view_information_description_part_3_v2" = "redo att identifiera";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Verifiering sker i **5** steg:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Verifiering kommer att ske i";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "steg:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Dokumentets framsida";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Dokumentets baksida";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Ansiktsfoto";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Livlighetskontroll";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Pass framsida";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Bild på adressbevis";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "En till bild på adressbevis";
+"idenfy_confirmation_view_upload_image_title_v2" = "Du kan ladda upp bilder i varje steg";
+"idenfy_confirmation_view_begin_identification_title_v2" = "FORTSÄTT";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "FORTSÄTT";
+
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "FORTSÄTT OM **x** …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Se till att du befinner dig i den ljusa miljön";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Klicka på «Jag är redo» när du uppmanas att göra det och följ instruktionerna";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Du måste flytta dig närmare eller bort från kameran för att slutföra denna kontroll";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Följ instruktionerna nedan:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Se till att bilden av ditt valda dokument är:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Tydligt synlig och inte suddig";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Väl upplyst och inte täckt av en skugga";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Inte täckt av reflektion av ljus/bländning";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Inte blockerad av ett finger och är inom den vita ramen";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Ett originaldokument och inte en kopia av det";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Framsidan av identitetskortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Baksidan av identitetskortet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Framsidan av dokumentet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Baksidan av dokumentet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Framsidan av uppehållstillstånd";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Baksida av uppehållstillstånd";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Framsida på körkortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Baksidan på körkortet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Framsidan av passet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Din passbild";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Adressbevis";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Andra adressbevis";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Framsidan av visum";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Baksidan av visum";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "Framsidan av USA gränsövergångskortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "Baksidan av USA:s gränsövergångskort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Framsidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Baksidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Framsidan av det ryska nationella passet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Baksidan av det ryska nationella passet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Framsidan av ryskt internationellt pass";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Baksidan av ryskt internationellt pass";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Framsidan av Storbritanniens provisoriska körkort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Baksidan av Storbritanniens provisoriska körkort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Framsidan av röstkortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Baksidan av röstkortet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Framsidan av gammalt ID-kort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Baksidan av gammalt ID-kort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Framsidan av resekortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Baksidan av resekortet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Framsidan av fotokortet";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Baksidan av fotokortet";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Framsidan av militärkort (veteran)";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Baksidan av militärkort (veteran)";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Framsidan av bevis på ålderskort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Baksidan av bevis på ålderskort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Framsidan av diplomatiskt ID";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Baksidan av diplomatiskt ID";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "Framsidan av PAN-kort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "Baksidan av PAN-kort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Framsidan av aadhaar-kort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Baksidan av aadhaar-kort";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Placera ditt dokument i ramen och ta ett tydligt foto";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Placera ditt dokument i ramen och vänta på att det ska skannas";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Välj en filtyp";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Vilken filtyp skulle du vilja ladda upp?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Foto";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Hur identifierar man?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "SKIPPA INSTRUKTIONER";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Se till att din selfie är väl synlig och passar den vita ramen";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Se till att ljuskällan är framför och inte bakom dig";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Se till att bilden av ditt valda dokument är: Tydligt synlig och INTE suddig";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Se till att bilden av ditt valda dokument är: Väl upplyst och inte täckt av en skugga";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Se till att bilden av ditt valda dokument är: Inte täckt av reflektion av ljus/bländning";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Se till att bilden av ditt valda dokument är: Blockeras inte av ett finger och passar den vita ramen";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "Framsidan av identitetskortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "Baksidan av identitetskortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Framsidan av dokumentet";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Baksidan av dokumentet";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Framsidan av uppehållstillstånd";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Baksidan av uppehållstillstånd";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Framsidan av körkort";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Baksidan av körkort";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Framsidan av passet";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Din passbild";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adressbevis";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Andra adressbevis";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Framsidan av visum";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Baksidan av visum";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "Framsidan av USA gränsövergångskortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "Baksidan av USA:s gränsövergångskort";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Framsidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Baksidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Framsidan av det ryska nationella passet";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Baksidan av det ryska nationella passet";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Framsidan av ryskt internationellt pass";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Baksidan av ryskt internationellt pass";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Framsidan av Storbritanniens provisoriska körkort";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Baksidan av Storbritanniens provisoriska körkort";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Framsidan av röstkortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Baksidan av röstkortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Framsidan av gammalt ID-kort";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Baksidan av gammalt ID-kort";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Framsidan av resekortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Baksidan av resekortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Framsidan av fotokortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Baksidan av fotokortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Framsidan av militärkort (veteran)";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Baksidan av militärkort (veteran)";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Framsidan av bevis på ålderskort";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Baksidan av bevis på ålderskort";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Framsidan av diplomatiskt ID";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Baksidan av diplomatiskt ID";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "Framsidan av PAN-kort";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "Baksidan av PAN-kort";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Framsidan av aadhaar-kort";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Baksidan av aadhaar-kort";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "Är din **front of identity card** klart synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "Är din **back of identity card** tydligt synligt och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "Är din **front of document** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "Är din **back of document** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "Är din ** front of residence permit** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "Är din ** back of residence permit** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "Är din **front of driver\&apos;s license** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "Är din **back of driver\&apos;s license** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "Är din **front of passport cover** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "Är ditt **proof of address** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "Är ditt *second proof of address** klart synlig och i ramen?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "Är din **passport face page** tydligt synlig och i ramen?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Är din";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "framsida av identitetskortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "baksida av identitetskortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "framsida av dokumentet";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "baksida av dokumentet";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "framsida av uppehållstillstånd";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "baksida av uppehållstillstånd";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "framsida av körkortet";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "baksida av körkortet";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "framsida av passet";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "adressbevis";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "andra adressbeviset";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "passbild";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "klart synlig och i ramen?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Är bilden på ditt ansikte synligt?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Kan du tydligt läsa detaljerna i dokumentet?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Är det baksidan av dokumentet?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Kan du tydligt läsa detaljerna i dokumentet?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Kan du tydligt läsa detaljerna i dokumentet?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Är du säker på att du vill ladda upp den här filen?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Placera ditt ansikte i det markerade området och ta ett tydligt foto";
+"idenfy_face_camera_preview_title_v2" = "Ta ditt ansiktsfoto";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Bekräfta ansiktsfoto";
+"idenfy_face_camera_results_description_v2" = "Är ditt ansiktsfoto synligt och i ramen?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "Är ditt **face foto** tydligt och i ramen?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Är ditt ansikte tydligt synligt och tillräckligt nära för inspektion?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Inspektera foto";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Drivs av iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "TA ETT NYTT FOTO";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "JA, FORTSÄTT";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Framsidan av identitetskortet";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Baksidan av identitetskortet";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Framsidan av dokumentet";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Baksidan av dokumentet";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Framsidan av uppehållstillstånd";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Baksidan av uppehållstillstånd";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Framsidan av körkortet";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Baksidan av körkortet";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Framsidan av passet";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Passbild";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adressbevis";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Andra adressbevis";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Framsidan av visum";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Baksidan av visum";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "Framsidan av USA gränsövergångskortet";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "Baksidan av USA:s gränsövergångskort";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Framsidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Baksidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Framsidan av det ryska nationella passet";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Baksidan av det ryska nationella passet";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Framsidan av ryskt internationellt pass";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Baksidan av ryskt internationellt pass";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Framsidan av Storbritanniens provisoriska körkort";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Baksidan av Storbritanniens provisoriska körkort";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Framsidan av röstkortet";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Baksidan av röstkortet";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Framsidan av gammalt ID-kort";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Baksidan av gammalt ID-kort";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Framsidan av resekortet";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Baksidan av resekortet";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Framsidan av fotokortet";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Baksidan av fotokortet";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Framsidan av militärkort (veteran)";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Baksidan av militärkort (veteran)";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Framsidan av bevis på ålderskort";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Baksidan av bevis på ålderskort";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Framsidan av diplomatiskt ID";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Baksidan av diplomatiskt ID";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "Framsidan av PAN-kort";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "Baksidan av PAN-kort";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Framsidan av aadhaar-kort";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Baksidan av aadhaar-kort";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Bekräfta ansiktsfoto";
+"idenfy_upload_results_view_cropping_description_v2" = "Justera uppladdat foto i det markerade området";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "VÄLJ EN ANNAN";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Maximal filstorlek överskridits";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Var god välj en fil med en giltig storlek som inte är större än 5 MB";
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Filtypen stöds inte";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Filtyper som stöds:";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Analyserar din verifiering...";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Vänta medan vi ställer in saker för dig!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Verifieringen misslyckades";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Framsidan av identitetskortet";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Baksidan av identitetskortet";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Framsidan av passet";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Adressbevis";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Andra adressbevis";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Passbild";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Framsidan av dokumentet";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Baksidan av dokumentet";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Framsidan av uppehållstillstånd";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Baksidan av uppehållstillstånd";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Framsidan av körkortet";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Baksidan av körkortet";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Framsidan av visum";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Baksidan av visum";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "Framsidan av USA gränsövergångskortet";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "Baksidan av USA:s gränsövergångskort";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Framsidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Baksidan av österrikiskt uppehållstillstånd för asyl";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Framsidan av det ryska nationella passet";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Baksidan av det ryska nationella passet";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Framsidan av ryskt internationellt pass";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Baksidan av ryskt internationellt pass";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Framsidan av Storbritanniens provisoriska körkort";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Baksidan av Storbritanniens provisoriska körkort";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Framsidan av röstkortet";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Baksidan av röstkortet";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Framsidan av gammalt ID-kort";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Baksidan av gammalt ID-kort";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Framsidan av resekortet";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Baksidan av resekortet";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Framsidan av fotokortet";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Baksidan av fotokortet";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Framsidan av militärkort (veteran)";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Baksidan av militärkort (veteran)";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Framsidan av bevis på ålderskort";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Baksidan av bevis på ålderskort";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Framsidan av diplomatiskt ID";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Baksidan av diplomatiskt ID";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "Framsidan av PAN-kort";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "Baksidan av PAN-kort";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Framsidan av aadhaar-kort";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Baksidan av aadhaar-kort";
+"idenfy_identification_results_step_face" = "Ansiktsfoto";
+"idenfy_identification_results_retake_button_title_v2" = "FÖRSÖK IGEN";
+"idenfy_identification_results_error_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Se till att ditt dokument har maskinläsbar zon";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Maskinläsbar zon (MRZ) består vanligtvis av 2 (pass) eller 3 (ID-kort) symboler. MRZ-exempel presenteras i bilden nedan, markerad av en röd rektangel.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "GÅ TILLBAKA";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "JAG ÄR SÄKER";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Dokument inte hittat. Se till att du visar";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "och dokumentet är utfärdat i";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "ID-KORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "Uppehållstillstånd";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "KÖRKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOKUMENT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VISUM";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "USA:S GRÄNSÖVERGÅNGSKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "ÖSTERRIKISKT UPPEHÅLLSTILLSTÅND FÖR ASYL";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "RYSKT NATIONELLA PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "RYSKT INTERNATIONELLT PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "UK PROVISORISKT KÖRKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "VÄLJKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "GAMMALT ID-KORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "RESEKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "FOTOKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "MILITÄRT (VETERAN) KORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "BEVIS PÅ ÅLDERSKORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "DIPLOMATISKT ID";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "PAN-KORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "AADHAAR-KORT";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Se till att ditt dokuments utfärdandeland är";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Verifiering godkänd";
+"idenfy_identification_results_success_fragment_description_v2" = "";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Verifierad";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Din information har skickats";
+"idenfy_identification_results_suspected_view_description_v2" = "Om du har några frågor, vänligen kontakta vårt kundsupportteam";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Verifiering har skickats";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Din verifiering kräver ytterligare manuell granskning. Du kommer att meddelas när granskningen är klar.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Det tar vanligtvis från 1 till 5 minuter att få dina resultat";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "TILLBAKA TILL KONTO";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Ytterligare datagranskning";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Automatiserad AI-kontroll slutförd";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "TID KVAR";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Avbryt verifiering";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Är du säker på att du vill avbryta verifieringen?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "JA";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "NEJ";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Din verifiering är godkänd!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Tack";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "FORTSÄTT";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Verifiering misslyckades";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "Vi kunde inte bekräfta din identitet";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Vänligen kontakta";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "för ytterligare stöd";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "FORTSÄTT";
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Kan vi använda din kamera?";
+"idenfy_camera_permissions_view_information_description_v2" = "Vi måste använda kameran för att ta fotot på ditt dokument och ansiktsfoto";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Gå till Inställningar, tryck på &quot;Godkänn&quot; för att ge åtkomst till kameran";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "AKTIVERA KAMERAN";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Tryck på mitten av passet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Tryck på mitten av ID-kortet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Tryck på mitten av dokumentet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Tryck på mitten av passet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Tryck på mitten av ID-kortet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Tryck på mitten av dokumentet till toppen av telefonen";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Läser dokumentdata...";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Passläsning slutfördes";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Var god vänta ett ögonblick…";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Hoppsan! Något gick fel.";
+"idenfy_nfc_reading_view_information_reading_snackbar_title_v2" = "Vänligen flytta telefonen längre från dokumentet!";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Läser dokumentbild image&amp;#8230;";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "FORTSÄTT";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Anslutningen avbruten. Vänligen flytta telefonen närmare!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Tiden löpte ut";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "NFC-läsningstiden löpte ut";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Din enhet stöds inte";
+"idenfy_nfc_required_view_information_description_v2" = "Vänligen använd en mobiltelefon med inbyggd NFC-läsare";
+"idenfy_nfc_required_view_information_enable_nfc_title_v2" = "NFC inte aktiverat";
+"idenfy_nfc_required_view_information_enable_nfc_description_v2" = "Vänligen aktivera NFC i enhetsinställningar innan du fortsätter";
+"idenfy_nfc_required_view_information_no_nfc_title_v2" = "Din enhet stöds inte";
+"idenfy_nfc_required_view_information_no_nfc_description_v2" = "Vänligen använd en mobiltelefon med inbyggd NFC-läsare";
+"idenfy_nfc_required_view_information_button_enable_nfc_title_v2" = "Aktivera NFC";
+"idenfy_nfc_required_view_information_button_title_v2" = "FORTSÄTT";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Du har avbrutit verifieringsprocessen";
+"idenfy_additional_support_view_description" = "Verifieringsprocessen utfördes inte. Om du har några frågor, vänligen kontakta vårt kundsupportteam.";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "GÅ TILLBAKA";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Ge behörigheter manuellt";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = "För många misslyckade livlighetskontroll-försök";
+"IDENFY_SERVER_ERROR_MESSAGE" = "Hoppsan! Något gick fel.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Sessionen löpte ut!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "För många försök!";
+"IDENFY_NFC_FAILED_MESSAGE" = "NFC-autentisering misslyckades!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Tillbaka";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Laddar upp dokumentets framsida...";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Laddar upp dokumentets baksida...";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Laddar upp dokumentets ansiktsfoto...";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Kontrollerar livlighetskontroll...";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Laddar upp passfoto...";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Laddar upp adressbevis...";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Ladda upp det andra adressbeviset...";
+
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Anslutningsproblem. Se till att du har en stabil internetanslutning";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Fortsätt";
+"idenfy_alert_title_manual_reviewing_information" = "INFORMATION";
+"idenfy_alert_message_manual_reviewing_information" = "Eftersom du valde ett annat dokument än ett ID-kort eller pass måste vi granska ditt fall en gång till.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Fortsätt";
+"idenfy_alert_title_liveness_default_error" = "INFORMATION";
+"idenfy_alert_message_liveness_default_error" = "Livlighetskontroll misslyckades, var god försök igen.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Ansiktskontrollen har löpt ut. Var god försök igen.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Fortsätt";
+"idenfy_alert_title_document_analysis_information" = "Å NEJ!";
+"idenfy_alert_message_document_analysis_information" = "Kunde inte identifiera dokumenttyp. Vänligen välj dokumenttyp i nästa steg.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Är du säker på att du vill avbryta verifieringen?";
+"idenfy_alert_title_abort_identification_information" = "Avbryt verifiering";
+"idenfy_alert_positive_button_abort_identification_information" = "JA";
+"idenfy_alert_negative_button_abort_identification_information" = "NEJ";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Är du säker på att du vill börja om?";
+"idenfy_alert_title_restart_identification_information" = "Börja om";
+"idenfy_alert_positive_button_restart_identification_information" = "JA";
+"idenfy_alert_negative_button_restart_identification_information" = "NEJ";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Analyserar…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Var god vänta ett ögonblick.";
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Visa ditt pass";
+"idenfy_instructions_passport_correct_text" = "Se till att du visar ditt pass under verifieringen och inte ett annat dokument.";
+
+"idenfy_instructions_passport_mrz_title" = "Pass har MRZ-området";
+"idenfy_instructions_passport_mrz_text" = "Se till att ditt dokument har MRZ (2 eller 3 tecken). Om ditt dokument inte har en MRZ-zon, välj \ &quot;Övriga dokument \&quot; i fönstret Dokumentval.";
+
+"idenfy_instructions_passport_fits_frame_title" = "Passet passar i vita ramar";
+"idenfy_instructions_passport_fits_frame_text" = "Se till att passet passar in de vita ramar och inte utanför gränsen, det visade dokumentet kan inte vara suddigt och måste vara läsbart.";
+
+"idenfy_instructions_passport_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_passport_finger_text" = "Täck inte ditt ansikte eller annan information i dokumentet.";
+
+"idenfy_instructions_passport_reflection_title" = "Det får inte finnas någon reflektion av ljus";
+"idenfy_instructions_passport_reflection_text" = "Se till att ljusreflektion eller dokumenthologram inte täcker ansiktet eller annan viktig dokumentinformation.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Visa ditt ID-kort";
+"idenfy_instructions_id_front_correct_text" = "Se till att du visar ID-kortet vid tidpunkten för verifieringen, inte det andra dokumentet.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "ID-kortets framsida passar in i den vita ramen";
+"idenfy_instructions_id_front_fit_frame_text" = "Se till att framsidan av ID-kortet passar in i den vita ramen och går inte utöver ramens kanter, det visade dokumentet kan inte vara suddigt och måste vara läsbart.";
+
+"idenfy_instructions_id_front_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_id_front_finger_text" = "Täck inte ditt ansikte eller annan information i dokumentet.";
+
+"idenfy_instructions_id_front_reflection_title" = "Det får inte finnas någon reflektion av ljus";
+"idenfy_instructions_id_front_reflection_text" = "Se till att ljusreflektion eller dokumenthologram inte täcker ansiktet eller annan viktig dokumentinformation.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Visa ditt ID-korts baksida";
+"idenfy_instructions_id_back_correct_text" = "Se till att du visar baksidan av ID-kortet.";
+
+"idenfy_instructions_id_back_mrz_title" = "Dokumentet har MRZ-området";
+"idenfy_instructions_id_back_mrz_text" = "Se till att ditt dokument har MRZ (2 eller 3 tecken). Om ditt dokument inte har en MRZ-zon, välj \ &quot;Övriga dokument \&quot; i fönstret Dokumentval.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "Baksidan av ID-kortet måste passa in i den vita ramen";
+"idenfy_instructions_id_back_fit_frame_text" = "Se till att baksidan av ID-kortet passar in i den vita ramen och går inte utöver kanterna på ramen. Se också till att dokumentet inte är suddigt och måste vara läsbart.";
+
+"idenfy_instructions_id_back_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_id_back_finger_text" = "Täck inte informationen i dokumentet med fingret.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Visa ditt uppehållstillstånd";
+"idenfy_instructions_residence_permit_front_correct_text" = "Se till att du visar uppehållstillståndet vid tidpunkten för verifieringen, inte det andra dokumentet.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "Uppehållstillståndets framsida måste passa in i vita ramen";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Se till att framsidan av uppehållstillstånd passar in i den vita ramen och går inte utöver ramens kanter, se också till att dokumentet inte är suddigt och måste vara läsbart.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_residence_permit_front_finger_text" = "Täck inte ditt ansikte eller annan information i dokumentet.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Det får inte finnas någon reflektion av ljus";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Se till att ljusreflektion eller dokumenthologram inte täcker ansiktet eller annan viktig dokumentinformation.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Visa baksidan av ditt uppehållstillstånd";
+"idenfy_instructions_residence_permit_back_correct_text" = "Se till att du visar baksidan av uppehållstillståndet.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "Dokumentet har MRZ-området";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Se till att ditt dokument har MRZ (2 eller 3 tecken). Om ditt dokument inte har en MRZ-zon, välj \ &quot;Övriga dokument \&quot; i fönstret Dokumentval.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "Baksidan av uppehållstillståndet måste passa in i den vita ramen";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Se till att baksidan av uppehållstillstånd passar in i den vita ramen och går inte utöver kanterna på ramen. Se också till att dokumentet du visar inte är suddigt och tydligt läsbart.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_residence_permit_back_finger_text" = "Täck inte informationen i dokumentet med fingret.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Visa ditt körkort";
+"idenfy_instructions_driver_license_front_correct_text" = "Se till att du visar körkortet vid tidpunkten för verifieringen, inte det andra dokumentet.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Körkortet måste passa in i vita ramen";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Se till att framsidan av körkortet passar in i den vita ramen och går inte utöver ramens kanter. Se också till att dokumentet du visar inte är suddigt och tydligt läsbart.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_driver_license_front_finger_text" = "Täck inte ditt ansikte eller annan information i dokumentet.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Det får inte finnas någon reflektion av ljus";
+"idenfy_instructions_driver_license_front_reflection_text" = "Se till att ljusreflektion eller dokumenthologram inte täcker ansiktet eller annan viktig dokumentinformation.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Visa ditt dokument som inte har MRZ";
+"idenfy_instructions_other_front_mrz_text" = "Se till att du visar dokumentet som inte har MRZ.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "Framsidan av dokumentet passar in i vita ramen";
+"idenfy_instructions_other_front_fit_frame_text" = "Se till att framsidan av dokumentet passar in i den vita ramen och går inte utöver ramens kanter, och det visade dokumentet inte är suddigt och är tydligt läsbart.";
+
+"idenfy_instructions_other_front_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_other_front_finger_text" = "Täck inte ditt ansikte eller annan information i dokumentet.";
+
+"idenfy_instructions_other_front_reflection_title" = "Det finns ingen reflektion av ljus";
+"idenfy_instructions_other_front_reflection_text" = "Se till att ljusreflektion eller dokumenthologram inte täcker ansiktet eller annan viktig dokumentinformation.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "Baksidan av dokumentet passar in i den vita ramen";
+"idenfy_instructions_other_back_fit_frame_text" = "Se till att baksidan av dokumentet passar in i den vita ramen och går inte utöver kanterna på ramen, och det visade dokumentet inte är suddigt och är tydligt läsbart.";
+
+"idenfy_instructions_other_back_finger_title" = "Fingret får inte täcka dokumentet";
+"idenfy_instructions_other_back_finger_text" = "Täck inte informationen i dokumentet med fingret.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "Ansiktet passar in i den vita ramen";
+"idenfy_instructions_face_fit_frame_text" = "Se till att ditt ansikte passar in i den vita ramen.";
+
+"idenfy_instructions_face_one_face_title" = "Endast ett ansikte är synligt";
+"idenfy_instructions_face_one_face_text" = "Se till att det inte finns några andra ansikten synliga på bilden.";
+
+"idenfy_instructions_face_shadow_title" = "Ansiktet är inte täckt av en skugga";
+"idenfy_instructions_face_shadow_text" = "Se till att ditt ansikte är väl upplyst och att det inte finns någon skugga.";
+
+"idenfy_instructions_face_zoom_title" = "Ansiktet passar i ramen";
+"idenfy_instructions_face_zoom_text" = "Se till att ditt ansikte passar in i ramen. Efter att ha tagit selfie flyttar du ditt ansikte närmare.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Det går inte att komma åt kameran";
+"idenfy_alert_message_camera_permission_not_enabled" = "För att aktivera åtkomst, gå till Inställningar > Sekretess > Kamera och aktivera kameraåtkomst för den här appen.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "OK";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "Du har";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "försök att autentisera dig!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "Du har **3** försök att autentisera dig!";
+"idenfy_face_authentication_initial_view_button_title" = "STARTA AUTENTISERING";
+"idenfy_face_authentication_initial_view_alert_message" = "Ansiktsautentisering misslyckades!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Lyckad autentisering";
+"idenfy_face_authentication_results_success_description" = "Du har autentiserats!";
+"idenfy_face_authentication_results_final_failed_title" = "Ansiktsverifieringen lyckades inte.";
+"idenfy_face_authentication_results_final_failed_description" = "Följ stegen som visas på skärmen och se till att miljön är väl upplyst. Försök att undvika: oskärpa, skugga, bländning, fingrar eller andra föremål på bilden.";
+"idenfy_face_authentication_results_failed_description" = "Ansiktsverifieringen lyckades inte. Följ stegen som visas på skärmen och se till att miljön är väl upplyst. Försök att undvika: oskärpa, skugga, bländning, fingrar eller andra föremål på bilden.";
+"idenfy_face_authentication_results_button_title" = "FORTSÄTTA";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Avbryt autentisering";
+"idenfy_face_authentication_exit_alert_description" = "Är du säker på att du vill avbryta ansiktsautentisering?";

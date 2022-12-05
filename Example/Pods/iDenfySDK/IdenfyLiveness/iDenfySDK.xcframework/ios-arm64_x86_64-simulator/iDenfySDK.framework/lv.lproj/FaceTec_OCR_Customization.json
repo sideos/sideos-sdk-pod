@@ -1,0 +1,197 @@
+{"groups": [
+  {
+    "groupFriendlyName": "Jūsu informācija",
+    "fields": [
+      {
+        "fieldKey": "firstName",
+        "fieldFriendlyName": "Vārds",
+        "uiFieldDescriptionText": "Vārds"
+      },
+      {
+        "fieldKey": "lastName",
+        "fieldFriendlyName": "Uzvārds",
+        "uiFieldDescriptionText": "Uzvārds"
+      },
+      {
+        "fieldKey": "placeOfBirth",
+        "fieldFriendlyName": "Dzimšanas vieta",
+        "uiFieldDescriptionText": "Dzimšanas vieta"
+      },
+      {
+        "fieldKey": "nationality",
+        "fieldFriendlyName": "Tautība",
+        "uiFieldDescriptionText": "Tautība"
+      },
+      {
+        "fieldKey": "givenName",
+        "fieldFriendlyName": "Vārds",
+        "uiFieldDescriptionText": "Vārds"
+      },
+      {
+        "fieldKey": "fullName",
+        "fieldFriendlyName": "Pilnais vārds",
+        "uiFieldDescriptionText": "Pilnais vārds"
+      },
+      {
+        "fieldKey": "dateOfBirth",
+        "fieldFriendlyName": "Dzimšanas datums",
+        "uiFieldDescriptionText": "Dzimšanas datums"
+      },
+      {
+        "fieldKey": "middleName",
+        "fieldFriendlyName": "Otrais vārds",
+        "uiFieldDescriptionText": "Otrais vārds"
+      }
+    ],
+    "groupKey": "userInfo"
+  },
+  {
+    "groupFriendlyName": "Jūsu adrese",
+    "fields": [
+      {
+        "fieldKey": "zipCode",
+        "fieldFriendlyName": "Pasta indekss",
+        "uiFieldDescriptionText": "Pasta indekss"
+      },
+      {
+        "fieldKey": "country",
+        "fieldFriendlyName": "Valsts",
+        "uiFieldDescriptionText": "Valsts"
+      },
+      {
+        "fieldKey": "address3",
+        "fieldFriendlyName": "Adreses līnija 3",
+        "uiFieldDescriptionText": "Adreses līnija 3"
+      },
+      {
+        "fieldKey": "address2",
+        "fieldFriendlyName": "Adreses līnija 2",
+        "uiFieldDescriptionText": "Adreses līnija 2"
+      },
+      {
+        "fieldKey": "city",
+        "fieldFriendlyName": "Pilsēta",
+        "uiFieldDescriptionText": "Pilsēta"
+      },
+      {
+        "fieldKey": "address1",
+        "fieldFriendlyName": "Adreses līnija 1",
+        "uiFieldDescriptionText": "Adreses līnija 1"
+      },
+      {
+        "fieldKey": "state",
+        "fieldFriendlyName": "Valsts",
+        "uiFieldDescriptionText": "Valsts"
+      }
+    ],
+    "groupKey": "addressInfo"
+  },
+  {
+    "groupFriendlyName": "Fiziskās īpašības un citi",
+    "fields": [
+      {
+        "fieldKey": "sex",
+        "fieldFriendlyName": "Dzimums",
+        "uiFieldDescriptionText": "Dzimums"
+      },
+      {
+        "fieldKey": "weight",
+        "fieldFriendlyName": "Svars",
+        "uiFieldDescriptionText": "Svars"
+      },
+      {
+        "fieldKey": "eyes",
+        "fieldFriendlyName": "Acis",
+        "uiFieldDescriptionText": "Acis"
+      },
+      {
+        "fieldKey": "height",
+        "fieldFriendlyName": "Augstums",
+        "uiFieldDescriptionText": "Augstums"
+      }
+    ],
+    "groupKey": "secondaryUserInfo"
+  },
+  {
+    "groupFriendlyName": "Papildus informācija",
+    "fields": [
+      {
+        "fieldKey": "customField1",
+        "fieldFriendlyName": "Custom Field 1",
+        "uiFieldDescriptionText": "Custom Field 1"
+      },
+      {
+        "fieldKey": "customField2",
+        "fieldFriendlyName": "Custom Field 2",
+        "uiFieldDescriptionText": "Custom Field 2"
+      },
+      {
+        "fieldKey": "customField3",
+        "fieldFriendlyName": "Custom Field 3",
+        "uiFieldDescriptionText": "Custom Field 3"
+      },
+      {
+        "fieldKey": "customField4",
+        "fieldFriendlyName": "Custom Field 4",
+        "uiFieldDescriptionText": "Custom Field 4"
+      }
+    ],
+    "groupKey": "customFields"
+  },
+  {
+    "groupFriendlyName": "Fotoattēla ID informācija",
+    "fields": [
+      {
+        "fieldKey": "issuingAuthority",
+        "fieldFriendlyName": "Izdevējiestāde",
+        "uiFieldDescriptionText": "Izdevējiestāde"
+      },
+      {
+        "fieldKey": "dateOfExpiration",
+        "fieldFriendlyName": "Derīguma termiņš",
+        "uiFieldDescriptionText": "Derīguma termiņš"
+      },
+      {
+        "fieldKey": "countryCode",
+        "fieldFriendlyName": "Valsts kods",
+        "uiFieldDescriptionText": "Valsts kods"
+      },
+      {
+        "fieldKey": "passportType",
+        "fieldFriendlyName": "PPases veids",
+        "uiFieldDescriptionText": "Pases veids"
+      },
+      {
+        "fieldKey": "dateOfIssue",
+        "fieldFriendlyName": "Izdošanas datums",
+        "uiFieldDescriptionText": "Izdošanas datums"
+      },
+      {
+        "fieldKey": "idNumber",
+        "fieldFriendlyName": "Foto ID #",
+        "uiFieldDescriptionText": "Foto ID #"
+      },
+      {
+        "fieldKey": "idNumber2",
+        "fieldFriendlyName": "Sekundārais ID #",
+        "uiFieldDescriptionText": "Sekundārais ID #"
+      },
+      {
+        "fieldKey": "mrzLine3",
+        "fieldFriendlyName": "MRZ 3",
+        "uiFieldDescriptionText": "MRZ 3"
+      },
+      {
+        "fieldKey": "mrzLine1",
+        "fieldFriendlyName": "MRZ 1",
+        "uiFieldDescriptionText": "MRZ 1"
+      },
+      {
+        "fieldKey": "mrzLine2",
+        "fieldFriendlyName": "MRZ 2",
+        "uiFieldDescriptionText": "MRZ 2"
+      }
+    ],
+    "groupKey": "idInfo"
+  }
+]}

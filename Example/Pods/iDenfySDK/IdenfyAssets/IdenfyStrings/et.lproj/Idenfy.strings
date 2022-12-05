@@ -1,0 +1,721 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Privaatsuspoliitika";
+"idenfy_privacy_policy_agree_button_title_v2" = "NÕUSTUD";
+"idenfy_privacy_policy_disagree_button_title_v2" = "EI NÕULE";
+"idenfy_privacy_policy_alert_title_v2" = "TEAVE";
+"idenfy_privacy_policy_alert_description_v2" = "Protsessi jätkamiseks peate reeglitega nõustuma. Kui te ei nõustu, tühistage kinnitusprotsess või sulgege aken.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "TAHAN NÕUSTUDA";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "TÜHISTA KINNITUS";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "JÄTKA";
+"idenfy_questionnaire_email_error_message_v2" = "Palun sisesta kehtiv email!";
+"idenfy_questionnaire_url_error_message_v2" = "Palun sisesta kehtiv veebisaidi aadress!";
+"idenfy_questionnaire_tel_error_message_v2" = "Palun sisesta kehtiv telefoninumber!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Palun valige oma pakkuja";
+"idenfy_provider_selection_common_information_description_v2" = "Palun valige allolevast loendist oma kommunaalkulude arve väljastaja";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Otsige pakkujat…";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Ühendage oma konto";
+"idenfy_provider_login_view_common_information_description_v2" = "Sisestage oma veebipõhise utiliidi konto sisselogimisandmed";
+"idenfy_provider_login_view_username_hint_title_v2" = "Kasutajanimi";
+"idenfy_provider_login_view_password_hint_title_v2" = "Parool";
+"idenfy_provider_login_view_continue_button_title_v2" = "JÄTKA";
+"idenfy_provider_login_view_login_retry_title_v2" = "Kehtetud volikirjad";
+"idenfy_provider_login_view_login_retry_description_v2" = "Sisestage kehtivad mandaadid ja proovige uuesti!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Sisselogimine ebaõnnestus";
+"idenfy_provider_login_view_login_failed_description_v2" = "Meil ei õnnestunud teid sisse logida…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Konto kinnitamine";
+"idenfy_mfa_method_selection_view_description_v2" = "Valige allolevatest valikutest soovitud autentimismeetod";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Autentimismeetod";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Ühekordne parool";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Turvaküsimus ja vastus";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "JÄTKA";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Autentige ennast";
+"idenfy_mfa_captcha_method_description_v2" = "Palun sisestage alloleval pildil nähtav captcha kood";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Captcha kood";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "JÄTKA";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Autentige ennast";
+"idenfy_mfa_code_method_description_v2" = "Sisestage oma telefoni või e-posti teel saadud kood";
+"idenfy_mfa_code_method_code_hint_v2" = "Autentimiskood";
+"idenfy_mfa_question_method_title_v2" = "Palun vastake allpool esitatud küsimusele";
+"idenfy_mfa_question_method_answer_hint_v2" = "Sinu Vastus";
+"idenfy_mfa_notification_method_title_v2" = "Kontrollige juurdepääsu oma teenusepakkuja rakenduse kaudu";
+"idenfy_mfa_notification_method_description_v2" = "Kui olete lõpetanud, vajutage jätkamisnuppu";
+"idenfy_mfa_pass_code_method_title_v2" = "Autentige ennast";
+"idenfy_mfa_pass_code_method_description_v2" = "Sisestage pääsukood, mille olete oma teenusepakkujaga seadistanud";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Pääsukood";
+"idenfy_mfa_general_view_continue_button_title_v2" = "JÄTKA";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Alusta isikusamasuse kinnitamist";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Dokumendi väljastanud riik";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Alustame";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Vali väljaandja riik";
+"idenfy_country_selection_view_information_description_v2" = "Palun vali oma dokumendi väljastanud riik";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Otsi dokumendi riiki…";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Vali keel";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "JÄTKA";
+"idenfy_documents_selection_view_information_title_v2" = "Vali dokument";
+"idenfy_documents_selection_view_information_description_v2" = "Millist dokumenditüüpi soovid tuvastada?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Pass";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "ID-kaart";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Muu";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Juhiluba";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Elamisluba";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Visa";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "USA piiriületuskaart";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Austria varjupaiga elamisluba";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Vene riigi pass";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Venemaa rahvusvaheline pass";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutine juhiluba";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Valijakaart";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Vana ID-kaart";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Reisikaart";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Fotokaart";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaart";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Vanuse tõendamise kaart";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Diplomaatiline ID";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "PAN-kaart";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Aadhaar kaart";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Kinnita dokumendi tüüp";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Palun pane oma **ID-kaart** tuvastamiseks valmis";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Palun pane oma **pass** tuvastamiseks valmis";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Palun pane oma **elamisluba** tuvastamiseks valmis";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Palun pane oma **juhiluba** tuvastamiseks valmis";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Palun pane oma **dokument** tuvastamiseks valmis";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Palun pane oma";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "ID-kaart";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "pass";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "elamisluba";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "juhiluba";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "dokument";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "viisa";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "USA piiriületuskaarti";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "Austria varjupaiga elamisluba";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "Venemaa riikliku pass";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "Venemaa rahvusvaheline pass";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "Ühendkuningriigi ajutine juhiluba";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "valijakaart";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "vana ID-kaart";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "reisikaart";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "fotokaart";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "sõjaväe (veterani) kaart";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "vanust tõendav kaart";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "diplomaatiline ID";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "PAN-kaart";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar-kaart";
+"idenfy_confirmation_view_information_description_part_3_v2" = "tuvastamiseks valmis";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Isikusamasuse tuvastamiseks kulub **5** sammu:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Tuvastamiseks kulub";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "sammu:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Dokumendi esikülje pilt";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Dokumendi tagakülje pilt";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Näo pilt";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Elavuse kontroll";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Passi kaane foto";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Aadressi tõendava dokumendi foto";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Teise adressi tõendava dokumendi foto";
+"idenfy_confirmation_view_upload_image_title_v2" = "Fotosid saad üles laadida igal sammul";
+"idenfy_confirmation_view_begin_identification_title_v2" = "ALUSTA TUVASTAMIST";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "JÄTKA";
+
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "JÄTKAKE **x** PÄRAST …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Veenduge, et olete heledas keskkonnas";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Kui küsitakse, klõpsake «Olen valmis» ja järgige juhiseid";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Selle kontrolli läbimiseks peate kaamerale lähemale või sellest kaugemale liikuma";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Järgige allolevaid juhiseid:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Veenduge, et teie valitud dokumendi pilt oleks:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Selgelt nähtav ja MITTE udune";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Hästi valgustatud ja ilma varjuta";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Valguspeegelduse ja -helgita";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Sõrmega blokeerimata ja sobituks valgesse raami";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Originaaldokument, mitte selle koopia";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "ID-kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "ID-kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Dokumendi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Dokumendi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Elamisloa esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Elamisloa tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Juhiloa esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Juhiloa tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Passi esikaas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Passi isikuandmete lehekülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Aadressi tõend";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Teine aadressi tõend";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Viisa esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Viisa tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "USA piiriületuskaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "USA piiriületuskaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Vene riigipassi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Vene riigipassi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Valijakaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Valijakaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Vana ID-kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Vana ID-kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Reisikaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Reisikaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Fotokaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Fotokaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "PAN kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "PAN kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi esikülg";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi tagakülg";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Aseta oma dokument raami ja tee selge pilt";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Aseta oma dokument raami ja oodake, kuni see skannitakse";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Palun valige failitüüp";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Millist failitüüpi soovite üles laadida?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Foto";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Kuidas tuvastada?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "JÄTA JUHISED VAHELE";
+
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Veenduge, et teie selfi oleks selgelt nähtav ja sobituks valgesse raami";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Veenduge, et valgusallikas on ees ja mitte teie taga";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Veenduge, et teie valitud dokumendi pilt oleks: Selgelt nähtav ja MITTE udune";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Veenduge, et teie valitud dokumendi pilt oleks: Hästi valgustatud ja ilma varjuta";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Veenduge, et teie valitud dokumendi pilt oleks: Valguspeegelduse ja -helgita";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Veenduge, et teie valitud dokumendi pilt oleks: Sõrmega blokeerimata ja sobituks valgesse raami";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "ID-kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "ID-kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Dokumendi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Dokumendi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Elamisloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Elamisloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Juhiloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Juhiloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Passi esikaas";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Passi isikuandmete lehekülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Aadressi tõend";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Teine aadressi tõend";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Viisa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Viisa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "USA piiriületuskaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "USA piiriületuskaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Vene riigipassi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Vene riigipassi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Valijakaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Valijakaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Vana ID-kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Vana ID-kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Reisikaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Reisikaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Fotokaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Fotokaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "PAN kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "PAN kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "Kas sinu **ID-kaardi esikülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "Kas sinu **ID-kaardi tagakülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "Kas sinu **dokumendi esikülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "Kas sinu **dokumendi tagakülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "Kas sinu **elamisloa esikülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "Kas sinu **Elamisloa tagakülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "Kas sinu **juhiloa esikülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "Kas sinu **juhiloa tagakülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "Kas sinu **passi esikaas** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "Kas sinu **aadressi tõend** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "Kas sinu **teine aadressi tõend** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "Kas sinu **passi fotoga lehekülg** on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Kas sinu";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "ID-kaardi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "ID-kaardi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "dokumendi esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "dokumendi tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "elamisloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "elamisloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "juhiloa esikülg";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "juhiloa tagakülg";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "passi esikaas";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "aadressi tõend";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "teine aadressi tõend";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "passi isikuandmetega lehekülg";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Kas sinu näo pilt on selgelt nähtav?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Kas saad dokumendi detaile selgelt lugeda?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Kas see on dokumendi tagakülg?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Kas saad dokumendi detaile selgelt lugeda?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Kas saad dokumendi detaile selgelt lugeda?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Kas olete kindel, et soovite selle faili üles laadida?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Paiguta oma nägu tähistatud alasse ja tee selge foto";
+"idenfy_face_camera_preview_title_v2" = "Tee oma näost pilt";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Kinnita oma näo pilt";
+"idenfy_face_camera_results_description_v2" = "Kas sinu näo pilt on raamis ja selgelt nähtav?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "Kas sinu **näo pilt** on raamis ja selgelt nähtav?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Kas sinu nägu on selgelt nähtav ja asub piisavalt lähedal tuvastamiseks?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Kontrolli fotot";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Powered by iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "TEE UUS PILT";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "JAH, JÄTKA";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "ID-kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "ID-kaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Dokumendi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Dokumendi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Elamisloa esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Elamisloa tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Juhiloa esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Juhiloa tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Passi esikaas";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Passi isikuandmetega lehekülg";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Aadressi tõend";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Teine aadressi tõend";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Viisa esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Viisa tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "USA piiriületuskaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "USA piiriületuskaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Vene riigipassi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Vene riigipassi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Valijakaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Valijakaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Vana ID-kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Vana ID-kaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Reisikaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Reisikaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Fotokaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Fotokaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "PAN kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "PAN kaardi tagakülg";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi esikülg";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi tagakülg";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Kinnita näo pilt";
+"idenfy_upload_results_view_cropping_description_v2" = "Joonda üleslaaditud foto märgitud alale";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "VALI TEINE";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "JÄTKA";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Faili maksimaalne suurus on ületatud";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Palun valige fail, mille kehtiv suurus ei ületa 5 MB";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Tõestamise analüüs…";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Palun oota, kuni me kõik sulle valmis seame!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Tuvastamine ebaõnnestus";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "ID-kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "ID-kaardi tagakülg";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Passi esikaas";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Aadressi tõend";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Teine aadressi tõend";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Passi isikuandmetega lehekülg";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Dokumendi esikülg";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Dokumendi tagakülg";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Elamisloa esikülg";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Elamisloa tagakülg";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Juhiloa esikülg";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Juhiloa tagakülg";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Viisa esikülg";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Viisa tagakülg";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "USA piiriületuskaardi esikülg";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "USA piiriületuskaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa esikülg";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Austria varjupaiga elamisloa tagakülg";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Vene riigipassi esikülg";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Vene riigipassi tagakülg";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi esikülg";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Venemaa rahvusvahelise passi tagakülg";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa esikülg";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Ühendkuningriigi ajutise juhiloa tagakülg";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Valijakaardi esikülg";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Valijakaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Vana ID-kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Vana ID-kaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Reisikaardi esikülg";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Reisikaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Fotokaardi esikülg";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Fotokaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Sõjaväe (veterani) kaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Vanust tõendava kaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse esikülg";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Diplomaatilise isikutunnistuse tagakülg";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "PAN kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "PAN kaardi tagakülg";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi esikülg";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Aadhaari kaardi tagakülg";
+"idenfy_identification_results_step_face" = "Näo pilt";
+"idenfy_identification_results_retake_button_title_v2" = "PROOVI UUESTI";
+"idenfy_identification_results_error_continue_button_title_v2" = "JÄTKA";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Palun veenduge, et teie dokumendil oleks masinloetav ala";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Masinloetav ala (MRZ) koosneb tavaliselt kahest (pass) või kolmest (ID-kaart) sümbolireast. Masinloetava ala näide on esitatud alloleval pildil, tähistatud punase ristkülikuga.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "MINE TAGASI";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "OLEN KINDEL";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Dokumenti ei leitud. Veenduge, et näitate";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "ja dokumendi väljastamise riik on";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "ID -KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "ELAMISLUBA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "JUHILUBA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOKUMENT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VISA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "USA PIIRIÜLETUSKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "AUSTRIA VARJUPAIGA ELAMISLUBA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "VENE RIIGI PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "VENEMAA RAHVUSVAHELINE PASS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "ÜHENDKUNINGRIIGI AJUTINE JUHILUBA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "VALIJAKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "VANA ID-KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "REISIKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "FOTOKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "SÕJAVÄE (VETERANI) KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "VANUSE TÕENDAMISE KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "DIPLOMAATILINE ID";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "PAN-KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "AADHAAR KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Veenduge, et teie dokumendi väljaandmisriik oleks";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Tuvastamine õnnestus";
+"idenfy_identification_results_success_fragment_description_v2" = "";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Tuvastatud";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Teie andmed on esitatud";
+"idenfy_identification_results_suspected_view_description_v2" = "Kui teil on küsimusi, võtke ühendust meie klienditoe meeskonnaga";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "JÄTKA";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Kinnitus on esitatud";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Teie kinnitamine nõuab täiendavat käsitsi ülevaatamist. Teid teavitatakse ülevaatuse lõpetamisest.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Tavaliselt võtab tulemuste saamine aega 1 kuni 5 minutit.";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "TAGASI KONTO JUURDE";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Täiendav andmete ülevaatus";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Automaatne tehisintellekti kontroll on lõppenud";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "AEGA JÄÄNUD";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Katkesta tuvastamine";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Kas oled kindel, et tahad tuvastamist katkestada?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "JAH";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "EI";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Sinu isikusamasuse tuvastamine õnnestus";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Aitäh";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "JÄTKA";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Tuvastamine ebaõnnestus";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "Me ei saanud sinu isikut kinnitada.";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Palun võtke ühendust";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "edasiseks toetuseks";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "JÄTKA";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Kas me võime sinu kaamerat kasutada?";
+"idenfy_camera_permissions_view_information_description_v2" = "Me peame kasutama sinu kaamerat, et teha foto teie dokumendist ja näofoto tegemiseks";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Ava seaded, toksa “Rakenduse load”, et võimaldada juurdepääsu kaamerale";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "AVA SEADED";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Hoidke passi keskosa telefoni ülaosas";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Hoidke ID-kaardi keskosa telefoni ülaosas";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Hoidke dokumendi keskosa telefoni ülaosas";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Puudutage passi keskosaga telefoni ülaosa";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Puudutage ID-kaardi keskosaga telefoni ülaosa";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Puudutage dokumendi keskosaga telefoni ülaosa";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Dokumendiandmete lugemine…";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Dokumendi pildi lugemine…";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Dokumendi lugemine lõppenud";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "JÄTKA";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Palun oota hetk…";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "OOih! Midagi läks valesti.";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Ühendus katkes. Palun liigutage telefoni lähemale";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Ajalõpp";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "NFC lugemisaeg on aegunud";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "JÄTKA";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Teie seadet ei toetata";
+"idenfy_nfc_required_view_information_description_v2" = "Palun kasutage sisseehitatud NFC-sildilugejaga mobiiltelefoni";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Olete kinnitamisprotsessi tühistanud";
+"idenfy_additional_support_view_description" = "Kinnitamisprotsessi ei teostatud. Küsimuste korral võtke ühendust meie klienditoega.";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "MINE TAGASI";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Anna õigused käsitsi";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = "Elavuse kontroll ebaõnnestus liiga palju kordi";
+"IDENFY_SERVER_ERROR_MESSAGE" = "Ups! Midagi läks valesti.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Sessioon on aegunud!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Liiga palju katseid!";
+"IDENFY_NFC_FAILED_MESSAGE" = "NFC autentimine ebaõnnestus!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Tagasi";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Dokumendi esikülje foto üleslaadimine…";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Dokumendi tagakülje foto üleslaadimine…";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Dokumendi näo foto üleslaadimine…";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Elavuse kontroll";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Passi esikaane foto üleslaadimine…";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Aadressi tõendi foto üleslaadimine…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Aadressi teise tõendi foto üleslaadimine…";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Ühenduse probleemid. Veenduge, et teil oleks stabiilne Interneti-ühendus";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Jätka";
+"idenfy_alert_title_manual_reviewing_information" = "TEAVE";
+"idenfy_alert_message_manual_reviewing_information" = "Kuna valisite muu dokumendi kui ID-kaart või pass, peame teie juhtumi veel kord üle vaatama.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Jätka";
+"idenfy_alert_title_liveness_default_error" = "TEAVE";
+"idenfy_alert_message_liveness_default_error" = "Elavuse test ebaõnnestus, palun proovi uuesti.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Näo elavuse testi aeg sai läbi. Palun proovi uuesti.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Jätka";
+"idenfy_alert_title_document_analysis_information" = "MIDAGI LÄKS VALESTI!";
+"idenfy_alert_message_document_analysis_information" = "Ei saanud dokumendi liiki tuvastada. Palun vali dokumendi liik järgmises sammus";
+
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Kas oled kindel, et tahad tuvastamist katkestada?";
+"idenfy_alert_title_abort_identification_information" = "Katkesta tuvastamine";
+"idenfy_alert_positive_button_abort_identification_information" = "JAH";
+"idenfy_alert_negative_button_abort_identification_information" = "EI";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Kas oled kindel, et tahad uuesti alustada?";
+"idenfy_alert_title_restart_identification_information" = "Alusta uuesti";
+"idenfy_alert_positive_button_restart_identification_information" = "JAH";
+"idenfy_alert_negative_button_restart_identification_information" = "EI";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Analüüsimine…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Palun oota üks hetk.";
+
+
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Näita oma passi";
+"idenfy_instructions_passport_correct_text" = "Veendu, et näitad tuvastamise ajal passi, mitte muud dokumenti.";
+
+"idenfy_instructions_passport_mrz_title" = "Passil on masinloetav ala";
+"idenfy_instructions_passport_mrz_text" = "Veendu, et sinu dokumendil on masinloetav ala (2 või 3 märgirida). Kui sinu dokumendil puudub masinloetav ala, vali \"MUUD DOCUMENDID\" dokumentide valiku aknas.";
+
+"idenfy_instructions_passport_fits_frame_title" = "Pass mahub valgesse raami";
+"idenfy_instructions_passport_fits_frame_text" = "Veendu, et pass mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_passport_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_passport_finger_text" = "Ära kata oma nägu ega muud dokumendi infot";
+
+"idenfy_instructions_passport_reflection_title" = "Valgust ei peegeldu";
+"idenfy_instructions_passport_reflection_text" = "Veendu, et valguspeegeldus või dokumendi hologramm ei kataks nägu ega muud olulist dokumendi infot.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Näita oma ID-kaarti";
+"idenfy_instructions_id_front_correct_text" = "Veendu, et näitad tuvastamise ajal ID-kaarti, mitte muud dokumenti.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "ID-kaardi esikülg mahub valgesse raami";
+"idenfy_instructions_id_front_fit_frame_text" = "Veendu, et ID-kaardi esikülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_id_front_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_id_front_finger_text" = "Ära kata oma nägu ega muud dokumendi infot";
+
+"idenfy_instructions_id_front_reflection_title" = "Valgus ei peegeldu";
+"idenfy_instructions_id_front_reflection_text" = "Veendu, et valguspeegeldus või dokumendi hologramm ei kataks nägu ega muud olulist dokumendi infot";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Näita oma ID-kaardi tagakülge";
+"idenfy_instructions_id_back_correct_text" = "Veendu, et näitad ID-kaardi tagakülge";
+
+"idenfy_instructions_id_back_mrz_title" = "Dokumendil on masinloetav ala";
+"idenfy_instructions_id_back_mrz_text" = "Veendu, et sinu dokumendil on MRZ (2 või 3 märgirida). Kui sinu dokumendil puudub masinloetav ala, vali \"MUUD DOCUMENDID\" dokumentide valiku aknas.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "ID-kaardi tagakülg mahub valgesse raami";
+"idenfy_instructions_id_back_fit_frame_text" = "Veendu, et ID-kaardi tagakülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_id_back_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_id_back_finger_text" = "Ära kata dokumendi infot sõrmega.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Näita oma elamisluba";
+"idenfy_instructions_residence_permit_front_correct_text" = "Veendu, et näitad tuvastamise ajal elamisluba, mitte muud dokumenti.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "Elamisloa esikülg mahub valgesse raami";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Veendu, et elamisloa esikülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_residence_permit_front_finger_text" = "Ära kata oma nägu ega muud dokumendi infot.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Valgust ei peegeldu";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Veendu, et valguspeegeldus või dokumendi hologramm ei kataks nägu ega muud olulist dokumendi infot.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Näita oma elamisloa tagakülge";
+"idenfy_instructions_residence_permit_back_correct_text" = "Veendu, et näitad elamisloa tagakülge.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "Dokumendil on masinloetav ala";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Veendu, et sinu dokumendil on masinloetav ala (2 või 3 märgirida). Kui sinu dokumendil puudub masinloetav ala, vali \"MUUD DOCUMENDID\" dokumentide valiku aknas.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "Elamisloa tagakülg mahub valgesse raami";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Veendu, et elamisloa tagakülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_residence_permit_back_finger_text" = "Ära kata dokumendi infot sõrmega.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Näita oma juhiluba";
+"idenfy_instructions_driver_license_front_correct_text" = "Veendu et näitad tuvastamise ajal juhiluba, mitte muud dokumenti.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Juhiloa esikülg mahub valgesse raami";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Veendu, et juhiloa esikülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_driver_license_front_finger_text" = "Ära kata oma nägu ega muud dokumendi infot.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Valgust ei peegeldu";
+"idenfy_instructions_driver_license_front_reflection_text" = "Veendu, et valguspeegeldus või dokumendi hologramm ei kataks nägu ega muud olulist dokumendi infot.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Näita oma dokumenti, millel ei ole masinloetavat ala";
+"idenfy_instructions_other_front_mrz_text" = "Veendu, et näitad dokumenti, millel ei ole masinloetavat ala.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "Dokumendi esikülg mahub valgesse raami";
+"idenfy_instructions_other_front_fit_frame_text" = "Veendu, et dokumendi esikülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_other_front_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_other_front_finger_text" = "Ärä kata oma nägu ega muud dokumendi infot.";
+
+"idenfy_instructions_other_front_reflection_title" = "Valgust ei peegeldu";
+"idenfy_instructions_other_front_reflection_text" = "Veendu, et valguspeegeldus või dokumendi hologramm ei kataks nägu ega muud olulist dokumendi infot.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "Dokumendi tagakülg mahub valgesse raami";
+"idenfy_instructions_other_back_fit_frame_text" = "Veendu, et dokumendi tagakülg mahub valgesse raami ja ei jää raami piiridest välja, ning esitatud dokument ei ole hägune ja on selgesti loetav.";
+
+"idenfy_instructions_other_back_finger_title" = "Sõrm ei kata dokumenti";
+"idenfy_instructions_other_back_finger_text" = "Ära kata dokumendi infot sõrmega.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "Nägu mahub valgesse raami";
+"idenfy_instructions_face_fit_frame_text" = "Veendu, et sinu nägu mahub valgesse raami.";
+
+"idenfy_instructions_face_one_face_title" = "Nähtav on ainult üks nägu";
+"idenfy_instructions_face_one_face_text" = "Veendu, et pildil ei oleks teisi nägusid.";
+
+"idenfy_instructions_face_shadow_title" = "Nägu ei ole kaetud varjuga";
+"idenfy_instructions_face_shadow_text" = "Veendu, et sinu nägu on hästi valgustatud ja sellel ei ole varju.";
+
+"idenfy_instructions_face_zoom_title" = "Nägu mahub raami";
+"idenfy_instructions_face_zoom_text" = "Veendu, et sinu nägu mahub raami. Pärast selfie tegemist liiguta oma nägu lähemale.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Kaamerale ei ole juurdepääsu";
+"idenfy_alert_message_camera_permission_not_enabled" = "Juurdepääsu lubamiseks mine menüüsse Seaded > Privaatsus > Kaamera ja luba selle rakenduse ligipääs kaamerale.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "OK";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "Teil on";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "katset ennast autentida!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "Teil on **3** katset ennast autentida!";
+"idenfy_face_authentication_initial_view_button_title" = "ALUSTAGE AUTENTIMIST";
+"idenfy_face_authentication_initial_view_alert_message" = "Näo autentimine ebaõnnestus!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Edukas autentimine";
+"idenfy_face_authentication_results_success_description" = "Teie autentimine õnnestus!";
+"idenfy_face_authentication_results_final_failed_title" = "Näo kinnitamine ei õnnestunud.";
+"idenfy_face_authentication_results_final_failed_description" = "Järgige ekraanil kuvatavaid juhiseid ja tagage hästi valgustatud keskkond. Püüdke vältida fotol olevat hägusust, varju, helki, sõrmi või muid objekte.";
+"idenfy_face_authentication_results_failed_description" = "Näo kinnitamine ei õnnestunud. Järgige ekraanil kuvatavaid juhiseid ja tagage hästi valgustatud keskkond. Püüdke vältida fotol olevat hägusust, varju, helki, sõrmi või muid objekte.";
+"idenfy_face_authentication_results_button_title" = "JÄTKA";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Katkesta autentimine";
+"idenfy_face_authentication_exit_alert_description" = "Kas olete kindel, et soovite näo uuesti autentimise katkestada?";

@@ -1,0 +1,94 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IdenfyLiveness
+import FaceTecSDK
+import Foundation
+@_exported import IdenfyLiveness
+import Swift
+import UIKit
+import _Concurrency
+import idenfycore
+import idenfyviews
+@objc public class IdenfyLivenessCheck : ObjectiveC.NSObject, Swift.Codable {
+  final public let auditTrails: [Swift.String]
+  final public let lowQualityAuditTrailImage: Swift.String
+  final public let faceMap: Swift.String
+  final public let sessionId: Swift.String
+  required public init(auditTrails: [Swift.String], lowQualityAuditTrailImage: Swift.String, sessionId: Swift.String, faceMap: Swift.String)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class IdenfyLivenessHelper : ObjectiveC.NSObject, FaceTecSDK.FaceTecCustomAnimationDelegate {
+  public init(idenfyLivenessUISettings: IdenfyLiveness.IdenfyLivenessUISettings, partnerInfo: idenfycore.PartnerInfo? = nil)
+  @objc deinit
+  public func setupLivenessUI(zoomPartnerUICustomization: FaceTecSDK.FaceTecCustomization? = nil, selectedCurrentDocument: idenfycore.DocumentTypeClass? = nil)
+  public func setupCustomZoomBehavior(currentCustomization: FaceTecSDK.FaceTecCustomization)
+  public func setupDefaultZoomBehavior(currentCustomization: FaceTecSDK.FaceTecCustomization)
+  @objc public func onCreateNewResultScreenSuccessAnimationView() -> UIKit.UIView?
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyLivenessUISettings : ObjectiveC.NSObject {
+  public var idenfyLivenessPrimaryColor: UIKit.UIColor
+  public var idenfyLivenessAccentColor: UIKit.UIColor
+  public var idenfyLivenessTextColor: UIKit.UIColor
+  public var livenessFeedbackBackgroundColor: UIKit.UIColor
+  public var livenessFeedbackFont: UIKit.UIFont
+  public var livenessFeedbackFontSizeMobile: CoreGraphics.CGFloat?
+  public var livenessFeedbackFontSizeTablet: CoreGraphics.CGFloat?
+  public var livenessFeedbackFontColor: UIKit.UIColor?
+  public var livenessFrameBackgroundColor: UIKit.UIColor
+  public var livenessFrameColor: UIKit.UIColor?
+  public var livenessFrameWidth: Swift.Int32?
+  public var livenessCancelButtonImage: UIKit.UIImage?
+  public var livenessIdentificationOvalProgressColor1: UIKit.UIColor
+  public var livenessIdentificationProgressStrokeColor: UIKit.UIColor
+  public var livenessIdentificationOvalProgressColor2: UIKit.UIColor
+  public var livenessIdentificationProgressStrokeWidth: Swift.Int32
+  public var livenessIdentificationStrokeWidth: Swift.Int32
+  public var livenessIdentificationProgressRadialOffset: Swift.Int32
+  public var livenessOverlayBrandingImage: UIKit.UIImage?
+  public var livenessOverlayBackgroundColor: UIKit.UIColor?
+  public var livenessReadyScreenForegroundColor: UIKit.UIColor?
+  public var livenessReadyScreenBackgroundColors: [UIKit.UIColor]?
+  public var livenessReadyScreenTextBackgroundColor: UIKit.UIColor?
+  public var livenessReadyScreenButtonBorderColor: UIKit.UIColor?
+  public var livenessReadyScreenButtonBorderWidth: Swift.Int32?
+  public var livenessReadyScreenButtonCornerRadius: Swift.Int32?
+  public var livenessReadyScreenButtonBackgroundNormalColor: UIKit.UIColor?
+  public var livenessReadyScreenButtonBackgroundHighlightedColor: UIKit.UIColor?
+  public var livenessReadyScreenButtonBackgroundDisabledColor: UIKit.UIColor?
+  public var livenessReadyScreenShowBrandingImage: Swift.Bool?
+  public var livenessReadyScreenHeaderFont: UIKit.UIFont?
+  public var livenessReadyScreenSubtextFont: UIKit.UIFont?
+  public var livenessReadyScreenButtonFont: UIKit.UIFont?
+  public var livenessRetryScreenImageBorderColor: UIKit.UIColor
+  public var livenessCameraPermissionsScreenImage: UIKit.UIImage?
+  public var livenessResultScreenForegroundColor: UIKit.UIColor?
+  public var livenessResultScreenIndicatorColor: UIKit.UIColor?
+  public var livenessResultScreenUploadProgressFillColor: UIKit.UIColor?
+  public var livenessResultScreenUploadProgressTrackColor: UIKit.UIColor?
+  public var livenessResultScreenShowUploadProgressBar: Swift.Bool?
+  public var livenessResultScreenResultAnimationSuccessBackgroundImage: UIKit.UIImage?
+  public var livenessResultScreenResultAnimationUnsuccessBackgroundImage: UIKit.UIImage?
+  public var livenessResultScreenMessageFont: UIKit.UIFont?
+  public var livenessCustomUISettings: FaceTecSDK.FaceTecCustomization?
+  @objc public var livenessIdCheckCustomization: IdenfyLiveness.LivenessIdCheckCustomization
+  public init(livenessAccentColor: UIKit.UIColor, livenessPrimaryColor: UIKit.UIColor, livenessTextColor: UIKit.UIColor?, brandingImageV2: UIKit.UIImage?, successResultImageV2: UIKit.UIImage?, unsuccessResultImageV2: UIKit.UIImage?, cameraPermissionsScreenImageV2: UIKit.UIImage?, livenessCancelButtonImageV2: UIKit.UIImage?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LivenessIdCheckCustomization : ObjectiveC.NSObject {
+  public var mainHeaderColor: UIKit.UIColor?
+  public var mainHeaderDividerColor: UIKit.UIColor?
+  public var buttonBackgroundNormalColor: UIKit.UIColor?
+  public var buttonBackgroundHighlightColor: UIKit.UIColor?
+  public var captureScreenTextBackgroundColor: UIKit.UIColor?
+  public var reviewScreenTextBackgroundColor: UIKit.UIColor?
+  public var captureFrameStrokeColor: UIKit.UIColor?
+  public var headerFont: UIKit.UIFont?
+  public var subtextFont: UIKit.UIFont?
+  public var buttonFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  public init(idenfyLivenessAccentColor: UIKit.UIColor, idenfyLivenessPrimaryColor _: UIKit.UIColor)
+  @objc deinit
+}

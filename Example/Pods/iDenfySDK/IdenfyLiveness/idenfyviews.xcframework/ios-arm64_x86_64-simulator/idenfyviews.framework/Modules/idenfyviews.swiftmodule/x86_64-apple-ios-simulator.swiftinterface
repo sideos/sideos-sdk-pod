@@ -1,0 +1,2835 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name idenfyviews
+import AVFoundation
+import AVKit
+import Foundation
+import Lottie
+import QuartzCore
+import Swift
+import UIKit
+import _Concurrency
+import idenfycore
+@_exported import idenfyviews
+@_inheritsConvenienceInitializers @objc open class IdenfyMFAMethodSelectionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyMFAMethodSelectionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewInputViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewInputViewTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewInputBorderColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewInputFocusedBorderColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewInputViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyMFAMethodSelectionViewTitleFont: UIKit.UIFont?
+  public static var idenfyMFAMethodSelectionViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyMFAMethodSelectionViewHintFont: UIKit.UIFont?
+  public static var idenfyMFAMethodSelectionViewInputViewFont: UIKit.UIFont?
+  public static var idenfyMFAMethodSelectionViewInputViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyMFAMethodSelectionViewInputViewBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol FaceCameraViewableV2 : UIKit.UIView {
+  var idenfyUIViewFaceOval: idenfyviews.IdenfyFaceOvalV2 { get }
+  var cameraSessionsButtons: idenfyviews.CameraSessionsButtonsViewableV2 { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class FaceCameraViewV2 : UIKit.UIView, idenfyviews.FaceCameraViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var cameraSessionsButtons: idenfyviews.CameraSessionsButtonsViewableV2
+  @_Concurrency.MainActor(unsafe) public var idenfyUIViewFaceOval: idenfyviews.IdenfyFaceOvalV2
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyInternetConnectionPopupViewV2 : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var foregroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewInternetConnection: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelInternetConnection: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupView()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyRectanglePathViewV2 : UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) open var imageAssetName: Swift.String
+  @_Concurrency.MainActor(unsafe) open func drawPath(_ rect: CoreGraphics.CGRect, _ documentCameraFrameRatio: CoreGraphics.CGFloat, _ x: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(image: UIKit.UIImage?)
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(image: UIKit.UIImage?, highlightedImage: UIKit.UIImage?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyCustomViewsNotAllowedAlert : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var alertTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var alertDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var alertCloseButton: UIKit.UILabel
+  @objc convenience dynamic public init()
+  @objc deinit
+}
+public protocol TextQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var textInputView: UIKit.UITextField { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class TextQuestionCell : UIKit.UITableViewCell, idenfyviews.TextQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var textInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public typealias Color = UIKit.UIColor
+@objc @_inheritsConvenienceInitializers open class IdenfyPulsator : QuartzCore.CAReplicatorLayer, QuartzCore.CAAnimationDelegate {
+  @objc override dynamic open var backgroundColor: CoreGraphics.CGColor? {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic open var repeatCount: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc open var animationCompletionBlock: (() -> Swift.Void)?
+  @objc open var numPulse: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc open var radius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc open var animationDuration: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc open var autoRemove: Swift.Bool
+  @objc open var fromValueForRadius: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc open var keyTimeForHalfOpacity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc open var pulseInterval: Swift.Double
+  @objc open var timingFunction: QuartzCore.CAMediaTimingFunction? {
+    @objc get
+    @objc set
+  }
+  @objc open var isPulsating: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc override dynamic public init(layer: Any)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic open func removeFromSuperlayer()
+  @objc deinit
+  @objc open func start()
+  @objc open func stop()
+  @objc public func animationDidStop(_ anim: QuartzCore.CAAnimation, finished flag: Swift.Bool)
+}
+public protocol CheckBoxQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var uiSwitch: UIKit.UISwitch { get }
+  var uiSwitchDescription: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class CheckBoxQuestionCell : UIKit.UITableViewCell, idenfyviews.CheckBoxQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var uiSwitch: UIKit.UISwitch
+  @_Concurrency.MainActor(unsafe) public var uiSwitchDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyPdfResultViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyPdfResultViewBackgroundColor: UIKit.UIColor
+  public static var idenfyPdfResultViewTitleTextColor: UIKit.UIColor
+  public static var idenfyPdfResultViewRetakePdfButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyPdfResultViewRetakePdfButtonTextColor: UIKit.UIColor
+  public static var idenfyPdfResultViewRetakePdfButtonBorderColor: UIKit.UIColor
+  public static var idenfyPdfResultViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyPdfResultViewDetailsCardBackgroundColor: UIKit.UIColor
+  public static var idenfyPdfResultViewDetailsCardTitleColor: UIKit.UIColor
+  public static var idenfyPdfResultViewTitleColor: UIKit.UIColor
+  public static var idenfyPdfResultViewTitleFont: UIKit.UIFont?
+  public static var idenfyPdfResultViewDetailsCardTitleFont: UIKit.UIFont?
+  public static var idenfyPdfResultViewDetailsCardCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol DynamicCameraOnBoardingViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol DynamicCameraOnBoardingViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.DynamicCameraOnBoardingViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyCameraOnBoardingToolbarV2 { get }
+  var idenfyUILabelCameraOnBoardingCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUILabelCameraOnBoardingCommonInformationDescription: UIKit.UILabel { get }
+  var idenfyUIImageViewCameraOnBoardingCommonInformationIcon: UIKit.UIImageView { get }
+  var idenfyUIDisabledButtonCameraOnBoardingContinue: UIKit.UIButton { get }
+  var idenfyUIEnabledButtonCameraOnBoardingContinue: UIKit.UIButton { get }
+  var instrutionCameraOnBoardingVideoContainer: UIKit.UIView { get }
+  var instructionCameraOnBoardingProgressView: UIKit.UIProgressView { get }
+  var idenfyLoadingSpinner: Lottie.LottieAnimationView { get }
+  var instructionsDescription: UIKit.UILabel { get }
+  var shouldInstructionsBePlayed: Swift.Bool! { get set }
+  var documentTypeData: idenfycore.DocumentTypeData! { get set }
+  var currentStep: idenfycore.Step! { get set }
+  func playInstructions() -> idenfyviews.InstructionVideo
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DynamicCameraOnBoardingViewV2 : UIKit.UIView, idenfyviews.DynamicCameraOnBoardingViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.DynamicCameraOnBoardingViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var documentTypeData: idenfycore.DocumentTypeData!
+  @_Concurrency.MainActor(unsafe) public var shouldInstructionsBePlayed: Swift.Bool! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var currentStep: idenfycore.Step!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyCameraOnBoardingToolbarV2
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelCameraOnBoardingCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelCameraOnBoardingCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewCameraOnBoardingCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIDisabledButtonCameraOnBoardingContinue: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var idenfyUIEnabledButtonCameraOnBoardingContinue: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var instrutionCameraOnBoardingVideoContainer: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var instructionCameraOnBoardingProgressView: UIKit.UIProgressView
+  @_Concurrency.MainActor(unsafe) public var instructionsDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var instructionsDetailsCard: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var instructionsDetailsCardQuestionMark: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyLoadingSpinner: Lottie.LottieAnimationView
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) public func playInstructions() -> idenfyviews.InstructionVideo
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterVideoView()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol FaceAuthenticationSplashScreenV2Viewable : UIKit.UIView {
+  var splashScreenTitle: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class FaceAuthenticationSplashScreenV2View : UIKit.UIView, idenfyviews.FaceAuthenticationSplashScreenV2Viewable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyLogo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var backgroundGradient: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var splashScreenTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @objc @_Concurrency.MainActor(unsafe) open func setupViews()
+  @objc deinit
+}
+public protocol IdentificationResultViewButtonActionsDelegate : AnyObject {
+  func errorButtonPressed()
+}
+public protocol IdentificationResultsViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.IdentificationResultViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2Default { get }
+  var resultsTitle: UIKit.UILabel { get }
+  var resultsDescription: UIKit.UILabel { get }
+  var spinnerScrollView: UIKit.UIScrollView { get }
+  var resultStepTableView: UIKit.UITableView { get }
+  var retakeButton: UIKit.UIButton { get }
+  var scrollMask: UIKit.UIView { get }
+  var livenessMask: UIKit.UIView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdentificationResultsViewV2 : UIKit.UIView, idenfyviews.IdentificationResultsViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdentificationResultViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var resultsTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var resultsDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var spinnerScrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) public var resultStepTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) public var retakeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var scrollMask: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var livenessMask: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupRetakeButton()
+  @_Concurrency.MainActor(unsafe) open func setupScrollView()
+  @_Concurrency.MainActor(unsafe) open func setupResultsTableView()
+  @_Concurrency.MainActor(unsafe) open func setupLivenessMask()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol ResultsStepCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var stepTitle: UIKit.UILabel { get }
+  var stepSpinnerImageView: UIKit.UIImageView { get }
+  var stepPulsator: UIKit.UIView { get }
+  var stepDividerImageViewTop: UIKit.UIImageView { get }
+  var stepDividerImageViewBottom: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ResultsStepCell : UIKit.UITableViewCell, idenfyviews.ResultsStepCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var stepTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var stepSpinnerImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var stepPulsator: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var stepDividerImageViewTop: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var stepDividerImageViewBottom: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func setupView()
+  @objc deinit
+}
+public protocol DateQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var dateInputView: UIKit.UITextField { get }
+  var cancelButton: UIKit.UIButton { get }
+  var calendarIcon: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DateQuestionCell : UIKit.UITableViewCell, idenfyviews.DateQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var dateInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var calendarIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol FileQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var fileUploadContainerView: UIKit.UIView { get }
+  var filePlaceHolder: UIKit.UILabel { get }
+  var cancelButton: UIKit.UIButton { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class FileQuestionCell : UIKit.UITableViewCell, idenfyviews.FileQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var fileUploadContainerView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var fileUploadButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var filePlaceHolder: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol DocumentCellViewable : UIKit.UITableViewCell {
+  var documentLabel: UIKit.UILabel { get }
+  var documentImageView: UIKit.UIImageView { get }
+  var hasBorder: Swift.Bool { get set }
+  var documentTypeData: idenfycore.DocumentTypeData! { get set }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DocumentCell : UIKit.UITableViewCell, idenfyviews.DocumentCellViewable {
+  @_Concurrency.MainActor(unsafe) public var documentTypeData: idenfycore.DocumentTypeData!
+  @_Concurrency.MainActor(unsafe) public var hasBorder: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var documentLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setupView()
+  @objc deinit
+}
+public protocol FileResultViewV2ButtonActionsDelegate : AnyObject {
+  func confirmButtonPressedAction()
+  func retakeButtonPressedAction()
+}
+public protocol CameraResultViewableV2 : idenfyviews.FileResultViewableV2 {
+  var photoResultTitle: UIKit.UILabel { get }
+  var photoResultDetailsCard: UIKit.UIView { get }
+  var photoResultDetailsCardTitle: UIKit.UILabel { get }
+  var photoResultDetailsCardSecond: UIKit.UIView { get }
+  var photoResultDetailsCardTitleSecond: UIKit.UILabel { get }
+  var photoResultDetailsCardQuestionMark: UIKit.UIImageView { get }
+}
+@objc @_Concurrency.MainActor(unsafe) open class CameraResultViewV2 : UIKit.UIView, idenfyviews.CameraResultViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.FileResultViewV2ButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) required public init(frame: CoreGraphics.CGRect, withRectangle: idenfyviews.IdenfyCameraViewType)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2CameraSession
+  @_Concurrency.MainActor(unsafe) public var photoResultTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var poweredByIdenfyCard: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var poweredByIdenfyTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCard: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCardSecond: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCardQuestionMark: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCardQuestionMarkSecond: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCardTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var photoResultDetailsCardTitleSecond: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var fileResultImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var chooseAnotherFileButton: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints(_ withRectangle: idenfyviews.IdenfyCameraViewType)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyNFCRequiredViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyNFCRequiredViewBackgroundColor: UIKit.UIColor
+  public static var idenfyNFCRequiredCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyNFCRequiredCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyNFCRequiredContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyNFCRequiredCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyNFCRequiredCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyDynamicCameraOnBoardingViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyCameraOnBoardingViewBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingEnabledContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDisabledContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDisabledContinueButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingViewProgressBarFillColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingViewProgressBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDetailsCardBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDetailsCardTitleColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingDetailsCardTitleFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingDetailsCardCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct ConstsIdenfyStrings {
+}
+public protocol LanguageSelectionButtonActionsDelegate : AnyObject {
+  func closeButtonPressed()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyToolbarV2CloseButton : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.LanguageSelectionButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var closeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIImage {
+  public func rotateImage(radians: Swift.Float) -> UIKit.UIImage?
+  public func cropToRectFace(rect: CoreGraphics.CGRect!) -> UIKit.UIImage?
+  public func cropToRect(rect: CoreGraphics.CGRect!) -> UIKit.UIImage?
+  public func croppedInRect(rect: CoreGraphics.CGRect) -> UIKit.UIImage
+  public func rotate(_ radians: CoreGraphics.CGFloat) -> UIKit.UIImage
+}
+extension CoreGraphics.CGFloat {
+  public func pixelsToPoints() -> CoreGraphics.CGFloat
+  public static func onePixelInPoints() -> CoreGraphics.CGFloat
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyLoadingHUDUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyLoadingHUDBackgroundColor: UIKit.UIColor
+  public static var idenfyLoadingHUDTitleColor: UIKit.UIColor
+  public static var idenfyLoadingHUDDescriptionColor: UIKit.UIColor
+  public static var idenfyLoadingHUDTitleFont: UIKit.UIFont?
+  public static var idenfyLoadingHUDDescriptionFont: UIKit.UIFont?
+  public static var idenfyLoadingHUDCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol TimeQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var timeInputView: UIKit.UITextField { get }
+  var cancelButton: UIKit.UIButton { get }
+  var timeIcon: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class TimeQuestionCell : UIKit.UITableViewCell, idenfyviews.TimeQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var timeInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var timeIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol IdenfyRetakeAlertButtonActionsDelegate : AnyObject {
+  func alertConfirmPhotoButtonPressedAction()
+  func alertRetakePhotoButtonPressedAction()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyRetakeAlert : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdenfyRetakeAlertButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var alertTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var retakeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setupButtonsVisibility(shouldShowContinueButton: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyCountrySelectionDialog : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var isShown: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var searchIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var countrySearchBarLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countrySearchBar: UIKit.UISearchBar
+  @_Concurrency.MainActor(unsafe) public var countryTableView: UIKit.UITableView
+  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) open func initialize()
+  @_Concurrency.MainActor(unsafe) open func setupSearchBar()
+  @_Concurrency.MainActor(unsafe) open func setupCountryTableView()
+  @_Concurrency.MainActor(unsafe) open func showDialog(_ viewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) open func dismissDialog(animated: Swift.Bool)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyFaceAuthenticationInitialViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyFaceAuthenticationInitialViewBackgroundColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationInitialViewCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationInitialViewCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationInitialViewLivenessAttemptCountColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationInitialViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationInitialViewCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyFaceAuthenticationInitialViewCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyFaceAuthenticationInitialViewLivenessAttemptCountFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyButtonsUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyGradientButtonColorStart: UIKit.UIColor
+  public static var idenfyGradientButtonColorEnd: UIKit.UIColor
+  public static var idenfyButtonFont: UIKit.UIFont?
+  public static var idenfyButtonCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyChooseAnotherPhotoButtonCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ManualReviewingStatusWaitingViewButtonActionsDelegate : AnyObject {
+  func stopWaitingButtonPressedAction()
+}
+public protocol ManualReviewingStatusWaitingViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.ManualReviewingStatusWaitingViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var idenfyManualReviewingStatusWaitingAutomatedReviewCompletedTitle: UIKit.UILabel { get }
+  var idenfyManualReviewingStatusWaitingManualReviewCompletedTitle: UIKit.UILabel { get }
+  var idenfyManualReviewingStatusWaitingManualReviewLoadingSpinner: Lottie.LottieAnimationView { get }
+  var idenfyUILabelManualReviewingStatusWaitingCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUILabelManualReviewingStatusWaitingCommonInformationTopDescription: UIKit.UILabel { get }
+  var idenfyUILabelViewManualReviewingStatusWaitingTimerTitle: UIKit.UILabel { get }
+  var idenfyViewHolderManualResultsWaitingViewManualReviewCompleted: UIKit.UIView { get }
+  var idenfyManualReviewingStatusWaitingCommonInformationDescription: UIKit.UILabel { get }
+  var idenfyManualReviewingStatusWaitingManualReviewCompletedTick: UIKit.UIImageView { get }
+  var idenfyUIButtonManualReviewingStatusWaitingStopWaiting: UIKit.UIButton { get }
+  var scrollView: UIKit.UIScrollView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ManualReviewingStatusWaitingViewV2 : UIKit.UIView, idenfyviews.ManualReviewingStatusWaitingViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.ManualReviewingStatusWaitingViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var scrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) public var scrollViewContentView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusWaitingCommonInformationTopDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyViewHolderManualResultsWaitingViewAutomatedReviewCompleted: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingAutomatedReviewCompletedTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingAutomatedReviewCompletedTick: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingTimerImage: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyViewHolderManualResultsWaitingViewManualReviewCompleted: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingManualReviewCompletedTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingManualReviewLoadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingManualReviewCompletedTick: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusWaitingCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyManualReviewingStatusWaitingCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewManualReviewingStatusWaitingCommonInformationViewHolder: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelViewManualReviewingStatusWaitingTimerTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewManualReviewingStatusWaitingTimerViewHolder: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonManualReviewingStatusWaitingStopWaiting: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) public func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupScrollView()
+  @_Concurrency.MainActor(unsafe) open func setupCompletedSteps()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupStopWaitingIdentificationButton()
+  @_Concurrency.MainActor(unsafe) open func setupClockImageView()
+  @_Concurrency.MainActor(unsafe) open func setupDescription()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol IntegerQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var integerInputView: UIKit.UITextField { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IntegerQuestionCell : UIKit.UITableViewCell, idenfyviews.IntegerQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var integerInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyGlareAndBlurAlertUISettigsV2 : ObjectiveC.NSObject {
+  public static var idenfyGlareAndBlurAlertViewBackgroundColor: UIKit.UIColor
+  public static var idenfyGlareAndBlurAlertCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyGlareAndBlurAlertCommonInformationTitleFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol FaceAuthenticationResultsViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol FaceAuthenticationResultsViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.FaceAuthenticationResultsViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelFaceAuthenticationResultsCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIImageViewFaceAuthenticationResultsCommonInformationIcon: UIKit.UIImageView { get }
+  var idenfyUIButtonFaceAuthenticationResultsContinue: UIKit.UIButton { get }
+  var idenfyUILabelFaceAuthenticationResultsCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class FaceAuthenticationResultsViewV2 : UIKit.UIView, idenfyviews.FaceAuthenticationResultsViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.FaceAuthenticationResultsViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelFaceAuthenticationResultsCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelFaceAuthenticationResultsCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewFaceAuthenticationResultsCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonFaceAuthenticationResultsContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol IdenfyToobalV2WithLanguageSelectionButtonActionsDelegate : AnyObject {
+  func lanugageSelectionButtonPressed()
+  func backButtonPressed()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyToolbarV2WithLanguageSelection : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdenfyToobalV2WithLanguageSelectionButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var languageSelectionButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func configureBackButtonImage(_ image: UIKit.UIImage?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyManualReviewingStatusApprovedViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyManualReviewingStatusApprovedViewBackgroundColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusApprovedCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusApprovedCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusApprovedContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusApprovedCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusApprovedCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class InstructionAlertDialogV2 : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var timer: Foundation.Timer?
+  @_Concurrency.MainActor(unsafe) public var alertTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var instrutionVideoContainer: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyLoadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var instructionProgressView: UIKit.UIProgressView
+  @_Concurrency.MainActor(unsafe) public var instructionsDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var instructionsDetailsCard: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var instructionsDetailsCardQuestionMark: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var skipButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func playInstructions(_ step: Swift.String, _ selectedLocale: Swift.String?)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyIdentificationSuccessResultsViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyIdentificationSuccessResultsViewBackgroundColor: UIKit.UIColor
+  public static var idenfyIdentificationSuccessResultsViewTitleTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuccessResultsViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuccessResultsViewIdentifiedTitleTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuccessResultsViewTitleFont: UIKit.UIFont?
+  public static var idenfyIdentificationSuccessResultsViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyIdentificaionSuccessResultsViewIdentifiedTitleFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol QuestionnaireViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+}
+public protocol QuestionnaireViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.QuestionnaireViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Questionnaire { get }
+  var questionnaireTitle: UIKit.UILabel { get }
+  var questionnaireDescription: UIKit.UILabel { get }
+  var questionnaireSectionTitle: UIKit.UILabel { get }
+  var questionnaireSectionDescription: UIKit.UILabel { get }
+  var questionnaireTableViewHeader: UIKit.UIView { get }
+  var questionnaireTableView: UIKit.UITableView { get }
+  var questionnaireDisabledContinueButton: UIKit.UIButton { get }
+  var questionnaireContinueButton: UIKit.UIButton { get }
+  var questionnaireContinueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class QuestionnaireViewV2 : UIKit.UIView, idenfyviews.QuestionnaireViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.QuestionnaireViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Questionnaire
+  @_Concurrency.MainActor(unsafe) public var questionnaireTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionnaireDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionnaireSectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionnaireSectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionnaireTableViewHeader: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionnaireTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) public var questionnaireDisabledContinueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var questionnaireContinueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var questionnaireContinueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTableViewHeader()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @_Concurrency.MainActor(unsafe) open func setupQuestionnaireTableView()
+  @objc deinit
+}
+public struct ConstsIdenfyOtherResources {
+  public static let idenfy_custom_animation_nfc_screen_loading_indicator: Swift.String
+  public static let idenfy_custom_animation_nfc_reading_progress: Swift.String
+  public static let idenfy_custom_animation_nfc_reading_tutorial: Swift.String
+}
+public protocol TelQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var telInputView: UIKit.UITextField { get }
+  var errorMessage: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class TelQuestionCell : UIKit.UITableViewCell, idenfyviews.TelQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var telInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var errorMessage: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol ImageQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var imageUploadContainerView: UIKit.UIView { get }
+  var imagePlaceHolder: UIKit.UILabel { get }
+  var cancelButton: UIKit.UIButton { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ImageQuestionCell : UIKit.UITableViewCell, idenfyviews.ImageQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var imageUploadContainerView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var imageUploadButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var imagePlaceHolder: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol CountryQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var countryInputView: UIKit.UIView { get }
+  var countryUILabel: UIKit.UILabel { get }
+  var cancelButton: UIKit.UIButton { get }
+  var arrowIcon: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class CountryQuestionCell : UIKit.UITableViewCell, idenfyviews.CountryQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countryInputView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var countryUILabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var arrowIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyManualReviewingStatusWaitingViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyManualReviewingStatusWaitingViewBackgroundColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingCommonInformationTopDescriptionTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingTimerTitleTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStopWaitingButtonTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStepTitleColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingCompletedStepTitleColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStepViewHolderBackgroundColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStepViewHolderCompletedBackgroundColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStepViewHolderShadowColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusWaitingStepViewHolderShadowOpacity: Swift.Float
+  public static var idenfyManualReviewingStatusWaitingStepViewHolderShadowRadius: CoreGraphics.CGFloat
+  public static var idenfyManualReviewingStatusWaitingCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusWaitingCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusWaitingCommonInformationTimerFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusWaitingStepFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusWaitingCompletedStepFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusWaitingCommonInformationTopDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @IBDesignable @objc @_Concurrency.MainActor(unsafe) open class IdenfyRectangleViewV2 : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var idenfyPhotoResultBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var idenfyDocumentShapeRadius: CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) public var ratio: CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) public var isPreviewing: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var isRectangleVisibleInCamera: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var width: CoreGraphics.CGFloat?
+  @_Concurrency.MainActor(unsafe) public var height: CoreGraphics.CGFloat?
+  @_Concurrency.MainActor(unsafe) convenience public init(frame: CoreGraphics.CGRect, x: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) public func setIsPreviewing(_ isPreviewing: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol DocumentCameraViewableV2 : UIKit.UIView {
+  var photoImageView: UIKit.UIImageView { get }
+  var cameraView: UIKit.UIView { get }
+  var rectangleView: idenfyviews.IdenfyRectangleViewV2 { get }
+  var rectanglePathView: idenfyviews.IdenfyRectanglePathViewV2 { get }
+  var cameraSessionsButtons: idenfyviews.CameraSessionsButtonsViewableV2 { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DocumentCameraViewV2 : UIKit.UIView, idenfyviews.DocumentCameraViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var cameraView: UIKit.UIView {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var photoImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var rectangleView: idenfyviews.IdenfyRectangleViewV2
+  @_Concurrency.MainActor(unsafe) public var rectanglePathView: idenfyviews.IdenfyRectanglePathViewV2
+  @_Concurrency.MainActor(unsafe) public var cameraSessionsButtons: idenfyviews.CameraSessionsButtonsViewableV2
+  @objc deinit
+}
+public protocol IdenfyMrzNotFoundAlertButtonActionsDelegate : AnyObject {
+  func mrzAlertContinueButtonPressedAction()
+  func mrzAlertBackButtonPressedAction()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyMrzNotFoundAlert : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdenfyMrzNotFoundAlertButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var alertTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var alertDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyCameraPermissionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyCameraPermissionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraPermissionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyCameraPermissionViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyCameraPermissionViewGuidancePermissionTextColor: UIKit.UIColor
+  public static var idenfyCameraPermissionViewGoToSettingsButtonTextColor: UIKit.UIColor
+  public static var idenfyCameraPermissionViewTitleFont: UIKit.UIFont?
+  public static var idenfyCameraPermissionViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyCameraPermissionViewGuidanceDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct ConstsIdenfyUI {
+  public static let IDENFY_TOP_DRAWER_INSTRUCTIONS_HEIGHT: CoreGraphics.CGFloat
+}
+public protocol SelectQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var selectInputView: UIKit.UITextField { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class SelectQuestionCell : UIKit.UITableViewCell, idenfyviews.SelectQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var selectInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyInternetConnectionPopupViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var IdenfyInternetConnectionPopupViewBackgroundColor: UIKit.UIColor
+  public static var IdenfyInternetConnectionPopupViewTextViewColor: UIKit.UIColor
+  public static var IdenfyInternetConnectionPopupViewTitleFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ProviderSelectionViewableV2 : UIKit.UIView {
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var providerSelectionTitle: UIKit.UILabel { get }
+  var providerSelectionDescription: UIKit.UILabel { get }
+  var providerSearchBarLabel: UIKit.UILabel { get }
+  var providerSearchBar: UIKit.UISearchBar { get }
+  var providerTableView: UIKit.UITableView { get }
+  var searchBarMask: UIKit.UIView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ProviderSelectionViewV2 : UIKit.UIView, idenfyviews.ProviderSelectionViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var providerSelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerSelectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var searchIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var providerSearchBarLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerSearchBar: UIKit.UISearchBar
+  @_Concurrency.MainActor(unsafe) public var searchBarMask: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var providerTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupSearchBar()
+  @_Concurrency.MainActor(unsafe) open func setupProviderTableView()
+  @objc deinit
+}
+public protocol ProviderCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var providerLabel: UIKit.UILabel { get }
+  var hasBorder: Swift.Bool { get set }
+  var loadingSpinner: Lottie.LottieAnimationView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ProviderCell : UIKit.UITableViewCell, idenfyviews.ProviderCellViewable {
+  @_Concurrency.MainActor(unsafe) public var hasBorder: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var providerLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var loadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyProviderSelectionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyProviderSelectionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderSearchBarBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderSearchBarTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderSearchBarHintTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewBorderColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewCellBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewCellBorderColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewCellTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewCellHighlightedTextColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderTableViewCellHighlightedBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewProviderSearchBarBorderColor: UIKit.UIColor
+  public static var idenfyProviderSelectionViewTitleFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewSearchBarHintFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewSearchBarFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewProviderTableViewCellFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewProviderTableViewHighlightedCellFont: UIKit.UIFont?
+  public static var idenfyProviderSelectionViewProviderSearchBarBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyProviderSelectionViewProviderSearchBarCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyProviderSelectionViewProviderTableViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyProviderSelectionViewProviderTableViewCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyProviderSelectionViewProviderTableViewCellBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyProviderSelectionViewProviderTableViewCellHeight: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyNFCReadingViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyNFCReadingViewBackgroundColor: UIKit.UIColor
+  public static var idenfyNFCReadingCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyNFCReadingCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyMFACaptchaViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyMFACaptchaViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewTitleTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewInputViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewInputViewTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewInputBorderColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewInputFocusedBorderColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewInputViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyMFACaptchaViewTitleFont: UIKit.UIFont?
+  public static var idenfyMFACaptchaViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyMFACaptchaViewHintFont: UIKit.UIFont?
+  public static var idenfyMFACaptchaViewInputViewFont: UIKit.UIFont?
+  public static var idenfyMFACaptchaViewInputViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyMFACaptchaViewInputViewBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyDocumentSelectionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyDocumentSelectionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewBorderColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellBorderColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellHighlightedTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellHighlightedBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewContinueButtonDisabledTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewContinueButtonDisabledBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewContinueButtonEnabledTextColor: UIKit.UIColor
+  public static var idenfyDocumentSelectionViewTitleFont: UIKit.UIFont?
+  public static var idenfyDocumentSelectionViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyDocumentSelectionViewDocumentTypeFont: UIKit.UIFont?
+  public static var idenfyDocumentSelectionViewDocumentTypeHighlightedFont: UIKit.UIFont?
+  public static var idenfyDocumentSelectionViewDocumentTableViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyDocumentSelectionViewDocumentTableViewCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyDocumentSelectionViewDocumentTableViewCellHeight: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol UrlQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var urlInputView: UIKit.UITextField { get }
+  var errorMessage: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class UrlQuestionCell : UIKit.UITableViewCell, idenfyviews.UrlQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var urlInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var errorMessage: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public enum IdenfyLoadingHUDType : Swift.String {
+  case spinner
+  case spinnerWithTitle
+  case spinnerWithTitleAndDescription
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) open class IdenfyLoadingHUD : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var isVisible: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public init(_ loadingType: idenfyviews.IdenfyLoadingHUDType)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var foregroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var loadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelHUD: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelDescriptionHUD: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) open func setupConstraints(_ loadingType: idenfyviews.IdenfyLoadingHUDType)
+  @_Concurrency.MainActor(unsafe) open func setupView()
+  @_Concurrency.MainActor(unsafe) open func setupViewWithLabel()
+  @_Concurrency.MainActor(unsafe) open func setupViewWithLabelAndDescription()
+  @objc deinit
+}
+extension idenfyviews.IdenfyLoadingHUD {
+  @_Concurrency.MainActor(unsafe) public func showIn(_ view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func dismiss()
+}
+public protocol SelectMultiQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var uiSwitchStackView: UIKit.UIStackView { get }
+  var uiSwitchContentStackView: UIKit.UIStackView { get }
+  var uiSwitch: UIKit.UISwitch { get }
+  var uiSwitchDescription: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class SelectMultiQuestionCell : UIKit.UITableViewCell, idenfyviews.SelectMultiQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var uiSwitchStackView: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) public var uiSwitchContentStackView: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) public var uiSwitch: UIKit.UISwitch
+  @_Concurrency.MainActor(unsafe) public var uiSwitchDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyConfirmationViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyDocumentConfirmationViewBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDescriptionHighlightedTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewBeginIdentificationButtonTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDocumentStepTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDocumentStepTitleHighlightedTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewUploadDocumentPhotoTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDocumentStepCellNumberTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewDocumentStepCellTitleTextColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewContentMaskForegroundColor: UIKit.UIColor
+  public static var idenfyDocumentConfirmationViewUploadIconTintColor: UIKit.UIColor?
+  public static var idenfyDocumentConfirmationViewDocumentStepCircleTintColor: UIKit.UIColor?
+  public static var idenfyDocumentConfirmationViewTitleFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDescriptionHighlightedFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDocumentStepTitleFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewUploadTitleFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDocumentStepNumberFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDocumentStepFont: UIKit.UIFont?
+  public static var idenfyDocumentConfirmationViewDocumentStepCellHeight: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct ConstsIdenfyFonts {
+  public static let hkgrotesk_bold: Swift.String
+  public static let hkgrotesk_regular: Swift.String
+  public static let hkgrotesk_semibold: Swift.String
+  public static let idenfyFontBoldV2: Swift.String
+  public static let idenfyFontSemiBoldV2: Swift.String
+  public static let idenfyFontRegularV2: Swift.String
+}
+public protocol TextAreaQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var textAreaInputView: UIKit.UITextView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class TextAreaQuestionCell : UIKit.UITableViewCell, idenfyviews.TextAreaQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var textAreaInputView: UIKit.UITextView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol Modal {
+  func show(animated: Swift.Bool, viewController: UIKit.UIViewController)
+  func dismiss(animated: Swift.Bool)
+  var backgroundView: UIKit.UIView { get }
+  var dialogView: UIKit.UIView { get set }
+}
+extension idenfyviews.Modal where Self : UIKit.UIView {
+  public func show(animated: Swift.Bool, viewController: UIKit.UIViewController)
+  public func dismiss(animated: Swift.Bool)
+  public func showWithFade(_ viewController: UIKit.UIViewController)
+  public func showNoFade(_ viewController: UIKit.UIViewController)
+  public func dismissWithFade()
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyFaceCameraSessionUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyFaceCameraPreviewSessionBackgroundColor: UIKit.UIColor
+  public static var idenfyFaceCameraPreviewSessionTakePhotoButtonUnFocusedTintColor: UIKit.UIColor
+  public static var idenfyFaceCameraPreviewSessionTakePhotoButtonFocusedTintColor: UIKit.UIColor
+  public static var idenfyFaceCameraPreviewSessionTakePhotoButtonUnFocusedBackgroundColor: UIKit.UIColor
+  public static var idenfyFaceCameraPreviewSessionTakePhotoButtonFocusedBackgroundColor: UIKit.UIColor
+  public static var idenfyFaceCameraPreviewSessionFaceOvalColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionUploadPhotoButtonTintColor: UIKit.UIColor
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyCountrySelectionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyCountrySelectionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountrySearchBarBackgroundColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountrySearchBarTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountrySearchBarHintTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewBackgroundColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewBorderColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewCellBackgroundColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewCellBorderColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewCellTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewCellHighlightedTextColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountryTableViewCellHighlightedBackgroundColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewCountrySearchBarBorderColor: UIKit.UIColor
+  public static var idenfyCountrySelectionViewTitleFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewSearchBarHintFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewSearchBarFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewCountryTableViewCellFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewCountryTableViewHighlightedCellFont: UIKit.UIFont?
+  public static var idenfyCountrySelectionViewCountrySearchBarBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountrySearchBarCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountryTableViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountryTableViewCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountryFlagBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountryTableViewCellBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyCountrySelectionViewCountryTableViewCellHeight: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum CustomCameraSessionDrawerState {
+  case expanded
+  case collapsed
+  case hidden
+  public static func == (a: idenfyviews.CustomCameraSessionDrawerState, b: idenfyviews.CustomCameraSessionDrawerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class TakePhotoButtonV2 : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyStaticCameraOnBoardingViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyCameraOnBoardingViewBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingEnabledContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDisabledContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingDisabledContinueButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingViewProgressBarFillColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingViewProgressBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingInstructionDetailsTableViewCellTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingInstructionDetailsTitleTextColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingInstructionDetailsCellCircleTintColor: UIKit.UIColor
+  public static var idenfyCameraOnBoardingCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingInstructionDetailsTitleTextFont: UIKit.UIFont?
+  public static var idenfyCameraOnBoardingInstructionDetailsTableViewCellTextFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyManualReviewingStatusFailedViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyManualReviewingStatusFailedViewBackgroundColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusFailedCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusFailedCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusFailedCommonInformationDescriptionEmailTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusFailedContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyManualReviewingStatusFailedCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusFailedCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyManualReviewingStatusFailedCommonInformationDescriptionEmailFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyMFAGeneralViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyMFAGeneralViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewTitleTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewDescriptionHighlightedTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewInputViewHintTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewInputViewTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewInputBorderColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewInputFocusedBorderColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewInputViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyMFAGeneralViewTitleFont: UIKit.UIFont?
+  public static var idenfyMFAGeneralViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyMFAGeneralViewHintFont: UIKit.UIFont?
+  public static var idenfyMFAGeneralViewInputViewFont: UIKit.UIFont?
+  public static var idenfyMFAGeneralViewDescriptionHighlightedTextFont: UIKit.UIFont?
+  public static var idenfyMFAGeneralViewInputViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyMFAGeneralViewInputViewBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyQuestionnaireViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyQuestionnaireViewBackgroundColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewTitleTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewSectionTitleTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewSectionDescriptionTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewContinueButtonDisabledTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewContinueButtonDisabledBackgroundColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewContinueButtonEnabledTextColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTitleTextColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldTextColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldPlaceholderTextColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldBackgroundColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldBorderColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldHighlightedBorderColor: UIKit.UIColor
+  public static var idenfyTextQuestionCellViewTextFieldErrorBorderColor: UIKit.UIColor
+  public static var idenfyPasswordQuestionCellViewPasswordVisibilityIconTintColor: UIKit.UIColor
+  public static var idenfyCheckBoxQuestionCellViewUISwitchTintColor: UIKit.UIColor
+  public static var idenfyCheckBoxQuestionCellViewUISwitchDescriptionTextColor: UIKit.UIColor
+  public static var idenfyFileQuestionCellViewContainerBackgroundColor: UIKit.UIColor
+  public static var idenfyFileQuestionCellViewContainerBorderColor: CoreGraphics.CGColor
+  public static var idenfyFileQuestionCellViewUploadIconTintColor: UIKit.UIColor
+  public static var idenfyFileQuestionCellViewCancelIconTintColor: UIKit.UIColor
+  public static var idenfyFileQuestionCellViewFileDescriptionTextColor: UIKit.UIColor
+  public static var idenfyRadioQuestionCellViewRadioButtonTintColor: UIKit.UIColor
+  public static var idenfyRadioQuestionCellViewRadioButtonDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDateQuestionCellViewCancelButtonTintColor: UIKit.UIColor
+  public static var idenfyDateQuestionCellViewCalendarIconTintColor: UIKit.UIColor
+  public static var idenfyDateQuestionCellViewTimerIconTintColor: UIKit.UIColor
+  public static var idenfyCountryQuestionCellViewCountryLabelTextColor: UIKit.UIColor
+  public static var idenfyCountryQuestionCellViewCountryPlaceholderTextColor: UIKit.UIColor
+  public static var idenfyCountryQuestionCellViewCancelIconTintColor: UIKit.UIColor
+  public static var idenfyCountryQuestionCellViewArrowIconTintColor: UIKit.UIColor
+  public static var idenfyInputFieldErrorMessageTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireViewTitleFont: UIKit.UIFont?
+  public static var idenfyQuestionnaireViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyQuestionnaireViewSectionTitleFont: UIKit.UIFont?
+  public static var idenfyQuestionnaireViewSectionDescriptionFont: UIKit.UIFont?
+  public static var idenfyTextQuestionCellViewTitleFont: UIKit.UIFont?
+  public static var idenfyTextQuestionCellViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyTextQuestionCellTextFieldFont: UIKit.UIFont?
+  public static var idenfyCheckBoxQuestionCellViewUISwitchDescriptionFont: UIKit.UIFont?
+  public static var idenfyFileQuestionCellViewFileDescriptionFont: UIKit.UIFont?
+  public static var idenfyRadioQuestionCellViewRadioButtonDescriptionFont: UIKit.UIFont?
+  public static var idenfyCountryQuestionCellViewCountryLabelFont: UIKit.UIFont?
+  public static var idenfyInputFieldErrorMessageFont: UIKit.UIFont?
+  public static var idenfyTextQuestionCellViewTextFieldCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyTextQuestionCellViewTextFieldBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyFileQuestionCellViewContainerBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyFileQuestionCellViewContainerCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class InstructionVideo : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var playerLayer: AVFoundation.AVPlayerLayer?
+  @_Concurrency.MainActor(unsafe) public var player: AVFoundation.AVPlayer?
+  @_Concurrency.MainActor(unsafe) public var isLoop: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) public func configure(_ fileName: Swift.String, _ rect: CoreGraphics.CGRect, _ gravity: AVFoundation.AVLayerVideoGravity)
+  @objc @_Concurrency.MainActor(unsafe) public func play()
+  @objc @_Concurrency.MainActor(unsafe) public func pause()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func reachTheEndOfTheVideo(_: Foundation.Notification)
+  @objc @_Concurrency.MainActor(unsafe) public func reset()
+  @_Concurrency.MainActor(unsafe) public func removePlayerNotifications()
+  @objc deinit
+}
+public protocol SplashScreenV2Viewable : UIKit.UIView {
+  var splashScreenTitle: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class SplashScreenV2View : UIKit.UIView, idenfyviews.SplashScreenV2Viewable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyLogo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var backgroundGradient: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var splashScreenTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @objc @_Concurrency.MainActor(unsafe) open func setupViews()
+  @objc deinit
+}
+public protocol NFCReadingTimeOutViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol NFCReadingTimeOutViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.NFCReadingTimeOutViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelNFCReadingTimeOutCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonNFCReadingTimeOutContinue: UIKit.UIButton { get }
+  var idenfyUILabelNFCReadingTimeOutCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NFCReadingTimeOutViewV2 : UIKit.UIView, idenfyviews.NFCReadingTimeOutViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.NFCReadingTimeOutViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCReadingTimeOutCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCReadingTimeOutCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIViewCenterSpace: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewNFCReadingTimeOutCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonNFCReadingTimeOutContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol IssuedCountryViewButtonActionsDelegate : AnyObject {
+  func beginIdentificationButtonPressed()
+}
+public protocol IssuedCountryViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.IssuedCountryViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var countrySelectionTitle: UIKit.UILabel { get }
+  var countrySelectionDescription: UIKit.UILabel { get }
+  var countryLabel: UIKit.UILabel { get }
+  var countryImageView: UIKit.UIImageView { get }
+  var beginIdentificationButton: UIKit.UIButton { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IssuedCountryViewV2 : UIKit.UIView, idenfyviews.IssuedCountryViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IssuedCountryViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var countrySelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countrySelectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countryLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countryImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var countryView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var beginIdentificationButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func disableBeginIdentificationButton()
+  @_Concurrency.MainActor(unsafe) open func enableBeginIdentificationButton()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupBeginIdentificationButton()
+  @_Concurrency.MainActor(unsafe) open func setupIssuedCountryView()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol DateTimeQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var dateTimeInputView: UIKit.UITextField { get }
+  var cancelButton: UIKit.UIButton { get }
+  var calendarIcon: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DateTimeQuestionCell : UIKit.UITableViewCell, idenfyviews.DateTimeQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var dateTimeInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var calendarIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol IdentificationSuccessResultsViewableV2 : UIKit.UIView {
+  var toolbar: idenfyviews.IdenfyToolbarV2Default { get }
+  var successResultsTitle: UIKit.UILabel { get }
+  var successResultsDescription: UIKit.UILabel { get }
+  var successResultsCenterLabel: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdentificationSuccessResultsViewV2 : UIKit.UIView, idenfyviews.IdentificationSuccessResultsViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var successResultsTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var successResultsDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var successResultsImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var successResultsCenterLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTitle()
+  @objc deinit
+}
+public protocol EmailQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var emailInputView: UIKit.UITextField { get }
+  var errorMessage: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class EmailQuestionCell : UIKit.UITableViewCell, idenfyviews.EmailQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var emailInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var errorMessage: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class FaceTecSuccessIndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) convenience public init(color: UIKit.UIColor)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyToolbarV2Questionnaire : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.BackButtonPressedDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var questionnaireSectionNumbers: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func configureBackButtonImage(_ image: UIKit.UIImage?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyIdentificationSuspectedResultsViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyIdentificationSuspectedResultsViewBackgroundColor: UIKit.UIColor
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationDescriptionEmailTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuspectedResultsViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyIdentificationSuspectedResultsViewCommonInformationDescriptionEmailFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyPhotoResultViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyPhotoResultViewBackgroundColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewTitleTextColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewRetakePhotoButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewRetakePhotoButtonTextColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewRetakePhotoButtonBorderColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewPhotoBorderColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewDetailsCardBackgroundColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewDetailsCardTitleColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewTitleColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewPoweredByIdenfyTitleColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewAutoCaptureFailureCardImageColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewAutoCaptureFailureCardTitleColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewAutoCaptureFailureCardBackgroundColor: UIKit.UIColor
+  public static var idenfyPhotoResultViewTitleFont: UIKit.UIFont?
+  public static var idenfyPhotoResultViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyPhotoResultViewDetailsCardTitleFont: UIKit.UIFont?
+  public static var idenfyPhotoResultViewPoweredByIdenfyTitleFont: UIKit.UIFont?
+  public static var idenfyPhotoResultViewPhotoBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyPhotoResultViewPhotoCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyPhotoResultViewDetailsCardCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct IdenfyCommonColors {
+  public static var idenfyWhite: UIKit.UIColor
+  public static var idenfyBlack: UIKit.UIColor
+  public static var idenfyDrawerBackgroundColor: UIKit.UIColor
+  public static var idenfyBackgroundColorV2: UIKit.UIColor
+  public static var idenfyMainColorV2: UIKit.UIColor
+  public static var idenfyMainDarkerColorV2: UIKit.UIColor
+  public static var idenfySecondColorV2: UIKit.UIColor
+  public static var idenfyStepSuccessColorV2: UIKit.UIColor
+  public static var idenfyStepErrorColorV2: UIKit.UIColor
+  public static var idenfyLogoTintColorV2: UIKit.UIColor
+  public static var idenfyTakePhotoButtonBackgroundFocused: UIKit.UIColor
+  public static var idenfyTakePhotoButtonIconUnFocused: UIKit.UIColor
+  public static var idenfyResultsViewSuccessStepTextColorV2: UIKit.UIColor
+  public static var idenfyResultsViewErrorStepTextColorV2: UIKit.UIColor
+  public static var idenfyGradientColor1V2: UIKit.UIColor
+  public static var idenfyGradientColor2V2: UIKit.UIColor
+  public static var idenfyPhotoResultDetailsCardBackgroundColorV2: UIKit.UIColor
+  public static var idenfyFaceDetectedColor: UIKit.UIColor
+  public static var idenfyFaceNotDetectedColor: UIKit.UIColor
+  public static var idenfyDarkRedErrorColorV2: UIKit.UIColor
+  public static var idenfyRedColorV2: UIKit.UIColor
+  public static var idenfyErrorLightRedColorV2: UIKit.UIColor
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyFaceOvalV2 : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open var ovalTintColor: CoreGraphics.CGColor
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) open func drawRingFittingInsideView(rect: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol CameraSessionDrawerDelegate : AnyObject {
+  func expandDrawerAction()
+  func collapseDrawerAction()
+  func previousInstructionButtonPressedAction()
+  func nextInstructionButtonPressedAction()
+  func backButtonPressedAction()
+  func toggleFlashButtonPressedAction()
+  func instructionDialogButtonPressedAction()
+}
+public protocol DrawerContentViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.CameraSessionDrawerDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2CameraSession { get }
+  var descriptionLabelV2: UIKit.UILabel { get }
+  var scrollView: UIKit.UIScrollView { get }
+  var titleText: UIKit.UILabel { get }
+  var infoLabel: UIKit.UILabel { get }
+  var descriptionText: UIKit.UILabel { get }
+  var bottomControls: UIKit.UIStackView! { get }
+  var pageControl: UIKit.UIPageControl { get }
+  var expandButton: UIKit.UIButton { get }
+  var nextButton: UIKit.UIButton { get }
+  var prevButton: UIKit.UIButton { get }
+  var backImageView: UIKit.UIImageView { get }
+  var faceDetectionAlertImage: UIKit.UIImageView { get }
+  func setupSlideScrollViewV2(slides: [idenfyviews.InstructionVideo]?, scrollWidth: CoreGraphics.CGFloat?)
+  func handleExpandedView(_ cameraSessionInstructions: idenfycore.IdenfyInstructionsEnum)
+  func handleCollapsedView(_ cameraSessionInstructions: idenfycore.IdenfyInstructionsEnum)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DrawerContentViewV2 : UIKit.UIView, idenfyviews.DrawerContentViewableV2 {
+  @_Concurrency.MainActor(unsafe) public var bottomControls: UIKit.UIStackView!
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIStackView?
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.CameraSessionDrawerDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2CameraSession
+  @_Concurrency.MainActor(unsafe) public var descriptionLabelV2: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var drawerView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var scrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) public var titleText: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var infoLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var descriptionText: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var pageControl: UIKit.UIPageControl
+  @_Concurrency.MainActor(unsafe) public var expandButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var nextButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var prevButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var backTextView: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var backImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var faceDetectionAlertImage: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setupSlideScrollViewV2(slides: [idenfyviews.InstructionVideo]?, scrollWidth: CoreGraphics.CGFloat?)
+  @_Concurrency.MainActor(unsafe) open func handleCollapsedView(_ cameraSessionInstructions: idenfycore.IdenfyInstructionsEnum)
+  @_Concurrency.MainActor(unsafe) open func handleExpandedView(_ cameraSessionInstructions: idenfycore.IdenfyInstructionsEnum)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyPrivacyPolicyViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyPrivacyPolicyViewBackgroundColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyAgreeButtonTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeButtonTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeButtonBorderColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogViewBackgroundColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogAgreeButtonTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogCancelButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogCancelButtonTextColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyDisagreeDialogCancelButtonBorderColor: UIKit.UIColor
+  public static var idenfyPrivacyPolicyCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyPrivacyPolicyViewDisagreeButtonBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyPrivacyPolicyDisagreeDialogCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyPrivacyPolicyDisagreeDialogCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyPrivacyPolicyViewCancelButtonBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyDocNotFoundAlertUISettigsV2 : ObjectiveC.NSObject {
+  public static var idenfyDocNotFoundAlertViewBackgroundColor: UIKit.UIColor
+  public static var idenfyDocNotFoundAlertCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyDocNotFoundAlertCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDocNotFoundAlertContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyDocNotFoundAlertDescriptionHighlightedTextColor: UIKit.UIColor
+  public static var idenfyDocNotFoundAlertCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyDocNotFoundAlertCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyDocNotFoundAlertDescriptionHighlightedFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol RadioQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var radioStackView: UIKit.UIStackView { get }
+  var radioContentStackView: UIKit.UIStackView { get }
+  var radioButton: idenfyviews.IdenfyRadioButton { get }
+  var radioDescription: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class RadioQuestionCell : UIKit.UITableViewCell, idenfyviews.RadioQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var radioStackView: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) public var radioContentStackView: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) public var radioButton: idenfyviews.IdenfyRadioButton
+  @_Concurrency.MainActor(unsafe) public var radioDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyRadioButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol BackButtonPressedDelegate : AnyObject {
+  func backButtonPressed()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyToolbarV2Default : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.BackButtonPressedDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func configureBackButtonImage(_ image: UIKit.UIImage?)
+  @objc deinit
+}
+public protocol CameraPermissionViewButtonActionsDelegate : AnyObject {
+  func goToSettingsButtonPressed()
+}
+public protocol CameraPermissionViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.CameraPermissionViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2Default { get }
+  var cameraPermissionTitle: UIKit.UILabel { get }
+  var cameraPermissionDescription: UIKit.UILabel { get }
+  var cameraPermissionGuidanceDescription: UIKit.UILabel { get }
+  var cameraPermissionGoToSettingsButton: UIKit.UIButton { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class CameraPermissionViewV2 : UIKit.UIView, idenfyviews.CameraPermissionViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.CameraPermissionViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var cameraPermissionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var cameraPermissionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var cameraPermissionImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var cameraPermissionGuidanceDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var cameraPermissionGoToSettingsButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTitle()
+  @_Concurrency.MainActor(unsafe) open func setupGoToSettingsButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol ManualReviewingStatusApprovedViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol ManualReviewingStatusApprovedViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.ManualReviewingStatusApprovedViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelManualReviewingStatusApprovedCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonManualReviewingStatusApprovedContinue: UIKit.UIButton { get }
+  var idenfyUILabelManualReviewingStatusApprovedCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ManualReviewingStatusApprovedViewV2 : UIKit.UIView, idenfyviews.ManualReviewingStatusApprovedViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.ManualReviewingStatusApprovedViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusApprovedCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusApprovedCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewManualReviewingStatusApprovedCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonManualReviewingStatusApprovedContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CropView : UIKit.UIView {
+  @objc override dynamic public func awakeFromNib()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LineButton : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isHighlighted: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @objc deinit
+}
+public struct ConstsIdenfyImages {
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyIdentificationResultsViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyIdentificationResultsViewBackgroundColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewTitleTextColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewDocumentStepTitleTextColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewDocumentStepLoadingSpinnerAccentColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewRetakeButtonTextColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewContentMaskForegroundColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewSuccessStepTextColor: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewErrorStepTextColorV2: UIKit.UIColor
+  public static var idenfyIdentificationResultsViewTitleFont: UIKit.UIFont?
+  public static var idenfyIdentificationResultsViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyIdentificationResultsViewDocumentStepTitleFont: UIKit.UIFont?
+  public static var idenfyIdentificationResultsViewDocumentStepHighlightedTitleFont: UIKit.UIFont?
+  public static var idenfyIdentificationResultsViewDocumentStepLoadingSpinnerAnimationDuration: Swift.Double
+  public static var idenfyIdentificationResultsViewDocumentStepLoadingSpinnerRadius: CoreGraphics.CGFloat
+  public static var idenfyIdentificationResultsViewDocumentStepLoadingSpinnerNumberOfPulses: Swift.Int
+  public static var idenfyIdentificationResultsDividerIconStatusLoadingTintColor: UIKit.UIColor?
+  public static var idenfyIdentificationResultsDividerIconStatusErrorTintColor: UIKit.UIColor?
+  public static var idenfyIdentificationResultsDividerIconStatusSuccessTintColor: UIKit.UIColor?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol FileResultViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.FileResultViewV2ButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2CameraSession { get }
+  var continueButton: UIKit.UIButton { get }
+  var chooseAnotherFileButton: UIKit.UIButton { get }
+  var fileResultImageView: UIKit.UIImageView { get }
+  func applyGradients()
+}
+public protocol CameraSessionsButtonActionsDelegate : AnyObject {
+  func takePhotoButtonPressedAction()
+  func uploadPhotoButtonPressedAction()
+  func switchLensButtonPressedAction()
+}
+public protocol CameraSessionsButtonsViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.CameraSessionsButtonActionsDelegate? { get set }
+  var idenfySwitchLensButton: UIKit.UIButton { get }
+  var idenfyUploadPhotoButton: UIKit.UIButton { get }
+  var takePhotoButton: idenfyviews.TakePhotoButtonV2 { get }
+  var idenfyMakePhotoBackground: UIKit.UIImageView { get }
+  var idenfyUIViewContainerOfButtons: UIKit.UIView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class CameraSessionsButtonsViewV2 : UIKit.UIView, idenfyviews.CameraSessionsButtonsViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.CameraSessionsButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required convenience dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyMakePhotoBackground: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfySwitchLensButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var idenfyUploadPhotoButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var takePhotoButton: idenfyviews.TakePhotoButtonV2
+  @_Concurrency.MainActor(unsafe) public var containerViewForActionButtons: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var containerViewForSwitchLensButton: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIViewContainerOfButtons: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupTakePhotoButton()
+  @_Concurrency.MainActor(unsafe) open func setupTakePhotoContainerView()
+  @_Concurrency.MainActor(unsafe) open func setupUploadPhotoImageView()
+  @_Concurrency.MainActor(unsafe) open func setupUIViewContainerOfButtons()
+  @objc deinit
+}
+public protocol CropPickerViewDelegate : AnyObject {
+  func cropPickerView(_ cropPickerView: idenfyviews.CropPickerView, image: UIKit.UIImage)
+  func cropPickerView(_ cropPickerView: idenfyviews.CropPickerView, error: Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class CropPickerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: idenfyviews.CropPickerViewDelegate?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var image: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var changeImage: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cropLineColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cropCornerColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var scrollBackgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var imageBackgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var dimBackgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var scrollMinimumZoomScale: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var scrollMaximumZoomScale: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var isCrop: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var cropView: idenfyviews.CropView {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var leftTopButton: idenfyviews.LineButton {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var leftBottomButton: idenfyviews.LineButton {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var rightTopButton: idenfyviews.LineButton {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var rightBottomButton: idenfyviews.LineButton {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func getRectangleCorners() -> [idenfyviews.LineButton]
+  @_Concurrency.MainActor(unsafe) public var cropLeadingConstraint: UIKit.NSLayoutConstraint?
+  @_Concurrency.MainActor(unsafe) public var cropTrailingConstraint: UIKit.NSLayoutConstraint?
+  @_Concurrency.MainActor(unsafe) public var cropTopConstraint: UIKit.NSLayoutConstraint?
+  @_Concurrency.MainActor(unsafe) public var cropBottomConstraint: UIKit.NSLayoutConstraint?
+  @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func crop(_ handler: ((Swift.Error?, UIKit.UIImage?) -> Swift.Void)? = nil)
+  @objc deinit
+}
+extension idenfyviews.CropPickerView {
+  @_Concurrency.MainActor(unsafe) public func hideRectangle(_ duration: Foundation.TimeInterval = 0.4, animated: Swift.Bool)
+}
+extension idenfyviews.CropPickerView {
+  @_Concurrency.MainActor(unsafe) public func dimLayerMask(_ duration: Foundation.TimeInterval = 0.4, animated: Swift.Bool)
+}
+extension idenfyviews.CropPickerView : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDragging(_: UIKit.UIScrollView, willDecelerate _: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewWillBeginDragging(_: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewWillBeginZooming(_: UIKit.UIScrollView, with _: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndZooming(_: UIKit.UIScrollView, with _: UIKit.UIView?, atScale _: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func viewForZooming(in _: UIKit.UIScrollView) -> UIKit.UIView?
+}
+public protocol UploadPhotoButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+  func chooseAnotherPhotoButtonPressedAction()
+}
+public protocol UploadPhotoViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.UploadPhotoButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2CameraSession { get }
+  var uploadTitle: UIKit.UILabel { get }
+  var uploadDescription: UIKit.UILabel { get }
+  var cropperView: idenfyviews.CropPickerView { get }
+  var continueButton: UIKit.UIButton { get }
+  var chooseAnotherPhotoButton: UIKit.UIButton { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class UploadPhotoViewV2 : UIKit.UIView, idenfyviews.UploadPhotoViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.UploadPhotoButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2CameraSession
+  @_Concurrency.MainActor(unsafe) public var uploadTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var uploadDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var cropperView: idenfyviews.CropPickerView
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var chooseAnotherPhotoButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupButtons()
+  @_Concurrency.MainActor(unsafe) open func setupCropperView()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol NFCRequiredViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol NFCRequiredViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.NFCRequiredViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelNFCRequiredCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonNFCRequiredContinue: UIKit.UIButton { get }
+  var idenfyUILabelNFCRequiredCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NFCRequiredViewV2 : UIKit.UIView, idenfyviews.NFCRequiredViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.NFCRequiredViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCRequiredCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCRequiredCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIViewCenterSpace: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewNFCRequiredCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonNFCRequiredContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol NFCReadingViewableV2 : UIKit.UIView {
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelNFCReadingCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIImageViewNFCReadingCommonInformationIcon: UIKit.UIImageView { get }
+  var idenfyUILabelNFCReadingCommonInformationDescription: UIKit.UILabel { get }
+  var idenfyNFCReadingAnimation: Lottie.LottieAnimationView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class NFCReadingViewV2 : UIKit.UIView, idenfyviews.NFCReadingViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCReadingCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelNFCReadingCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewNFCReadingCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyNFCReadingAnimation: Lottie.LottieAnimationView
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupLoadingSpiner()
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var safeTopAnchor: UIKit.NSLayoutYAxisAnchor {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var safeLeftAnchor: UIKit.NSLayoutXAxisAnchor {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var safeRightAnchor: UIKit.NSLayoutXAxisAnchor {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var safeBottomAnchor: UIKit.NSLayoutYAxisAnchor {
+    get
+  }
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public func setImageWithTint(tintColor: UIKit.UIColor?, uiImage: UIKit.UIImage, uiState: UIKit.UIControl.State = .normal)
+}
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor(unsafe) public var topViewController: UIKit.UIViewController? {
+    get
+  }
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public func applyButtonGradient(colors: [CoreGraphics.CGColor])
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func applyGradient(colors: [CoreGraphics.CGColor])
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyFaceAuthenticationResultsViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyFaceAuthenticationResultsViewBackgroundColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationResultsViewCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationResultsViewCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationResultsViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyFaceAuthenticationResultsViewCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyFaceAuthenticationResultsViewCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol FloatQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var floatInputView: UIKit.UITextField { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class FloatQuestionCell : UIKit.UITableViewCell, idenfyviews.FloatQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var floatInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol IdentificationSuspectedResultsViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol IdentificationSuspectedResultsViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.IdentificationSuspectedResultsViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelIdentificationSuspectedResultsCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonIdentificationSuspectedResultsContinue: UIKit.UIButton { get }
+  var idenfyUILabelIdentificationSuspectedResultsCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdentificationSuspectedResultsViewV2 : UIKit.UIView, idenfyviews.IdentificationSuspectedResultsViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: idenfyviews.IdentificationSuspectedResultsViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelIdentificationSuspectedResultsCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelIdentificationSuspectedResultsCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewIdentificationSuspectedResultsCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonIdentificationSuspectedResultsContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyToolbarUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyDefaultToolbarBackgroundColor: UIKit.UIColor
+  public static var idenfyDefaultToolbarShadowColor: UIKit.UIColor
+  public static var idenfyDefaultToolbarShadowOpacity: Swift.Float
+  public static var idenfyDefaultToolbarShadowRadius: CoreGraphics.CGFloat
+  public static var idenfyLogoHeight: Swift.Double
+  public static var idenfyLogoWidth: Swift.Double
+  public static var idenfyDefaultToolbarBackIconTintColor: UIKit.UIColor?
+  public static var idenfyDefaultToolbarLogoIconTintColor: UIKit.UIColor?
+  public static var idenfyQuestionnaireToolbarSectionNumbersTextColor: UIKit.UIColor
+  public static var idenfyQuestionnaireToolbarSectionNumbersFont: UIKit.UIFont?
+  public static var idenfyCameraPreviewSessionToolbarBackgroundColor: UIKit.UIColor
+  public static var idenfyCameraPreviewSessionToolbarBackIconTintColor: UIKit.UIColor?
+  public static var idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor: UIKit.UIColor?
+  public static var idenfyLanguageSelectionToolbarCloseIconTintColor: UIKit.UIColor?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol PrivacyPolicyViewButtonActionsDelegate : AnyObject {
+  func agreeButtonPressed()
+  func disagreeButtonPressed()
+}
+public protocol PrivacyPolicyViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.PrivacyPolicyViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var privacyPolicyTitle: UIKit.UILabel { get }
+  var privacyPolicyWebViewLoadingSpinner: Lottie.LottieAnimationView { get }
+  var privacyPolicyWebView: UIKit.UIWebView { get }
+  var privacyPolicyAgreeButton: UIKit.UIButton { get }
+  var privacyPolicyDisagreeButton: UIKit.UIButton { get }
+  var loadingSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class PrivacyPolicyViewV2 : UIKit.UIView, idenfyviews.PrivacyPolicyViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.PrivacyPolicyViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyWebViewLoadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyWebView: UIKit.UIWebView
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyAgreeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyDisagreeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var loadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupCenterView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol DocumentSelectionViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+}
+public protocol DocumentSelectionViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.DocumentSelectionViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var documentSelectionTitle: UIKit.UILabel { get }
+  var documentSelectionDescription: UIKit.UILabel { get }
+  var documentTableView: UIKit.UITableView { get }
+  var continueEnabledButton: UIKit.UIButton? { get }
+  var continueDisabledButton: UIKit.UIButton? { get }
+  var continueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DocumentSelectionViewV2 : UIKit.UIView, idenfyviews.DocumentSelectionViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.DocumentSelectionViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var documentSelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentSelectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var emptyArea: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var documentTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) public var continueDisabledButton: UIKit.UIButton?
+  @_Concurrency.MainActor(unsafe) public var continueEnabledButton: UIKit.UIButton?
+  @_Concurrency.MainActor(unsafe) public var continueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func setupDocumentTableView()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyNFCReadingTimeOutViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyNFCReadingTimeOutViewBackgroundColor: UIKit.UIColor
+  public static var idenfyNFCReadingTimeOutCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingTimeOutCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingTimeOutContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyNFCReadingTimeOutCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyNFCRReadingTimeOutCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol PasswordQuestionCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var questionTitle: UIKit.UILabel { get }
+  var questionDescription: UIKit.UILabel { get }
+  var passwordInputView: UIKit.UITextField { get }
+  var passwordVisibilityButton: UIKit.UIButton { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class PasswordQuestionCell : UIKit.UITableViewCell, idenfyviews.PasswordQuestionCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var questionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var questionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var passwordInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var passwordVisibilityButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol MFAGeneralViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+}
+public protocol MFAGeneralViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.MFAGeneralViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var mfaGeneralTitle: UIKit.UILabel { get }
+  var mfaGeneralDescription: UIKit.UILabel { get }
+  var mfaGeneralHintLabel: UIKit.UILabel { get }
+  var mfaGeneralInputView: UIKit.UITextField { get }
+  var mfaContinueButton: UIKit.UIButton { get }
+  var mfaExternalPhoneImageView: UIKit.UIImageView { get }
+  var continueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class MFAGeneralViewV2 : UIKit.UIView, idenfyviews.MFAGeneralViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.MFAGeneralViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var mfaGeneralTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaGeneralDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaGeneralHintLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaGeneralInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var mfaExternalPhoneImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var mfaContinueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var continueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTextFields()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol MFAMethodSelectionViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+}
+public protocol MFAMethodSelectionViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.MFAMethodSelectionViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var mfaMethodSelectionTitle: UIKit.UILabel { get }
+  var mfaMethodSelectionDescription: UIKit.UILabel { get }
+  var mfaMethodSelectionHintLabel: UIKit.UILabel { get }
+  var mfaMethodSelectionInputView: UIKit.UITextField { get }
+  var mfaContinueButton: UIKit.UIButton { get }
+  var continueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class MFAMethodSelectionViewV2 : UIKit.UIView, idenfyviews.MFAMethodSelectionViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.MFAMethodSelectionViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var mfaMethodSelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaMethodSelectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaMethodSelectionHintLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaMethodSelectionInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var mfaContinueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var continueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTextFields()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@objc public enum IdenfyCameraViewType : Swift.Int {
+  case withRectangle
+  case withoutRectangle
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol PdfResultViewableV2 : idenfyviews.FileResultViewableV2 {
+  var pdfResultTitle: UIKit.UILabel { get }
+  var pdfResultDetailsCard: UIKit.UIView { get }
+  var pdfResultDetailsCardTitle: UIKit.UILabel { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class PdfResultViewV2 : UIKit.UIView, idenfyviews.PdfResultViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.FileResultViewV2ButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc required override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2CameraSession
+  @_Concurrency.MainActor(unsafe) public var pdfResultTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var pdfResultDetailsCard: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var pdfResultDetailsCardQuestionMark: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var pdfResultDetailsCardTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var fileResultImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var chooseAnotherFileButton: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol IdenfyCameraOnBoardingToolbarV2ButtonActionsDelegate : AnyObject {
+  func lanugageSelectionButtonPressed()
+  func backButtonPressed()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyCameraOnBoardingToolbarV2 : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdenfyCameraOnBoardingToolbarV2ButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var languageSelectionButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func configureBackButtonImage(_ image: UIKit.UIImage?)
+  @objc deinit
+}
+public protocol IdenfyDocNotFoundAlertButtonActionsDelegate : AnyObject {
+  func docAlertContinueButtonPressedAction()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyDocNotFoundAlert : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.IdenfyDocNotFoundAlertButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var alertTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var alertDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol LanguageSelectionViewableV2 : UIKit.UIView {
+  var toolbar: idenfyviews.IdenfyToolbarV2CloseButton { get }
+  var languageSelectionTitle: UIKit.UILabel { get }
+  var languageTableView: UIKit.UITableView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class LanguageSelectionViewV2 : UIKit.UIView, idenfyviews.LanguageSelectionViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2CloseButton
+  @_Concurrency.MainActor(unsafe) public var languageSelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var languageTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCountryTableView()
+  @objc deinit
+}
+public protocol LanguageCellViewable : UIKit.UITableViewCell {
+  var languageLabel: UIKit.UILabel { get }
+  var languageSelectedTick: UIKit.UIImageView { get }
+  var hasBorder: Swift.Bool { get set }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class LanguageCell : UIKit.UITableViewCell, idenfyviews.LanguageCellViewable {
+  @_Concurrency.MainActor(unsafe) public var hasBorder: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var languageLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var languageSelectedTick: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyAdditionalSupportViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyAdditionalSupportViewBackgroundColor: UIKit.UIColor
+  public static var idenfyAdditionalSupportViewCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyAdditionalSupportViewCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyAdditionalSupportViewCommonInformationDescriptionEmailTextColor: UIKit.UIColor
+  public static var idenfyAdditionalSupportViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyAdditionalSupportViewCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyAdditionalSupportViewCommonInformationDescriptionFont: UIKit.UIFont?
+  public static var idenfyAdditionalSupportViewCommonInformationDescriptionEmailFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol PrivacyPolicyDisagreeAlertDialogButtonDelegate : AnyObject {
+  func cancelButtonPressed()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class PrivacyPolicyDisagreeAlertDialogV2 : UIKit.UIView, idenfyviews.Modal {
+  @_Concurrency.MainActor(unsafe) public var backgroundView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var dialogView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) weak public var dialogButtonDelegate: idenfyviews.PrivacyPolicyDisagreeAlertDialogButtonDelegate?
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var privacyPolicyDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var warningImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var agreeButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var cancelButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol MFACaptchaViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+}
+public protocol MFACaptchaViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.MFACaptchaViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var mfaCaptchaTitle: UIKit.UILabel { get }
+  var mfaCaptchaDescription: UIKit.UILabel { get }
+  var mfaCaptchaHintLabel: UIKit.UILabel { get }
+  var mfaCaptchaInputView: UIKit.UITextField { get }
+  var mfaContinueButton: UIKit.UIButton { get }
+  var mfaCaptchaImageView: UIKit.UIImageView { get }
+  var continueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class MFACaptchaViewV2 : UIKit.UIView, idenfyviews.MFACaptchaViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.MFACaptchaViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var mfaCaptchaTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaCaptchaDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaCaptchaHintLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var mfaCaptchaInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var mfaCaptchaImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var mfaContinueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var continueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTextFields()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyMrzNotFoundAlertUISettigsV2 : ObjectiveC.NSObject {
+  public static var idenfyMrzNotFoundAlertViewBackgroundColor: UIKit.UIColor
+  public static var idenfyMrzNotFoundAlertCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyMrzNotFoundAlertCommonInformationDescriptionTextColor: UIKit.UIColor
+  public static var idenfyMrzNotFoundAlertContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyMrzNotFoundAlertRetakePhotoButtonTextColor: UIKit.UIColor
+  public static var idenfyMrzNotFoundAlertCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyMrzNotFoundAlertCommonInformationDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyIssuedCountryViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyIssuedCountryViewBackgroundColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewTitleTextColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewCountryViewBackgroundColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewCountryLabelTextColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewCountryViewBorderColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewBeginIdentificationButtonTextColor: UIKit.UIColor
+  public static var idenfyIssuedCountryViewTitleFont: UIKit.UIFont?
+  public static var idenfyIssuedCountryViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyIssuedCountryViewCountryLabelFont: UIKit.UIFont?
+  public static var idenfyIssuedCountryViewCountryViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyIssuedCountryViewCountryViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyIssuedCountryViewCountryFlagBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyDocumentCameraSessionUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyDocumentCameraPreviewSessionBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionBottomActionButtonsViewBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionTakePhotoButtonUnFocusedTintColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionTakePhotoButtonFocusedTintColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionTakePhotoButtonUnFocusedBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionTakePhotoButtonFocusedBackgroundColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionUploadPhotoButtonTintColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionToggleFlashButtonTintColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessionSwitchLensButtonTintColor: UIKit.UIColor
+  public static var idenfyDocumentCameraPreviewSessioninstructionDialogButtonTintColor: UIKit.UIColor
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol CountrySelectionViewableV2 : UIKit.UIView {
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var countrySelectionTitle: UIKit.UILabel { get }
+  var countrySelectionDescription: UIKit.UILabel { get }
+  var countrySearchBarLabel: UIKit.UILabel { get }
+  var countrySearchBar: UIKit.UISearchBar { get }
+  var countryTableView: UIKit.UITableView { get }
+  var searchBarMask: UIKit.UIView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class CountrySelectionViewV2 : UIKit.UIView, idenfyviews.CountrySelectionViewableV2 {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var countrySelectionTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countrySelectionDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var searchIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var countrySearchBarLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var countrySearchBar: UIKit.UISearchBar
+  @_Concurrency.MainActor(unsafe) public var searchBarMask: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var countryTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupSearchBar()
+  @_Concurrency.MainActor(unsafe) open func setupCountryTableView()
+  @objc deinit
+}
+public protocol CountryCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var countryLabel: UIKit.UILabel { get }
+  var countryImageView: UIKit.UIImageView { get }
+  var hasBorder: Swift.Bool { get set }
+  var loadingSpinner: Lottie.LottieAnimationView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class CountryCell : UIKit.UITableViewCell, idenfyviews.CountryCellViewable {
+  @_Concurrency.MainActor(unsafe) public var hasBorder: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var countryLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var loadingSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var countryImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol ProviderLogingViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressed()
+  func providerPasswordVisibilityButtonPressed()
+}
+public protocol ProviderLoginViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.ProviderLogingViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection { get }
+  var providerLoginTitle: UIKit.UILabel { get }
+  var providerLoginDescription: UIKit.UILabel { get }
+  var providerUsernameHintLabel: UIKit.UILabel { get }
+  var providerPasswordHintLabel: UIKit.UILabel { get }
+  var providerUsernameInputView: UIKit.UITextField { get }
+  var providerPasswordInputView: UIKit.UITextField { get }
+  var providerPasswordVisibilityButton: UIKit.UIButton { get }
+  var continueButton: UIKit.UIButton { get }
+  var continueButtonSpinner: Lottie.LottieAnimationView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ProviderLogingViewV2 : UIKit.UIView, idenfyviews.ProviderLoginViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.ProviderLogingViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2WithLanguageSelection
+  @_Concurrency.MainActor(unsafe) public var providerLoginTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerLoginDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerUsernameHintLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerPasswordHintLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var providerUsernameInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var providerUsernameIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var providerPasswordInputView: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public var providerPasswordIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var providerPasswordVisibilityButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var continueButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var continueButtonSpinner: Lottie.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func setupCenterTextFields()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol StaticCameraOnBoardingViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol StaticCameraOnBoardingViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.StaticCameraOnBoardingViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyCameraOnBoardingToolbarV2 { get }
+  var idenfyUILabelCameraOnBoardingCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUILabelCameraOnBoardingCommonInformationDescription: UIKit.UILabel { get }
+  var idenfyUIImageViewCameraOnBoardingCommonInformationIcon: UIKit.UIImageView { get }
+  var idenfyUIDisabledButtonCameraOnBoardingContinue: UIKit.UIButton { get }
+  var idenfyUIEnabledButtonCameraOnBoardingContinue: UIKit.UIButton { get }
+  var instrutionCameraOnBoardingVideoContainer: UIKit.UIView { get }
+  var instructionCameraOnBoardingProgressView: UIKit.UIProgressView { get }
+  var idenfyLoadingSpinner: Lottie.LottieAnimationView { get }
+  var instructionDescriptionsTableView: UIKit.UITableView { get }
+  var idenfyUILabelinstructionDescriptionsTitle: UIKit.UILabel { get }
+  var shouldInstructionsBePlayed: Swift.Bool! { get set }
+  var documentTypeData: idenfycore.DocumentTypeData! { get set }
+  var currentStep: idenfycore.Step! { get set }
+  func playInstructions() -> idenfyviews.InstructionVideo
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class StaticCameraOnBoardingViewV2 : UIKit.UIView, idenfyviews.StaticCameraOnBoardingViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.StaticCameraOnBoardingViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var documentTypeData: idenfycore.DocumentTypeData!
+  @_Concurrency.MainActor(unsafe) public var shouldInstructionsBePlayed: Swift.Bool! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var currentStep: idenfycore.Step!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyCameraOnBoardingToolbarV2
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelCameraOnBoardingCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelCameraOnBoardingCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewCameraOnBoardingCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIDisabledButtonCameraOnBoardingContinue: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var idenfyUIEnabledButtonCameraOnBoardingContinue: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var instrutionCameraOnBoardingVideoContainer: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var instructionCameraOnBoardingProgressView: UIKit.UIProgressView
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelinstructionDescriptionsTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var instructionDescriptionsTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) public var idenfyLoadingSpinner: Lottie.LottieAnimationView
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) public func playInstructions() -> idenfyviews.InstructionVideo
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterVideoView()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol InstructionDescriptionsCellViewableV2 : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var instructionDescriptionsLabel: UIKit.UILabel { get }
+  var instructionDescriptionsCircle: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class InstructionDescriptionsCellV2 : UIKit.UITableViewCell, idenfyviews.InstructionDescriptionsCellViewableV2 {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var instructionDescriptionsLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var instructionDescriptionsCircle: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setupView()
+  @objc deinit
+}
+public protocol ManualReviewingStatusFailedViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol ManualReviewingStatusFailedViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.ManualReviewingStatusFailedViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelManualReviewingStatusFailedCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonManualReviewingStatusFailedContinue: UIKit.UIButton { get }
+  var idenfyUILabelManualReviewingStatusFailedCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ManualReviewingStatusFailedViewV2 : UIKit.UIView, idenfyviews.ManualReviewingStatusFailedViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: idenfyviews.ManualReviewingStatusFailedViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusFailedCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelManualReviewingStatusFailedCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewManualReviewingStatusFailedCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonManualReviewingStatusFailedContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyDrawerUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyDrawerExpandButtonTintColor: UIKit.UIColor
+  public static var idenfyDrawerTitleTextColor: UIKit.UIColor
+  public static var idenfyDrawerDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDrawerCurrentInstructionTitleTextColor: UIKit.UIColor
+  public static var idenfyDrawerCurrentInstructionDescriptionTextColor: UIKit.UIColor
+  public static var idenfyDrawerInstructionControlsTintColor: UIKit.UIColor
+  public static var idenfyDrawerCurrentInstructionIndicatorColor: UIKit.UIColor
+  public static var idenfyDrawerNextInstructionButtonColor: UIKit.UIColor
+  public static var idenfyDrawerPreviousInstructionButtonColor: UIKit.UIColor
+  public static var idenfyDrawerGradientBackgroundTopColor: UIKit.UIColor
+  public static var idenfyDrawerGradientBackgroundBottomColor: UIKit.UIColor
+  public static var idenfyDrawerTitleFont: UIKit.UIFont?
+  public static var idenfyDrawerDescriptionFont: UIKit.UIFont?
+  public static var idenfyDrawerCurrentInstructionTitleFont: UIKit.UIFont?
+  public static var idenfyDrawerCurrentInstructionDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyInstructionAlertUISettigsV2 : ObjectiveC.NSObject {
+  public static var idenfyInstructionAlertViewBackgroundColor: UIKit.UIColor
+  public static var idenfyInstructionAlertCommonInformationTitleTextColor: UIKit.UIColor
+  public static var idenfyInstructionAlertProgressBarFillColor: UIKit.UIColor
+  public static var idenfyInstructionAlertContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyInstructionAlertDetailsCardBackgroundColor: UIKit.UIColor
+  public static var idenfyInstructionAlertDetailsCardTitleColor: UIKit.UIColor
+  public static var idenfyInstructionAlertCommonInformationTitleFont: UIKit.UIFont?
+  public static var idenfyInstructionAlertDetailsCardTitleFont: UIKit.UIFont?
+  public static var idenfyInstructionAlertDetailsCardCornerRadius: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyProviderLoginViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyProviderLoginViewBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewTitleTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameHintTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameInputViewHintTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordInputViewHintTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordHintTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameInputViewTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordInputViewTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameInputBorderColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordInputBorderColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameInputFocusedBorderColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordInputFocusedBorderColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewUsernameInputViewBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewPasswordInputViewBackgroundColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewContinueButtonTextColor: UIKit.UIColor
+  public static var idenfyProviderLoginViewTitleFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewUsernameHintFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewPasswordHintFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewUsernameInputViewFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewPasswordInputViewFont: UIKit.UIFont?
+  public static var idenfyProviderLoginViewUsernameInputViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyProviderLoginViewPasswordInputViewCorderRadius: CoreGraphics.CGFloat
+  public static var idenfyProviderLoginViewUsernameInputBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyProviderLoginViewPasswordInputBorderWidth: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class IdenfyToolbarV2CameraSession : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.BackButtonPressedDelegate?
+  @_Concurrency.MainActor(unsafe) public var toolbarView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var backButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var logo: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyButtonsStack: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) public var idenfyToggleFlashButton: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var instructionDialogButton: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func configureBackButtonImage(_ image: UIKit.UIImage?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfySplashScreenViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfySplashScreenViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfySplashScreenViewDescriptionFont: UIKit.UIFont?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol AdditionalSupportViewButtonActionsDelegate : AnyObject {
+  func continueButtonPressedAction()
+}
+public protocol AdditionalSupportViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.AdditionalSupportViewButtonActionsDelegate? { get set }
+  var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default { get }
+  var idenfyUILabelAdditionalSupportCommonInformationTitle: UIKit.UILabel { get }
+  var idenfyUIButtonAdditionalSupportContinue: UIKit.UIButton { get }
+  var idenfyUILabelAdditionalSupportCommonInformationDescription: UIKit.UILabel { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class AdditionalSupportViewV2 : UIKit.UIView, idenfyviews.AdditionalSupportViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: idenfyviews.AdditionalSupportViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) public var idenfyToolbarV2Common: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelAdditionalSupportCommonInformationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUILabelAdditionalSupportCommonInformationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var idenfyUIImageViewAdditionalSupportCommonInformationIcon: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var idenfyUIButtonAdditionalSupportContinue: UIKit.UIButton
+  @objc @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func setupToolbar()
+  @_Concurrency.MainActor(unsafe) open func setupTopTitle()
+  @_Concurrency.MainActor(unsafe) open func setupCenterImageView()
+  @_Concurrency.MainActor(unsafe) open func setupContinueButton()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyLanguageSelectionViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyLanguageSelectionViewBackgroundColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewTitleTextColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewBackgroundColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewBorderColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellBackgroundColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellBorderColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellTextColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellHighlightedTextColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellHighlightedBackgroundColor: UIKit.UIColor
+  public static var idenfyLanguageSelectionViewTitleFont: UIKit.UIFont?
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellFont: UIKit.UIFont?
+  public static var idenfyLanguageSelectionViewLanguageTableViewHighlightedCellFont: UIKit.UIFont?
+  public static var idenfyLanguageSelectionViewLanguageTableViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyLanguageSelectionViewLanguageTableViewCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyLanguageSelectionViewLanguageTableViewCellHeight: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ConfirmationViewButtonActionsDelegate : AnyObject {
+  func beginIdentificationButtonPressed()
+}
+public protocol ConfirmationViewableV2 : UIKit.UIView {
+  var delegate: idenfyviews.ConfirmationViewButtonActionsDelegate? { get set }
+  var toolbar: idenfyviews.IdenfyToolbarV2Default { get }
+  var confirmationTitle: UIKit.UILabel { get }
+  var confirmationDescription: UIKit.UILabel { get }
+  var documentTypeImageView: UIKit.UIImageView { get }
+  var documentStepTitle: UIKit.UILabel { get }
+  var documentStepTableView: UIKit.UITableView { get }
+  var uploadImageView: UIKit.UIImageView { get }
+  var middleContentScrollView: UIKit.UIScrollView { get }
+  var uploadTitle: UIKit.UILabel { get }
+  var beginIdentificationButton: UIKit.UIButton { get }
+  var scrollMask: UIKit.UIView { get }
+  func applyGradients()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ConfirmationViewV2 : UIKit.UIView, idenfyviews.ConfirmationViewableV2 {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: idenfyviews.ConfirmationViewButtonActionsDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var toolbar: idenfyviews.IdenfyToolbarV2Default
+  @_Concurrency.MainActor(unsafe) public var confirmationTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var confirmationDescription: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentTypeCircle: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var documentTypeImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var documentStepTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentStepTableView: UIKit.UITableView
+  @_Concurrency.MainActor(unsafe) public var uploadImageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var uploadTitle: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var beginIdentificationButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var middleContentScrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) public var scrollMask: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) open func setupConstraints()
+  @_Concurrency.MainActor(unsafe) open func applyGradients()
+  @objc deinit
+}
+public protocol DocumentStepCellViewable : UIKit.UITableViewCell {
+  var cellView: UIKit.UIView { get }
+  var documentStepNumber: UIKit.UILabel { get }
+  var documentStepLabel: UIKit.UILabel { get }
+  var documentStepCircle: UIKit.UIImageView { get }
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class DocumentStepCell : UIKit.UITableViewCell, idenfyviews.DocumentStepCellViewable {
+  @_Concurrency.MainActor(unsafe) final public let cellView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public var documentStepNumber: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentStepLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var documentStepCircle: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setupView()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class IdenfyUploadPhotoViewUISettingsV2 : ObjectiveC.NSObject {
+  public static var idenfyUploadPhotoViewBackgroundColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewTitleTextColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewDescriptionTextColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewCroppingBorderColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewCroppingBackgroundColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewCroppingBackgroundDimColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewChooseAnotherPhotoButtonTextColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewChooseAnotherPhotoButtonBackgroundColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewChooseAnotherPhotoButtonBorderColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewContinuePhotoButtonTextColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewCroppingRectangleGridColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewCroppingRectangleCornerColor: UIKit.UIColor
+  public static var idenfyUploadPhotoViewTitleFont: UIKit.UIFont?
+  public static var idenfyUploadPhotoViewDescriptionFont: UIKit.UIFont?
+  public static var idenfyUploadPhotoViewCroppingViewBorderWidth: CoreGraphics.CGFloat
+  public static var idenfyUploadPhotoViewCroppingViewCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyUploadPhotoViewCroppingRectangleCornerRadius: CoreGraphics.CGFloat
+  public static var idenfyUploadPhotoViewCroppingViewMinimumZoomScale: CoreGraphics.CGFloat
+  public static var idenfyUploadPhotoViewCroppingViewMaximumZoomScale: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class IdenfyUIAlertController : UIKit.UIAlertController {
+  @_Concurrency.MainActor(unsafe) public static func build(title: Swift.String, message: Swift.String, positiveButtonTitle: Swift.String, negativeButtonTitle: Swift.String, positiveButtonAction: @escaping (UIKit.UIAlertAction) -> Swift.Void) -> UIKit.UIAlertController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension idenfyviews.IdenfyLoadingHUDType : Swift.Equatable {}
+extension idenfyviews.IdenfyLoadingHUDType : Swift.Hashable {}
+extension idenfyviews.IdenfyLoadingHUDType : Swift.RawRepresentable {}
+extension idenfyviews.CustomCameraSessionDrawerState : Swift.Equatable {}
+extension idenfyviews.CustomCameraSessionDrawerState : Swift.Hashable {}
+extension idenfyviews.IdenfyCameraViewType : Swift.Equatable {}
+extension idenfyviews.IdenfyCameraViewType : Swift.Hashable {}
+extension idenfyviews.IdenfyCameraViewType : Swift.RawRepresentable {}

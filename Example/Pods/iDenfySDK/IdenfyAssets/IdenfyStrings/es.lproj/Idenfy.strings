@@ -1,0 +1,725 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Política de privacidad";
+"idenfy_privacy_policy_agree_button_title_v2" = "ACEPTAR";
+"idenfy_privacy_policy_disagree_button_title_v2" = "DISCREPAR";
+"idenfy_privacy_policy_alert_title_v2" = "INFORMACIÓN";
+"idenfy_privacy_policy_alert_description_v2" = "Para continuar con el proceso, debe aceptar las reglas. Si no está de acuerdo, cancele el proceso de verificación o cierre la ventana.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "QUIERO ESTAR DE ACUERDO";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "CANCELAR VERIFICACIÓN";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "CONTINUAR";
+"idenfy_questionnaire_email_error_message_v2" = "¡Por favor introduzca una dirección de correo electrónico válida!";
+"idenfy_questionnaire_url_error_message_v2" = "¡Por favor ingrese una dirección de sitio web válida!";
+"idenfy_questionnaire_tel_error_message_v2" = "¡Por favor ingrese un número de teléfono válido!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Por favor selecciona tu proveedor";
+"idenfy_provider_selection_common_information_description_v2" = "Selecciona tu proveedor de facturas de servicios públicos de la lista a continuación";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Busca un proveedor…";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Conecta tu cuenta";
+"idenfy_provider_login_view_common_information_description_v2" = "Ingresa tu información de inicio de sesión para tu cuenta de servicios públicos en línea";
+"idenfy_provider_login_view_username_hint_title_v2" = "Nombre de usuario";
+"idenfy_provider_login_view_password_hint_title_v2" = "Contraseña";
+"idenfy_provider_login_view_continue_button_title_v2" = "CONTINUAR";
+"idenfy_provider_login_view_login_retry_title_v2" = "Credenciales no válidas";
+"idenfy_provider_login_view_login_retry_description_v2" = "¡Ingrese credenciales válidas y vuelva a intentarlo!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Error de inicio de sesion";
+"idenfy_provider_login_view_login_failed_description_v2" = "No pudimos iniciar sesión…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Verificación de la cuenta";
+"idenfy_mfa_method_selection_view_description_v2" = "Seleccione su método de autenticación deseado de las opciones a continuación";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Método de autentificación";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Contraseña de un solo uso";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Pregunta y respuesta de seguridad";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "CONTINUAR";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Autentícate";
+"idenfy_mfa_captcha_method_description_v2" = "Ingrese el código que ve en la imagen a continuación";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Código";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "CONTINUAR";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Autentícate";
+"idenfy_mfa_code_method_description_v2" = "Por favor, introduzca el código que ha recibido en su teléfono o por correo electrónico";
+"idenfy_mfa_code_method_code_hint_v2" = "Código de autenticación";
+"idenfy_mfa_question_method_title_v2" = "Por favor, responda la pregunta que se proporciona a continuación.";
+"idenfy_mfa_question_method_answer_hint_v2" = "Tu respuesta";
+"idenfy_mfa_notification_method_title_v2" = "Verifique el acceso a través de la aplicación de su proveedor";
+"idenfy_mfa_notification_method_description_v2" = "Cuando haya terminado, presione el botón continuar";
+"idenfy_mfa_pass_code_method_title_v2" = "Autentícate";
+"idenfy_mfa_pass_code_method_description_v2" = "Ingrese el código de acceso que ha configurado con su proveedor de servicios públicos";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Contraseña";
+"idenfy_mfa_general_view_continue_button_title_v2" = "CONTINUAR";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Iniciar la verificación de identidad";
+"idenfy_start_identification_predefined_view_information_description_v2" = "El país de emisión del documento";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Empecemos";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Selecciona el país emisor";
+"idenfy_country_selection_view_information_description_v2" = "Por favor, elige el país donde se emitió tu documento";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Buscar el país del documento...";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Selecciona un idioma";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "CONTINUAR";
+"idenfy_documents_selection_view_information_title_v2" = "Selecciona un documento";
+"idenfy_documents_selection_view_information_description_v2" = "¿Cuál tipo de documento quisieras identificar?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Pasaporte";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "Tarjeta de identidad";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Otro";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Licencia de conducir";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Permiso de residencia";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Visa";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "Tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Permiso de residencia de asilo austriaco";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Pasaporte nacional ruso";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Pasaporte internacional ruso";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "Licencia de conducir provisional del Reino Unido";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Tarjeta de votante";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Tarjeta de identidad antigua";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Tarjeta de viaje";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Foto tarjeta";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Tarjeta militar (veterano)";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Tarjeta de comprobante de edad";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Identificación diplomática";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "Tarjeta PAN";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Tarjeta Aadhaar";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Confirme el tipo de documento";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Por favor, ten tu **tarjeta de identidad** lista para identificarte";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Por favor, ten tu **pasaporte** listo para identificarte";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Por favor, ten tu **permiso de residencia** listo para identificarte";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Por favor, ten tu **licencia de conducir** lista para identificarte";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Por favor, ten tu **documento** listo para identificarte";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Por favor ten tu";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "tarjeta de identidad";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "pasaporte";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "permiso de residencia";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "licencia de conducir";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "documento";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "visa";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "permiso de residencia de asilo austriaco";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "Pasaporte nacional ruso";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "pasaporte internacional ruso";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "licencia de conducir provisional del Reino Unido";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "tarjeta de votante";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "tarjeta de identidad antigua";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "tarjeta de viaje";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "foto tarjeta";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "tarjeta militar (veterano)";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "tarjeta de comprobante de edad";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "identificación diplomática";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "tarjeta PAN";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "tarjeta aadhaar";
+"idenfy_confirmation_view_information_description_part_3_v2" = "listos para identificarte";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "La identificación tomará **5** pasos:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "La identificación tomará";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "pasos:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Foto frontal del documento ,.";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Foto de la parte trasera del documento";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Foto de la cara";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Chequeo de vivacidad";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Foto de la portada del pasaporte";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Comprobante de domicilio";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Segunda prueba de domicilio";
+"idenfy_confirmation_view_upload_image_title_v2" = "Puedes subir fotos en cada paso";
+"idenfy_confirmation_view_begin_identification_title_v2" = "COMIENZA LA IDENTIFICACIÓN";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "CONTINUAR";
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "CONTINÚA EN **x** …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Asegúrate de estar en un ambiente iluminado";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Haz clic en «Estoy Listo» cuando se te solicite y sigue las instrucciones";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Deberás acercarte o alejarte de la cámara para completar esta verificación";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Por favor, siga las siguientes instrucciones:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Asegúrate de que la foto del documento seleccionado sea:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Claramente visible y NO borrosa";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Bien iluminada y no cubierta por una sombra";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "No esté cubierta por el reflejo de la luz/deslumbramiento";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "No esté bloqueada por un dedo y se ajuste al marco blanco";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Un documento original y no una copia del mismo";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Parte frontal de la tarjeta de identidad";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Parte trasera de la tarjeta de identidad";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Parte frontal del documento";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Parte posterior del documento";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Parte frontal del permiso de residencia";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Parte posterior del permiso de residencia";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "La parte frontal de la licencia de conducir";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "La parte posterior de la licencia de conducir";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "La parte frontal de la portada del pasaporte";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Página frontal del pasaporte";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Comprobante de domicilio";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Segunda prueba de domicilio";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Parte frontal de la visa";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Parte posterior de la visa";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "Parte frontal de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "Parte posterior de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Parte frontal del permiso de residencia de asilo austriaco";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Parte posterior del permiso de residencia de asilo austriaco";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Parte frontal del pasaporte nacional ruso";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Parte posterior del pasaporte nacional ruso";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Parte frontal del pasaporte internacional ruso";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Parte posterior del pasaporte internacional ruso";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Parte frontal de la licencia de conducir provisional del Reino Unido";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Parte posterior de la licencia de conducir provisional del Reino Unido";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Parte frontal de la credencial de elector";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Parte posterior de la credencial de elector";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Parte frontal de la tarjeta de identificación antigua";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Parte posterior de la tarjeta de identificación anterior";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Parte frontal de la tarjeta de viaje";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Parte posterior de la tarjeta de viaje";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Parte frontal de la tarjeta fotográfica";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Parte posterior de la tarjeta fotográfica";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Parte frontal de la tarjeta militar (veterano)";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Parte posterior de la tarjeta militar (veterano)";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Parte frontal de la tarjeta de prueba de edad";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Parte posterior de la tarjeta de prueba de edad";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Parte frontal de la identificación diplomática";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Parte posterior de la identificación diplomática";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "Parte frontal de la tarjeta PAN";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "Parte posterior de la tarjeta PAN";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Parte frontal de la tarjeta aadhaar";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Parte posterior de la tarjeta aadhaar";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Pon tu documento en el marco y haz una foto clara";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Pon tu documento en el marco y espere a que se escanee";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Elige un tipo de archivo";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "¿Qué tipo de archivo te gustaría cargar?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Foto";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "¿Cómo identificarme?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "SALTAR INSTRUCCIONES";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Asegúrate de que tu selfie sea claramente visible y se ajuste al marco blanco";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Asegúrate de que la fuente de luz esté al frente y no detrás de ti";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Asegúrate de que la foto del documento seleccionado sea: Claramente visible y NO borrosa";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Asegúrate de que la foto del documento seleccionado sea: Bien iluminada y no cubierta por una sombra";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Asegúrate de que la foto del documento seleccionado sea: No esté cubierta por el reflejo de la luz / deslumbramiento";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Asegúrate de que la foto del documento seleccionado sea: No esté bloqueada por un dedo y se ajuste al marco blanco";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "La parte frontal de la tarjeta de identidad";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "El reverso de la tarjeta de identidad";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Parte frontal del documento";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Parte posterior del documento";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Parte frontal del permiso de residencia";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Parte posterior del permiso de residencia";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Parte frontal de la licencia de conducir";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Parte posterior de la licencia de conducir";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Parte frontal de la portada del pasaporte";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Página de la portada del pasaporte";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Comprobante de domicilio";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Segunda prueba de domicilio";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Parte frontal de la visa";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Parte posterior de la visa";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "Parte frontal de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "Parte posterior de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Parte frontal del permiso de residencia de asilo austriaco";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Parte posterior del permiso de residencia de asilo austriaco";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Parte frontal del pasaporte nacional ruso";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Parte posterior del pasaporte nacional ruso";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Parte frontal del pasaporte internacional ruso";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Parte posterior del pasaporte internacional ruso";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Parte frontal de la licencia de conducir provisional del Reino Unido";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Parte posterior de la licencia de conducir provisional del Reino Unido";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Parte frontal de la credencial de elector";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Parte posterior de la credencial de elector";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Parte frontal de la tarjeta de identificación antigua";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Parte posterior de la tarjeta de identificación anterior";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Parte frontal de la tarjeta de viaje";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Parte posterior de la tarjeta de viaje";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Parte frontal de la tarjeta fotográfica";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Parte posterior de la tarjeta fotográfica";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Parte frontal de la tarjeta militar (veterano)";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Parte posterior de la tarjeta militar (veterano)";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Parte frontal de la tarjeta de prueba de edad";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Parte posterior de la tarjeta de prueba de edad";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Parte frontal de la identificación diplomática";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Parte posterior de la identificación diplomática";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "Parte frontal de la tarjeta PAN";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "Parte posterior de la tarjeta PAN";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Parte frontal de la tarjeta aadhaar";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Parte posterior de la tarjeta aadhaar";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "¿Es tu **Parte frontal de la tarjeta de identidad** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "¿Es tu **Parte posterior de la tarjeta de identidad** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "¿Es tu **Parte frontal del documento** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "¿Es tu **Parte posterior del documento** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "¿Es tu **Parte frontal del permiso de residencia** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "¿Es tu **Parte posterior del permiso de residencia** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "¿Es tu **Parte frontal de la licencia de conducir** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "¿Es tu **Parte posterior de la licencia de conducir** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "¿Es tu **Parte frontal de la portada del pasaporte** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "¿Es tu **comprobante de domicilio** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "¿Es tu **segunda prueba de domicilio** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "¿Es tu **Página de la portada del pasaporte** claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "¿Está tu";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "Parte frontal de la tarjeta de identidad";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "Parte posterior de la tarjeta de identidad";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "Parte frontal del documento";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "Parte posterior del documento";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "Parte frontal del permiso de residencia";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "Parte posterior del permiso de residencia";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "Parte frontal de la licencia de conducir";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "Parte posterior de la licencia de conducir";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "Parte frontal de la portada del pasaporte";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "comprobante de domicilio";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "segunda prueba de domicilio";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "Página de la portada del pasaporte";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "claramente visible y en el marco?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "¿Se ve claramente la imagen de tu rostro?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "¿Puedes leer claramente los detalles del documento?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "¿Es el reverso del documento?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "¿Puedes leer claramente los detalles del documento?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "¿Puedes leer claramente los detalles del documento?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "¿Estás seguro de que quieres subir este archivo?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Coloca tu cara en el área marcada y toma una fotografía clara";
+"idenfy_face_camera_preview_title_v2" = "Haz una fotografía de tu cara";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Confirmar fotografìa de cara";
+"idenfy_face_camera_results_description_v2" = "¿Es tu fotografía de cara claramente visible y en el marco?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "¿Es tu **fotografía de cara** claramente visible y en el marco?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "¿Es tu rostro claramente visible y lo suficientemente cerca para inspeccionarlo?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Inspeccionar foto";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Powered by iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "HACER UNA NUEVA FOTOGRAFÍA";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "SÍ, CONTINUAR";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Parte frontal de la tarjeta de identidad";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Parte posterior de la tarjeta de identidad";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Parte frontal del documento";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Parte posterior del documento";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Parte frontal del permiso de residencia";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Parte posterior del permiso de residencia";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Parte frontal de la licencia de conducir";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Parte posterior de la licencia de conducir";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Parte frontal de la portada del pasaporte";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Página de la portada del pasaporte";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Comprobante de domicilio";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Segunda prueba de domicilio";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Parte frontal de la visa";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Parte posterior de la visa";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "Parte frontal de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "Parte posterior de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Parte frontal del permiso de residencia de asilo austriaco";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Parte posterior del permiso de residencia de asilo austriaco";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Parte frontal del pasaporte nacional ruso";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Parte posterior del pasaporte nacional ruso";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Parte frontal del pasaporte internacional ruso";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Parte posterior del pasaporte internacional ruso";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Parte frontal de la licencia de conducir provisional del Reino Unido";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Parte posterior de la licencia de conducir provisional del Reino Unido";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Parte frontal de la credencial de elector";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Parte posterior de la credencial de elector";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Parte frontal de la tarjeta de identificación antigua";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Parte posterior de la tarjeta de identificación anterior";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Parte frontal de la tarjeta de viaje";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Parte posterior de la tarjeta de viaje";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Parte frontal de la tarjeta fotográfica";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Parte posterior de la tarjeta fotográfica";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Parte frontal de la tarjeta militar (veterano)";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Parte posterior de la tarjeta militar (veterano)";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Parte frontal de la tarjeta de prueba de edad";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Parte posterior de la tarjeta de prueba de edad";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Parte frontal de la identificación diplomática";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Parte posterior de la identificación diplomática";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "Parte frontal de la tarjeta PAN";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "Parte posterior de la tarjeta PAN";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Parte frontal de la tarjeta aadhaar";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Parte posterior de la tarjeta aadhaar";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Confirmar fotografía de cara";
+"idenfy_upload_results_view_cropping_description_v2" = "Alinear foto subida en el área marcada";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "ESCOGER OTRA FOTO";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "CONTINUAR";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Se superó el tamaño máximo de archivo";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Selecciona un archivo con un tamaño válido que no supere los 5 MB";
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Tipo de archivo no soportado";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Tipos de archivos admitidos:";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Analizando su verificación…";
+"idenfy_identification_results_identification_status_loading_description_v2" = "!Por favor espera mientras configuramos las cosas para ti!";
+"idenfy_identification_results_identification_status_error_title_v2" = "No se pudo identificar";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Parte frontal de la tarjeta de identidad";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Parte posterior de la tarjeta de identidad";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Parte frontal de la portada del pasaporte";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Comprobante de domicilio";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Segunda prueba de domicilio";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Página de la portada del pasaporte";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Parte frontal del documento";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Parte posterior del documento";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Parte frontal del permiso de residencia";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Parte posterior del permiso de residencia";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Parte frontal de la licencia de conducir";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Parte posterior de la licencia de conducir";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Parte frontal de la visa";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Parte posterior de la visa";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "Parte frontal de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "Parte posterior de la tarjeta de cruce fronterizo de EE. UU.";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Parte frontal del permiso de residencia de asilo austriaco";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Parte posterior del permiso de residencia de asilo austriaco";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Parte frontal del pasaporte nacional ruso";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Parte posterior del pasaporte nacional ruso";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Parte frontal del pasaporte internacional ruso";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Parte posterior del pasaporte internacional ruso";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Parte frontal de la licencia de conducir provisional del Reino Unido";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Parte posterior de la licencia de conducir provisional del Reino Unido";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Parte frontal de la credencial de elector";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Parte posterior de la credencial de elector";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Parte frontal de la tarjeta de identificación antigua";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Parte posterior de la tarjeta de identificación anterior";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Parte frontal de la tarjeta de viaje";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Parte posterior de la tarjeta de viaje";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Parte frontal de la tarjeta fotográfica";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Parte posterior de la tarjeta fotográfica";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Parte frontal de la tarjeta militar (veterano)";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Parte posterior de la tarjeta militar (veterano)";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Parte frontal de la tarjeta de prueba de edad";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Parte posterior de la tarjeta de prueba de edad";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Parte frontal de la identificación diplomática";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Parte posterior de la identificación diplomática";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "Parte frontal de la tarjeta PAN";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "Parte posterior de la tarjeta PAN";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Parte frontal de la tarjeta aadhaar";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Parte posterior de la tarjeta aadhaar";
+"idenfy_identification_results_step_face" = "Fotografía de cara";
+"idenfy_identification_results_retake_button_title_v2" = "INTENTAR DE NUEVO";
+"idenfy_identification_results_error_continue_button_title_v2" = "CONTINUAR";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Por favor, asegúrate de que tu documento tiene una zona de lectura automática";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "La Machine-readable Zone (MRZ) normalmente consiste en 2 (pasaporte) o 3 (tarjeta de identificación) líneas de símbolos. El ejemplo de la MRZ se presenta en la imagen de abajo, marcada por un rectángulo rojo.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "VOLVER";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "ESTOY SEGURO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Documento no encontrado. Asegúrate de mostrar ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = " y emisión de documentos país es ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASAPORTE";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "TARJETA DE IDENTIDAD";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "PERMISO DE RESIDENCIA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "LICENCIA DE CONDUCIR";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOCUMENTO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VISA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "TARJETA DE CRUCE FRONTERIZO DE EE. UU.";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "PERMISO DE RESIDENCIA DE ASILO AUSTRIACO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "PASAPORTE NACIONAL RUSO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "PASAPORTE INTERNACIONAL RUSO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "LICENCIA DE CONDUCIR PROVISIONAL DEL REINO UNIDO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "TARJETA DE VOTANTE";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "TARJETA DE IDENTIDAD ANTIGUA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "TARJETA DE VIAJE";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "FOTO TARJETA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "TARJETA MILITAR (VETERANO)";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "TARJETA DE COMPROBANTE DE EDAD";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "IDENTIFICACIÓN DIPLOMÁTICA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "TARJETA PAN";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "TARJETA AADHAAR";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = " Asegúrate de que el país de emisión de tu documento sea ";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Identificación exitosa";
+"idenfy_identification_results_success_fragment_description_v2" = " ";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Identificada";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Su información se ha enviado";
+"idenfy_identification_results_suspected_view_description_v2" = "Si tiene alguna pregunta, comuníquese con nuestro equipo de atención al cliente";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "CONTINUAR";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Identificación enviada";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Tu identificación requiere una revisión manual adicional. Se te notificará cuando se complete la revisión.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Suele tardar entre 1 y 5 minutos.";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "VOLVER A LA CUENTA";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Revisión de datos adicionales";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Verificación automatizada de IA completada";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "TIEMPO RESTANTE";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Abortar identificación";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "¿Está seguro de que quiere abortar la identificación?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "SÍ";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "NO";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "¡Su identificación fue exitosa!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Gracias";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "CONTINUAR";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Identificación fallida";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "No pudimos confirmar tu identidad";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Por favor contactar";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "para más apoyo";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "CONTINUAR";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "¿Podemos usar tu cámara?";
+"idenfy_camera_permissions_view_information_description_v2" = "Necesitamos usar tu cámara para hacer la foto de tu documento y la foto de tu rostro.";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Ve a la configuración, toca \"Permisos\" para otorgar acceso a la cámara";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "HABILITAR LA CÁMARA";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Toca el centro del pasaporte en la parte superior del teléfono";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Toca el centro de la tarjeta de identificación en la parte superior del teléfono";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Toca el centro del documento en la parte superior del teléfono";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Toca el centro del pasaporte en la parte superior del teléfono.";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Toca el centro de la tarjeta de identificación en la parte superior del teléfono";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Toca el centro del documento en la parte superior del teléfono.";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Leer datos de documentos…";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Leyendo la imagen de documento &#8230;";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Lectura de documentos finalizada";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "CONTINUAR";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Por favor, espera un momento…";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "¡Oh! Algo salió mal.";
+"idenfy_nfc_reading_view_information_reading_snackbar_title_v2" = "Aleja el teléfono del documento";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Conexión interrumpida. ¡Acerca el teléfono!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Se acabó el tiempo";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "El tiempo de lectura de NFC expiró";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "CONTINUAR";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Tu dispositivo no es soportado";
+"idenfy_nfc_required_view_information_description_v2" = "Utiliza un teléfono móvil con lector de etiquetas NFC integrado";
+"idenfy_nfc_required_view_information_enable_nfc_title_v2" = "NFC no habilitado";
+"idenfy_nfc_required_view_information_enable_nfc_description_v2" = "Habilita NFC en la configuración del dispositivo antes de continuar";
+"idenfy_nfc_required_view_information_no_nfc_title_v2" = "Tu dispositivo no es soportado";
+"idenfy_nfc_required_view_information_no_nfc_description_v2" = "Utiliza un teléfono móvil con lector de etiquetas NFC integrado";
+"idenfy_nfc_required_view_information_button_enable_nfc_title_v2" = "HABILITA LA NFC";
+"idenfy_nfc_required_view_information_button_title_v2" = "CONTINUAR";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Has cancelado el proceso de verificación";
+"idenfy_additional_support_view_description" = "No se realizó el proceso de identificación. Si tienes alguna pregunta, comunícate con nuestro equipo de atención al cliente";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "VOLVER";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Suministra permisos manualmente";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = " La prueba de vivacidad falló demasiadas veces";
+"IDENFY_SERVER_ERROR_MESSAGE" = "¡Oh! Algo salió mal.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "¡La sesión expiró!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "¡Demasiados intentos!";
+"IDENFY_NFC_FAILED_MESSAGE" = "NFC authentication failed!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Atrás";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Subiendo foto frontal del documento…";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Subiendo foto trasera del documento…";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Subiendo foto de cara…";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Comprobando la vivacidad…";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Subiendo foto de portada del pasaporte…";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Subiendo foto de prueba de domicilio…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Subiendo una segunda foto de prueba de domicilio…";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Problemas de conexión. Por favor, asegúrese de tener una conexión a Internet estable";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Proceder";
+"idenfy_alert_title_manual_reviewing_information" = "INFORMACIÓN";
+"idenfy_alert_message_manual_reviewing_information" = "Debido a que has escogido un documento diferente a tu cédula de identidad o pasaporte, se nos pide revisar tu caso una vez más.";
+
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Proceder";
+"idenfy_alert_title_liveness_default_error" = "INFORMACIÓN";
+"idenfy_alert_message_liveness_default_error" = "Error en la comprobación de vivacidad. Vuelve a intentarlo.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Se acabó el tiempo de comprobación de la vivacidad del rostro. Inténtalo de nuevo.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Continuar";
+"idenfy_alert_title_document_analysis_information" = "¡OH NO!";
+"idenfy_alert_message_document_analysis_information" = "No se pudo determinar el tipo de documento. Por favor selecciona el tipo de documento en el paso siguiente.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "¿Estás seguro de que quieres abortar la identificación?";
+"idenfy_alert_title_abort_identification_information" = "Abortar identificación";
+"idenfy_alert_positive_button_abort_identification_information" = "SÍ";
+"idenfy_alert_negative_button_abort_identification_information" = "NO";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "¿Estás seguro de que quiere empezar de nuevo?";
+"idenfy_alert_title_restart_identification_information" = "Empezar de nuevo";
+"idenfy_alert_positive_button_restart_identification_information" = "SÍ";
+"idenfy_alert_negative_button_restart_identification_information" = "NO";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Analizando…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Por favor, espera un momento.";
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Muestra tu pasaporte";
+"idenfy_instructions_passport_correct_text" = " Asegúrate de mostrar tu pasaporte durante la identificación y no otro documento.";
+
+"idenfy_instructions_passport_mrz_title" = "Tu pasaporte es legible por máquina";
+"idenfy_instructions_passport_mrz_text" = "Asegúrate de que tu pasaporte tiene un área legible por máquinas (2 o 3 líneas) Si tu documento no tiene una zona de datos legible por máquina, selecciona \"OTROS DOCUMENTOS\" en la ventana de selección de documentos.";
+
+"idenfy_instructions_passport_fits_frame_title" = " El pasaporte cabe dentro del marco blanco";
+"idenfy_instructions_passport_fits_frame_text" = "Asegúrate de que el pasaporte encaje en el marco blanco, que no se salga de los límites del marco, que el documento mostrado no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_passport_finger_title" = " El dedo no debe cubrir el documento";
+"idenfy_instructions_passport_finger_text" = " No te cubras la cara o cualquier otra información en el documento.";
+
+"idenfy_instructions_passport_reflection_title" = " No debe haber reflejos de luz";
+"idenfy_instructions_passport_reflection_text" = " Asegúrate de que el reflejo de la luz o el holograma del documento no cubra la cara u otra información importante del documento.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = " Muestra tu tarjeta de identificación ";
+"idenfy_instructions_id_front_correct_text" = " Asegúrate de mostrar la tarjeta de identificación en el momento de la identificación, no el otro documento.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "La parte frontal de la tarjeta de identificación debe caber dentro del marco blanco";
+"idenfy_instructions_id_front_fit_frame_text" = " Asegúrate de que la parte frontal de la tarjeta de identificación encaja en el marco blanco, que no sobrepase los bordes del marco, que el documento mostrado no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_id_front_finger_title" = " El dedo no debe cubrir el documento";
+"idenfy_instructions_id_front_finger_text" = " No te cubras la cara o cualquier otra información en el documento.";
+
+"idenfy_instructions_id_front_reflection_title" = " No debe haber reflejos de luz";
+"idenfy_instructions_id_front_reflection_text" = " Asegúrate de que el reflejo de la luz o el holograma del documento no cubra la cara u otra información importante del documento.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = " Muestra la parte posterior de tu tarjeta de identificación";
+"idenfy_instructions_id_back_correct_text" = " Asegúrate de mostrar el reverso de la tarjeta de identificación.";
+
+"idenfy_instructions_id_back_mrz_title" = "El documento tiene un área legible por máquina";
+"idenfy_instructions_id_back_mrz_text" = " Asegúrate de que su documento tenga el área legible por máquina (2 o 3 líneas de caracteres). Si tu documento no tiene un área legible por máquina, selecciona \"OTROS DOCUMENTOS\" en la ventana de selección de documentos.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "El reverso de la tarjeta de identificación cabe en el marco blanco";
+"idenfy_instructions_id_back_fit_frame_text" = " El reverso de la tarjeta de identificación se ajusta al marco blanco y no va más allá de los bordes del marco. Además, asegúrate de que el documento que está mostrando no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_id_back_finger_title" = " el dedo no debe cubrir el documento";
+"idenfy_instructions_id_back_finger_text" = " No cubras la información del documento con el dedo.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = " Muestra tu permiso de residencia";
+"idenfy_instructions_residence_permit_front_correct_text" = " Asegúrate de mostrar el permiso de residencia en el momento de la identificación, no el otro documento.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = " La parte frontal del permiso de residencia cabe en el marco blanco";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = " Asegúrate de que la parte frontal del permiso de residencia encaje en el marco blanco, que no sobrepase los bordes del marco, que el documento que se muestra no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = " el dedo no debe cubrir el documento";
+"idenfy_instructions_residence_permit_front_finger_text" = " No te cubras la cara o cualquier otra información en el documento.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = " No debe haber reflejos de luz";
+"idenfy_instructions_residence_permit_front_reflection_text" = " Asegúrate de que el reflejo de la luz o el holograma del documento no cubra la cara u otra información importante del documento.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Muestra el reverso de tu permiso de residencia";
+"idenfy_instructions_residence_permit_back_correct_text" = "Asegúrate de mostrar el reverso del permiso de residencia.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "El documento tiene un área legible por máquina";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Asegúrate de que tu documento tiene área legible por máquina (Si tu documento no tiene área legible por máquina, selecciona \"OTROS DOCUMENTOS\" en la ventana de selección de documentos.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "La parte trasera del permiso de residencia cabe en el marco blanco";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Asegúrate de que la parte trasera del permiso de residencia encaje en el marco blanco, que no vaya más allá de los bordes del marco. Además, asegúrate de que el documento que está mostrando no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "El dedo no debe cubrir el documento";
+"idenfy_instructions_residence_permit_back_finger_text" = "No cubras la información del documento con el dedo.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Muestra tu licencia de conducir";
+"idenfy_instructions_driver_license_front_correct_text" = "Asegúrate de mostrar la licencia de conducir en el momento de la identificación, no el otro documento.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "La parte frontal del permiso de conducir cabe en el marco blanco";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Asegúrate de que la parte frontal del permiso de conducir encaje en el marco blanco y no sobrepases los bordes del marco, y que el documento mostrado no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "El dedo no debe cubrir el documento";
+"idenfy_instructions_driver_license_front_finger_text" = "No te cubras la cara o cualquier otra información en el documento.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "No debe haber reflejos de luz";
+"idenfy_instructions_driver_license_front_reflection_text" = "Asegúrate de que el reflejo de luz o el holograma del documento no cubra la cara u otra información importante del documento";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Muestra tu documento que no tiene área legible por máquina";
+"idenfy_instructions_other_front_mrz_text" = "Asegúrate de mostrar el documento que no tiene área legible por máquina.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "La parte delantera del documento encaja en el marco blanco";
+"idenfy_instructions_other_front_fit_frame_text" = "Asegúrate de que la parte frontal del documento encaje en el marco blanco y no vaya más allá de los bordes del marco, y que el documento que se muestra no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_other_front_finger_title" = "el dedo no debe cubrir el documento";
+"idenfy_instructions_other_front_finger_text" = "No te cubras la cara o cualquier otra información en el documento.";
+
+"idenfy_instructions_other_front_reflection_title" = "No debe haber reflejos de luz";
+"idenfy_instructions_other_front_reflection_text" = "Asegúrate de que el reflejo de la luz o el holograma del documento no cubra la cara u otra información importante del documento.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "La parte trasera del documento cabe en el marco blanco";
+"idenfy_instructions_other_back_fit_frame_text" = "Asegúrate de que el reverso del documento encaje en el marco blanco y no vaya más allá de los bordes del marco, y que el documento mostrado no esté borroso y sea claramente legible.";
+
+"idenfy_instructions_other_back_finger_title" = "El dedo no debe cubrir el documento";
+"idenfy_instructions_other_back_finger_text" = "No cubras la información del documento con el dedo.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "La cara encaja en el marco blanco";
+"idenfy_instructions_face_fit_frame_text" = "Asegúrate de que tu cara encaje en el marco blanco.";
+
+"idenfy_instructions_face_one_face_title" = "Sólo una cara es visible";
+"idenfy_instructions_face_one_face_text" = "Asegúrate de que no haya otras caras visibles en la foto.";
+
+"idenfy_instructions_face_shadow_title" = "La cara no está cubierta por una sombra";
+"idenfy_instructions_face_shadow_text" = "Asegúrate de que tu cara está bien iluminada y no hay sombra en ella...";
+
+"idenfy_instructions_face_zoom_title" = "La cara encaja en el marco";
+"idenfy_instructions_face_zoom_text" = "Asegúrate de que tu cara encaje en el marco. Después de tomar el selfie, acerca tu cara.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "No se puede acceder a la cámara";
+"idenfy_alert_message_camera_permission_not_enabled" = "Para habilitar el acceso, vaya a Configuración > Privacidad > Cámara y active el acceso a la cámara para esta aplicación.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "OK";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "¡Tienes";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "intentos para autenticarte!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "¡Tienes **3** intentos para autenticarte!";
+"idenfy_face_authentication_initial_view_button_title" = "INICIAR AUTENTICACIÓN";
+"idenfy_face_authentication_initial_view_alert_message" = "¡La autenticación facial no tuvo éxito!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Autenticación exitosa";
+"idenfy_face_authentication_results_success_description" = "¡Has sido autenticado con éxito!";
+"idenfy_face_authentication_results_final_failed_title" = "La verificación facial no se realizó correctamente.";
+"idenfy_face_authentication_results_final_failed_description" = "Siga los pasos indicados en la pantalla y asegúrese de tener un ambiente bien iluminado. Trate de evitar: desenfoque, sombra, resplandor, dedos u otros objetos en la foto.";
+"idenfy_face_authentication_results_failed_description" = "La verificación facial no se realizó correctamente. Siga los pasos indicados en la pantalla y asegúrese de tener un ambiente bien iluminado. Trate de evitar: desenfoque, sombra, resplandor, dedos u otros objetos en la foto.";
+"idenfy_face_authentication_results_button_title" = "SEGUIR";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Cancelar autenticación";
+"idenfy_face_authentication_exit_alert_description" = "¿Está seguro de que desea anular la autenticación facial?";

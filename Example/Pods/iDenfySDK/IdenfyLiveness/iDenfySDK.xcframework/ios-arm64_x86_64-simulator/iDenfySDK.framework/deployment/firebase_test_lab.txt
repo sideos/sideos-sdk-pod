@@ -1,0 +1,12 @@
+ensure you are in the root
+
+If you face issues, enable following command:
+sudo /usr/bin/xcode-select -switch /Applications/Xcode_12.2.app/Contents/Developer
+
+xcodebuild -workspace idenfySdk.xcworkspace \
+-scheme iDenfySDKTests \
+-derivedDataPath testsoutput \
+-sdk iphoneos build-for-testing
+
+cd tests/Build/Products : \
+zip -r idenfysdk.zip Debug-iphoneos   iDenfySDKTests_iphoneos9.0-arm64.xctestrun

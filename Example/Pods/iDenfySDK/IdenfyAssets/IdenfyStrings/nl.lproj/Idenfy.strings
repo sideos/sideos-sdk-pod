@@ -1,0 +1,721 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Privacybeleid";
+"idenfy_privacy_policy_agree_button_title_v2" = "MEE EENS ZIJN";
+"idenfy_privacy_policy_disagree_button_title_v2" = "HET ONEENS ZIJN";
+"idenfy_privacy_policy_alert_title_v2" = "INFORMATIE";
+"idenfy_privacy_policy_alert_description_v2" = "Om door te gaan met het proces, moet u akkoord gaan met de regels. Als u niet akkoord gaat, annuleert u het verificatieproces of sluit u het venster.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "IK WIL HET AKKOORD GAAN";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "VERIFICATIE ANNULEREN";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "VERDER";
+"idenfy_questionnaire_email_error_message_v2" = "Gelieve een geldig e-mailadres in te vullen!";
+"idenfy_questionnaire_url_error_message_v2" = "Voer een geldig websiteadres in!";
+"idenfy_questionnaire_tel_error_message_v2" = "Voer alstublieft een geldig telefoonnummer in!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Selecteer je leverancier";
+"idenfy_provider_selection_common_information_description_v2" = "Selecteer je energieleverancier uit de onderstaande lijst";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Zoek naar een leverancier";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Koppel je account";
+"idenfy_provider_login_view_common_information_description_v2" = "Voer je inloggegevens in voor je online energierekening";
+"idenfy_provider_login_view_username_hint_title_v2" = "Gebruikersnaam";
+"idenfy_provider_login_view_password_hint_title_v2" = "Wachtwoord";
+"idenfy_provider_login_view_continue_button_title_v2" = "VERDER";
+"idenfy_provider_login_view_login_retry_title_v2" = "Ongeldige referenties";
+"idenfy_provider_login_view_login_retry_description_v2" = "Voer geldige referenties in en probeer het opnieuw!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Inloggen mislukt";
+"idenfy_provider_login_view_login_failed_description_v2" = "We konden je niet inloggen";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Accountverificatie";
+"idenfy_mfa_method_selection_view_description_v2" = "Selecteer de gewenste authenticatiemethode in de onderstaande opties";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Authenticatiemethode";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Eenmalig wachtwoord";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Beveiligingsvraag en antwoord";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "VERDER";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Verifieer jezelf";
+"idenfy_mfa_captcha_method_description_v2" = "Voer de captcha code in die je in de onderstaande afbeelding ziet";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Captcha code";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "VERDER";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Verifieer jezelf";
+"idenfy_mfa_code_method_description_v2" = "Voer de code in die je hebt ontvangen op je telefoon of per e-mail";
+"idenfy_mfa_code_method_code_hint_v2" = "Authenticatiecode";
+"idenfy_mfa_question_method_title_v2" = "Beantwoord de onderstaande vraag";
+"idenfy_mfa_question_method_answer_hint_v2" = "Je antwoord";
+"idenfy_mfa_notification_method_title_v2" = "Controleer de toegang via het programma van je leverancier";
+"idenfy_mfa_notification_method_description_v2" = "Druk op de knop doorgaan als je klaar bent";
+"idenfy_mfa_pass_code_method_title_v2" = "Verifieer jezelf";
+"idenfy_mfa_pass_code_method_description_v2" = "Voer de toegangscode in die je hebt gekregen van je energieleverancier";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Toegangscode";
+"idenfy_mfa_general_view_continue_button_title_v2" = "VERDER";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Start identiteitsverificatie";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Document land van uitgifte";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Laten we beginnen";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Selecteer land van uitgifte";
+"idenfy_country_selection_view_information_description_v2" = "Kies het land waar je document is uitgegeven";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Zoek land waar document is uitgegeven";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Selecteer een taal";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "VERDER";
+"idenfy_documents_selection_view_information_title_v2" = "Selecteer een document";
+"idenfy_documents_selection_view_information_description_v2" = "Welk documenttype wil je identificeren?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Paspoort";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "Identiteitskaart";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Ander";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Rijbewijs";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Verblijfsvergunning";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Visa";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "VS GRENSOVERGANGSKAART (BCC)";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Oostenrijkse Asielverblijfsvergunning";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Russisch nationaal paspoort";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Russisch internationaal paspoort";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "VK voorlopig rijbewijs";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Stempas";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Oude identiteitskaart";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Reiskaart";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Fotokaart";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Militaire (veteranen)kaart";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Bewijs van leeftijdskaart";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Diplomatiek identificatiebewijs";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "PAN-kaart";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Aadhaar-kaart";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Bevestig het documenttype";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Houd je **identiteitskaart** klaar om te identificeren";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Houd je **paspoort** klaar om te identificeren";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Houd je **verblijfsvergunning** klaar om te identificeren";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Houd je **rijbewijs** klaar om te identificeren";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Houd je **document** klaar om te identificeren";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Houd je";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "identiteitskaart";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "paspoort";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "verblijfsvergunning";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "rijbewijs";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "document";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "Visa";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "VS Grensovergangskaart (BCC)";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "Oostenrijkse Asielverblijfsvergunning";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "Russisch nationaal paspoort";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "Russisch internationaal paspoort";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "VK voorlopig rijbewijs";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "stempas";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "oude identiteitskaart";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "reiskaart";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "fotokaart";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "militaire (veteranen)kaart";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "Bewijs van leeftijdskaart";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "diplomatieke ID";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "PAN-kaart";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar-kaart";
+"idenfy_confirmation_view_information_description_part_3_v2" = "Klaar om te identificeren";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Verificatie duurt **5** stappen:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Verificatie zal duren";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "stappen:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Foto voorkant document";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Foto achterkant document";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Foto van gezicht";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Liveness check";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Foto van kaft paspoort";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Foto document bewijs van adres";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Foto document tweede bewijs van adres";
+"idenfy_confirmation_view_upload_image_title_v2" = "Bij elke stap kan je foto\'s uploaden";
+"idenfy_confirmation_view_begin_identification_title_v2" = "VERDER";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "VERDER";
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "GA DOOR IN **x** …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Zorg ervoor dat je in een heldere omgeving bent";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Klik op \"Ik ben klaar\" wanneer het gevraagd wordt en volg de instructies";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Je moet dichterbij of verder weg van de camera staan om deze controle te voltooien";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Volg de onderstaande instructies:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Zorg ervoor dat de foto van je geselecteerde document:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Duidelijk zichtbaar en NIET wazig is";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Goed verlicht en niet bedekt door een schaduw is";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Niet goed zichtbaar is door de weerspiegeling van licht";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Niet goed zichtbaar is door een vinger en in het witte frame past";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Een origineel document is en geen kopie";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Voorkant van de identiteitskaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Achterkant van identiteitskaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Voorkant van het document";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Achterkant van document";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Voorkant van verblijfsvergunning";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Achterkant van verblijfsvergunnig";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Voorkant van rijbewijs";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Achterkant van rijbewijs";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Voorkant van het paspoort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Pagina van het paspoort waar het gezicht op staat";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Adresbewijs";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Tweede adresbewijs";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Voorkant van het visum";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Achterkant van het visum";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "Voorkant van VS Grensovergangskaart (BCC)";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "Achterkant van VS Grensovergangskaart (BCC)";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Voorkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Achterkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Voorkant van het Russische nationale paspoort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Achterkant van het Russische nationale paspoort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Voorkant van het Russische internationale paspoort";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Terug van het Russische internationale paspoort";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Voorkant van het VK voorlopige rijbewijs";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Achterkant van het VK voorlopige rijbewijs";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Voorkant van stempas";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Achterkant van stempas";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Voorkant van de oude identiteitskaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Achterkant van de oude identiteitskaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Voorkant van de reiskaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Achterkant van de reiskaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Voorkant van de fotokaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Achterkant van de fotokaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Voorkant van militaire (veteranen) kaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Achterkant van militaire (veteraan) kaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Voorkant van het bewijs van de leeftijdskaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Achterkant van het bewijs van de leeftijdskaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Voorkant van het diplomatieke identificatiebewijs";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Achterkant van het diplomatieke identificatiebewijs";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "Voorkant van de PAN-kaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "Achterkaart van de PAN-kaart";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Voorkant van de aadhaar-kaart";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Achterkaart van de aadhaar-kaart";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Plaats je document in het frame en maak een duidelijke foto";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Plaats je document in het frame en wacht tot het is gescand";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Kies een ander bestandstype";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Welk bestandstype wil je uploaden?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Foto";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Hoe moet ik me identificeren?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "SLA INSTRUCTIES OVER";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Zorg ervoor dat je selfie duidelijk zichtbaar is en in het witte frame past";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Zorg ervoor dat de lichtbron van voor komt en niet van achter";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Zorg ervoor dat de foto van je geselecteerde document: Duidelijk zichtbaar en niet wazig is";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Zorg ervoor dat de foto van je geselecteerde document: Goed verlicht en niet bedekt is door een schaduw";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Zorg ervoor dat de foto van je geselecteerde document: Niet bedekt is door een reflectie of glans";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Zorg ervoor dat de foto van je geselecteerde document: Niet bedekt is door een vinger en in het witte frame past";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "Voorkant van de identiteitskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "Achterkant van de identiteitskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Voorkant van het document";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Achterkant van het document";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Voorkant van verblijfsvergunning";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Achterkant van verblijfsvergunnig";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Voorkant van het rijbewijs";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Achterkant van het rijbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Voorkant van de kaft van het paspoort";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Pagina van het paspoort waar het gezicht op staat";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adresbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Tweede adresbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Voorkant van visum";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Achterkant van visum";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "Voorkant van VS Grensovergangskaart (BCC)";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "Achterkant van VS Grensovergangskaart (BCC)";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Voorkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Achterkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Voorkant van het Russische nationale paspoort";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Achterkant van het Russische nationale paspoort";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Voorkant van het Russische internationale paspoort";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Achterkant van het Russische internationale paspoort";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Voorkant van het VK voorlopige rijbewijs";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Achterkant van het VK voorlopige rijbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Voorkant van de stempas";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Achterkant van de stempas";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Voorkant van de oude identiteitskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Achterkant van de oude identiteitskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Voorkant van de reiskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Achterkant van de reiskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Voorkant van de fotokaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Achterkant van fotokaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Voorkant van militaire (veteranen) kaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Achterkant van militaire (veteranen) kaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Voorkant van het bewijs van leeftijdskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Terug van het bewijs van leeftijdskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Voorkant van de diplomatieke identiteitskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Achterkant van de diplomatieke identiteitskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "Voorkant van de PAN card";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "Achterkant van de PAN card";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Voorkant van de Aadhaar card";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Achterkant van de Aadhaar card";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "Is je **voorkant van de identiteitskaart** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "Is je **achterkant van identiteitskaart** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "Is je **voorkant van het document** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "Is je **achterkant van document** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "Is je **voorkant van de verblijfsvergunning** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "Is je **achterkant van de verblijfsvergunning** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "Is je **voorkant van het rijbewijs** duidelijk zichtbaar en in het frame?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "Is je **achterkant van het rijbewijs** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "Is je **voorkant van de kaft van het paspoort** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "Is je **adresbewijs** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "Is je **tweede adresbewijs** duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "Is je **pagina van het paspoort waar het gezicht op staat** duidelijk zichtbaar en in het frame?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Is je";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "voorkant van de identiteitskaart";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "achterkant van identiteitskaart";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "voorkant van het document";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "achterkant van het document";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "voorkant van de verblijfsvergunning";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "achterkant van de verblijfsvergunning";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "voorkant van rijbewijs";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "achterkant van rijbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "voorkant van de kaft van het paspoort";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "adresbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "tweede adresbewijs";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "pagina van het paspoort waar het gezicht op staat";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Is de foto van je gezicht duidelijk zichtbaar?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Kan je de details van het document duidelijk lezen?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Is het de achterkant van het document?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Kun je de details van het document duidelijk lezen?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Kun je de details van het document duidelijk lezen?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Weet je zeker dat je dit bestand wilt uploaden?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Plaats je gezicht in het gemarkeerde gebied en maak een duidelijke foto";
+"idenfy_face_camera_preview_title_v2" = "Neem een foto van je gezicht";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Bevestig foto van je gezicht";
+"idenfy_face_camera_results_description_v2" = "Is de foto van je gezicht duidelijk zichtbaar en in het kader?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "Is je **foto van je gezicht** duidelijk zichtbaar en in het kader?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Is je gezicht duidelijk zichtbaar en dichtbij genoeg voor inspectie?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Inspecteer foto";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Powered by iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "MAAK EEN NIEUWE FOTO";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "JA, GA VERDER";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Voorkant van de identiteitskaart";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Achterkant van identiteitskaart";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Voorkant van het document";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Achterkant van het document";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Voorkant van verblijfsvergunning";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Achterkant van verblijfsvergunnig";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Voorkant van rijbewijs";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Achterkant van rijbewijs";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "voorkant van de kaft van het paspoort";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Pagina van het paspoort waar het gezicht op staat";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Adresbewijs";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Tweede adresbewijs";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Voorkant van het visum";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Achterkant van het visum";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "Voorkant van VS Grensovergangskaart (BCC)";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "Achterkant van VS Grensovergangskaart (BCC)";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Voorkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Achterkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Voorkant van het Russische nationale paspoort";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Achterkant van het Russische nationale paspoort";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Voorkant van het Russische internationale paspoort";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Achterkant van het Russische internationale paspoort";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Voorkant van het VK voorlopige rijbewijs";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Achterkant van het VK voorlopig rijbewijs";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Voorkant van de stempas";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Achterkant van de stempas";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Voorkant van de oude identiteitskaart";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Terug van oude identiteitskaart";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Voorkant van de reiskaart";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Achterkant van de reiskaart";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Voorkant van de fotokaart";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Achterkant van fotokaart";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Voorkant van militaire (veteranen)kaart";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Achterkant van militaire (veteranen)kaart";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Voorkant van het bewijs van de leeftijdskaart";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Achterkant van het bewijs van de leeftijdskaart";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Voorkant van de diplomatieke identiteitskaart";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Achterkant van de diplomatieke identiteitskaart";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "Voorkant van de PAN card";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "Achterkant van de PAN card";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Voorkant van de aadhaar card";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Achterkant van de aadhaar card";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Bevestig foto van het gezicht";
+"idenfy_upload_results_view_cropping_description_v2" = "Geüploade foto uitlijnen in het gemarkeerde gebied";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "KIES EEN ANDERE";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "VERDER";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Maximale bestandsgrootte overschreden";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Selecteer een bestand met een geldige afmeting niet groter dan 5 MB";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Niet ondersteund bestandstype";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Ondersteunde bestandstypen:";
+"idenfy_upload_results_view_failed_to_upload_file_title_v2" = "Upload mislukt";
+"idenfy_upload_results_view_failed_to_upload_file_description_v2" = "We konden het geselecteerde bestand niet uploaden. Probeer het opnieuw!";
+"idenfy_identification_results_identification_status_loading_title_v2" = "Wij zijn je verificatie aan het analyseren";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Moment geduld alsjeblieft terwijl we het voor je in orde maken!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Verificatie mislukt";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Voorkant van de identiteitskaart";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Achterkant van de identiteitskaart";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Voorkant van de kaft van het paspoort";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Adresbewijs";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Tweede adresbewijs";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Pagina van het paspoort waar het gezicht op staat";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Voorkant van het document";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Achterkant van document";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Voorkant van verblijfsvergunning";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Achterkant van verblijfsvergunnig";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Voorkant van rijbewijs";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Achterkant van rijbewijs";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Voorkant van visum";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Achterkant van visum";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "Voorkant van de VS Grensovergangskaart (BCC)";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "Achterkant van de VS Grensovergangskaart (BCC)";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Voorkant van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Achterkan van de Oostenrijkse Asielverblijfsvergunning";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Voorkant van het Russische nationale paspoort";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Achterkant van het Russische nationale paspoort";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Voorkant van het Russische internationale paspoort";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Achterkant van het Russische internationale paspoort";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Voorkant van het VK voorlopige rijbewijs";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Achterkant van het VK voorlopige rijbewijs";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Voorkant van de kiezerkaart";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Achterkant van de kiezerkaart";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Voorkant van de oude identiteitskaart";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Terug van oude identiteitskaart";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Voorkant van de reiskaart";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Achterkant van de reiskaart";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Voorkant van de fotokaart";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Achterkant van fotokaart";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Voorkant van militaire (veteranen) kaart";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Achterkant van militaire (veteranen) kaart";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Voorkant van het bewijs van leeftijdskaart";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Terug van het bewijs van leeftijdskaart";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Voorkant van de diplomatieke identiteitskaart";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Achterkant van de diplomatieke identiteitskaart";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "Voorkant van de PAN card";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "Achterkant van de PAN card";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Voorkant van de aadhaar card";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Achterkant van de aadhaar card";
+"idenfy_identification_results_step_face" = "Foto van het gezicht";
+"idenfy_identification_results_retake_button_title_v2" = "PROBEER HET NOG EENS";
+"idenfy_identification_results_error_continue_button_title_v2" = "VERDER";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Zorg ervoor dat je document een MRZ-zone heeft";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Machineleesbare zone (MRZ) bestaat meestal uit 2 (paspoort) of 3 (ID-kaart) symbolen. Een voorbeeld van MRZ staat in de afbeelding hieronder, gemarkeerd door een rode rechthoek.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "GA TERUG";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "IK WEET HET ZEKER";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Document niet gevonden. Zorg ervoor dat je het document laat zien";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "en het uitgifteland van het document is";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASPOORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "IDENTITEITSKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "VERBLIJFSVERGUNNING";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "RIJBEWIJS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOCUMENT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VISA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "VS GRENSOVERGANGSKAART (BCC)";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "OOSTENRIJKSE ASIELVERBLIJFVERGUNNING";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "RUSSISCH NATIONAAL PASPOORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "RUSSISCHE INTERNATIONAAL PASPOORT";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "VK VOORLOPIG RIJBEWIJS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "STEMPAS";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "OUDE IDENTITEITSKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "REISKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "FOTOKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "MILITAIRE (VETERANEN) KAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "BEWIJS VAN LEEFTIJDSKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "DIPLOMATIEKE IDENTIFICATIEKAART";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "PAN CARD";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "Aadhaar CARD";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Zorg ervoor dat het land van uitgifte is";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Verificatie goedgekeurd";
+"idenfy_identification_results_success_fragment_description_v2" = "";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Geverifieerd";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Je informatie is ingediend";
+"idenfy_identification_results_suspected_view_description_v2" = "Neem contact op met ons customer support team als u vragen heeft";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "VERDER";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Verificatie ingediend";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Je verificatie vereist een handmatige beoordeling. Je wordt op de hoogte gebracht wanneer de beoordeling voltooid is.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Het duurt meestal tussen de 1 tot 5 minuten om je verificatie te beoordelen";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "TERUG NAAR ACCOUNT";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Aanvullende gegevensbeoordeling";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Geautomatiseerde AI controle voltooid";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "TIJD OVER";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Verificatie afbreken";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Weet je zeker dat je de verificatie wilt afbreken?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "JA";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "NEE";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Je verificatie was succesvol!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Bedankt";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "VERDER";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Verificatie mislukt";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "We konden je identiteit niet bevestigen";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Neem contact op";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "voor verdere ondersteuning";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "VERDER";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Mogen we je camera gebruiken?";
+"idenfy_camera_permissions_view_information_description_v2" = "We moeten je camera gebruiken om de foto van je document en een foto van je gezicht te maken";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Ga naar de instellingen, tik op „Rechtenâ” om toegang te verlenen tot de camera";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "CAMERA INSCHAKELEN";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Raak met het midden van het paspoort de bovenkant van de telefoon aan";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Raak met het midden van de ID-kaart de bovenkant van de telefoon aan";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Raak met het midden van het document bovenaan de telefoon aan";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Documentgegevens lezen";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Paspoort lezen voltooid";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Een ogenblik geduld alsjeblieft";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Oeps! Er is iets mis gegaan.";
+"idenfy_nfc_reading_view_information_reading_snackbar_title_v2" = "Haal de telefoon weg van het document!";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Raak met het midden van het paspoort de bovenkant van de telefoon aan";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Raak met het midden van de ID -kaart de bovenkant van de telefoon aan";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Raak met het midden van het document bovenaan de telefoon aan";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Documentafbeelding lezen...";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "VERDER";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Verbinding verbroken. Breng de telefoon dichterbij!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Time-out";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "NFC leestijd verlopen";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "VERDER";
+
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Je apparaat wordt niet ondersteund";
+"idenfy_nfc_required_view_information_description_v2" = "Gebruik een mobiele telefoon met ingebouwde NFC-taglezer";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Je hebt het verificatieproces afgebroken";
+"idenfy_additional_support_view_description" = "Het verificatieproces werd niet uitgevoerd. Neem contact op met ons supportteam als je vragen hebt.";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "GA TERUG";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Geef handmatig toestemming";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = "Te vaak gefaalde liveness check";
+"IDENFY_SERVER_ERROR_MESSAGE" = "Oeps! Er is iets fout gegaan.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Sessie verlopen!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Te veel pogingen!";
+"IDENFY_NFC_FAILED_MESSAGE" = "NFC authentication failed!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Terug";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Foto van voorkant aan het uploaden…";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Foto van achterkant aan het uploaden…";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Foto van gezicht  aan het uploaden…";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Liveness aan het controleren…";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Foto paspoort aan het uploaden…";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Foto bewijs van adres aan het uploaden…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Foto tweede bewijs van adres aan het uploaden…";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Verbindingsproblemen. Zorg ervoor dat je een stabiele internetverbinding hebt";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Verder";
+"idenfy_alert_title_manual_reviewing_information" = "INFORMATIE";
+"idenfy_alert_message_manual_reviewing_information" = "Omdat je een ander document dan een identiteitsbewijs of paspoort hebt gekozen, moeten we je aanvraag nog een keer beoordelen.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Verder";
+"idenfy_alert_title_document_analysis_information" = "OH NEE!";
+"idenfy_alert_message_document_analysis_information" = "Kon het documenttype niet bepalen. Selecteer het documenttype in de volgende stap.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Weet je zeker dat je de verificatie wil stoppen?";
+"idenfy_alert_title_abort_identification_information" = "Verificatie afbreken";
+"idenfy_alert_positive_button_abort_identification_information" = "JA";
+"idenfy_alert_negative_button_abort_identification_information" = "NEE";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Weet je zeker dat je opnieuw wilt beginnen?";
+"idenfy_alert_title_restart_identification_information" = "Begin opnieuw";
+"idenfy_alert_positive_button_restart_identification_information" = "JA";
+"idenfy_alert_negative_button_restart_identification_information" = "NEE";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Analyseren…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Een ogenblik alsjeblieft.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Verder";
+"idenfy_alert_title_liveness_default_error" = "INFORMATIE";
+"idenfy_alert_message_liveness_default_error" = "Liveness check is mislukt, probeer het opnieuw.";
+"idenfy_alert_message_liveness_face_timeout_error" = "De tijd voor de liveness check van het gezicht is verstreken. Probeer het opnieuw.";
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Laat je paspoort zien";
+"idenfy_instructions_passport_correct_text" = "Zorg ervoor dat je jouw paspoort toont tijdens verificatie en niet een ander document.";
+
+"idenfy_instructions_passport_mrz_title" = "Paspoort heeft MRZ-gebied";
+"idenfy_instructions_passport_mrz_text" = "Zorg ervoor dat je document de MRZ (2 of 3 tekenregels) heeft. Als jouw document geen MRZ-zone heeft, selecteer je \"Andere documenten\" in het venster documentselectie.";
+
+"idenfy_instructions_passport_fits_frame_title" = "Het paspoort past in de witte frames";
+"idenfy_instructions_passport_fits_frame_text" = "Zorg ervoor dat het paspoort in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_passport_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_passport_finger_text" = "Dek je gezicht of andere informatie in het document niet af.";
+
+"idenfy_instructions_passport_reflection_title" = "Er is geen lichtreflectie";
+"idenfy_instructions_passport_reflection_text" = "Let er op dat de lichtreflectie of documenthologram er niet voor zorgt dat het gezicht of andere belangrijke documentinformatie wordt afgedekt.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Toon je identiteitsbewijs";
+"idenfy_instructions_id_front_correct_text" = "Zorg ervoor dat je de identiteitsbewijs weergeeft op het moment van verificatie, niet een ander document.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "De voorkant van de identiteitsbewijs past in de witte frames";
+"idenfy_instructions_id_front_fit_frame_text" = "Zorg ervoor dat de voorkant van de identiteitsbewijs in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_id_front_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_id_front_finger_text" = "Dek je gezicht of andere informatie in het document niet af.";
+
+"idenfy_instructions_id_front_reflection_title" = "Er is geen lichtreflectie";
+"idenfy_instructions_id_front_reflection_text" = "Let er op dat de lichtreflectie of documenthologram er niet voor zorgt dat het gezicht of andere belangrijke documentinformatie wordt afgedekt.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Toon de achterkant van je identiteitsbewijs.";
+"idenfy_instructions_id_back_correct_text" = "Zorg ervoor dat je de achterkant van de identiteitsbewijs laat zien.";
+
+"idenfy_instructions_id_back_mrz_title" = "Het document heeft het MRZ-gebied";
+"idenfy_instructions_id_back_mrz_text" = "Zorg ervoor dat je document de MRZ (2 of 3 tekenregels) heeft. Als jouw document geen MRZ-zone heeft, selecteer je \"Andere documenten\" in het venster documentselectie.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "De achterkant van de identiteitsbewijs past in de witte frames";
+"idenfy_instructions_id_back_fit_frame_text" = "Zorg ervoor dat de achterkant van de identiteitsbewijs in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_id_back_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_id_back_finger_text" = "Dek de informatie in het document niet af met je vinger.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Toon je verblijfsvergunning";
+"idenfy_instructions_residence_permit_front_correct_text" = "Zorg ervoor dat je de verblijfsvergunning toont op het moment van verificatie, niet een ander document.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "De verblijfsvergunning past in de witte frames";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Zorg ervoor dat de voorkant van de verblijfsvergunning in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_residence_permit_front_finger_text" = "Dek je gezicht of andere informatie in het document niet af.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Er is geen lichtreflectie";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Let erop dat de lichtreflectie of documenthologram er niet voor zorgt dat het gezicht of andere belangrijke documentinformatie wordt afgedekt.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Toon de achterkant van je verblijfsvergunning";
+"idenfy_instructions_residence_permit_back_correct_text" = "Zorg ervoor dat je de achterkant van de verblijfsvergunning laat zien.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "Het document heeft het MRZ-gebied";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Zorg ervoor dat je document de MRZ (2 of 3 tekenregels) heeft. Als jouw document geen MRZ-zone heeft, selecteer je \"Andere documenten\" in het venster documentselectie.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "De achterkant van de verblijfsvergunning past in de witte frames";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Zorg ervoor dat de achterkant van de verblijfsvergunning in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_residence_permit_back_finger_text" = "Dek de informatie in het document niet af met je vinger.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Laat je rijbewijs zien";
+"idenfy_instructions_driver_license_front_correct_text" = "Zorg ervoor dat je het rijbewijs toont op het moment van verificatie, niet een ander document.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Het rijbewijs past in de witte frames";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Zorg ervoor dat de voorkant van het rijbewijs in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_driver_license_front_finger_text" = "Dek jouw gezicht of andere informatie in het document niet af.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Er is geen lichtweerspiegeling";
+"idenfy_instructions_driver_license_front_reflection_text" = "Let er op dat de lichtreflectie of documenthologram er niet voor zorgt dat het gezicht of andere belangrijke documentinformatie wordt afgedekt.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Laat een document zien dat geen MRZ heeft";
+"idenfy_instructions_other_front_mrz_text" = "Zorg ervoor dat je het document laat zien dat geen MRZ heeft.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "De voorkant van het document past in de witte frames";
+"idenfy_instructions_other_front_fit_frame_text" = "Zorg ervoor dat de voorkant van het document in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_other_front_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_other_front_finger_text" = "Dek je gezicht of andere informatie in het document niet af.";
+
+"idenfy_instructions_other_front_reflection_title" = "Er is geen lichtreflectie";
+"idenfy_instructions_other_front_reflection_text" = "Let er op dat de lichtreflectie of documenthologram er niet voor zorgt dat het gezicht of andere belangrijke documentinformatie wordt afgedekt.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "De achterkant van het document past in de witte frames";
+"idenfy_instructions_other_back_fit_frame_text" = "Zorg ervoor dat de achterkant van het document in de witte frames past en niet verder gaat dan de randen van het frame. Het getoonde document moet duidelijk leesbaar zijn.";
+
+"idenfy_instructions_other_back_finger_title" = "De vinger bedekt het document niet";
+"idenfy_instructions_other_back_finger_text" = "Dek de informatie in het document niet af met je vinger.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "Gezicht past in de witte frames";
+"idenfy_instructions_face_fit_frame_text" = "Zorg ervoor dat je gezicht in de witte frames past.";
+
+"idenfy_instructions_face_one_face_title" = "Slechts één gezicht is zichtbaar";
+"idenfy_instructions_face_one_face_text" = "Zorg ervoor dat er geen andere gezichten zichtbaar zijn op de foto.";
+
+"idenfy_instructions_face_shadow_title" = "Het gezicht is niet bedekt door schaduw";
+"idenfy_instructions_face_shadow_text" = "Zorg ervoor dat je gezicht goed verlicht is en er geen schaduw op staat.";
+
+"idenfy_instructions_face_zoom_title" = "Gezicht past in het frame";
+"idenfy_instructions_face_zoom_text" = "Zorg ervoor dat je gezicht in het frame past. Beweeg je gezicht dichterbij nadat je de selfie hebt genomen.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Kan geen toegang krijgen tot de camera";
+"idenfy_alert_message_camera_permission_not_enabled" = "Ga naar Instellingen > Privacy > Camera en schakel Cameratoegang voor deze app in om toegang in te schakelen.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "OK";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "Jij hebt";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "pogingen om jezelf te verifiëren!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "Je hebt **3** pogingen om jezelf te verifiëren!";
+"idenfy_face_authentication_initial_view_button_title" = "VERDER";
+"idenfy_face_authentication_initial_view_alert_message" = "Gezichtsverificatie is mislukt!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Succesvolle authenticatie";
+"idenfy_face_authentication_results_success_description" = "Je bent succesvol geverifieerd!";
+"idenfy_face_authentication_results_final_failed_title" = "Gezichtsverificatie is niet gelukt.";
+"idenfy_face_authentication_results_final_failed_description" = "Volg de stappen die op het scherm staan en zorg voor een goed verlichte omgeving. Probeer de volgende zaken te vermijden op de foto: vaag beeld, schaduw, overbelichting, vingers of andere objecten.";
+"idenfy_face_authentication_results_failed_description" = "Selecteer je leverancier";
+"idenfy_face_authentication_results_button_title" = "VERDER";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Verificatie stoppen";
+"idenfy_face_authentication_exit_alert_description" = "Weet je zeker dat je de gezichtsauthenticatie wil stoppen?";

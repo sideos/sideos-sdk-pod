@@ -1,0 +1,545 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iDenfySDK
+import AVFoundation
+import CommonCrypto
+import CoreImage
+import CoreMedia
+import CoreNFC
+import FaceTecSDK
+import Foundation
+import IdenfyLiveness
+import Lottie
+import MobileCoreServices
+import Security
+import Swift
+import SystemConfiguration
+import UIKit
+import Vision
+import VisionKit
+import ZIPFoundation
+import _Concurrency
+@_exported import iDenfySDK
+import idenfyNFCReading
+import idenfycore
+import idenfyviews
+public struct Language {
+  public let languageName: Swift.String
+  public let languageEnum: idenfycore.IdenfyLocaleEnum
+}
+public class IdenfyIdentificationResultStatus {
+  final public let idenfyIdentificationStatus: iDenfySDK.IdenfyIdentificationStatus
+  final public let idenfyProcessingResultState: iDenfySDK.IdenfyProcessingResultState
+  public init(idenfyIdentificationStatus: iDenfySDK.IdenfyIdentificationStatus, idenfyProcessingResultState: iDenfySDK.IdenfyProcessingResultState)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyController : ObjectiveC.NSObject {
+  @objc public static let shared: iDenfySDK.IdenfyController
+  @objc public var idenfyFaceAuthenticationResultCallback: ((iDenfySDK.FaceAuthenticationResult) -> Swift.Void)?
+  @objc public var idenfyIdentificationResultCallback: ((iDenfySDK.IdenfyIdentificationResult) -> Swift.Void)?
+  @objc public var idenfyOnSDKCloseCallback: ((iDenfySDK.IdenfyIdentificationResult) -> Swift.Void)?
+  @objc override dynamic public init()
+  @objc public init(idenfySettings: iDenfySDK.IdenfySettingsV2)
+  @objc public static func continueFlow()
+  @objc public func handleIdenfyCallbacksWithManualResults(idenfyIdentificationResult: @escaping (iDenfySDK.IdenfyIdentificationResult) -> Swift.Void)
+  @objc public func getIdenfyResultWithDismiss(idenfyIdentificationResult: @escaping (iDenfySDK.IdenfyIdentificationResult) -> Swift.Void)
+  @objc public func handleIdenfyCallbacksForFaceAuthentication(faceAuthenticationResult: @escaping (iDenfySDK.FaceAuthenticationResult) -> Swift.Void)
+  @objc public func instantiateNavigationController() -> iDenfySDK.IdenfySDKNavigationController
+  @objc public func initializeIdenfySDKV2WithManual(idenfySettingsV2: iDenfySDK.IdenfySettingsV2, idenfyViewsV2: iDenfySDK.IdenfyViewsV2)
+  @objc public func initializeIdenfySDKV2WithManual(idenfySettingsV2: iDenfySDK.IdenfySettingsV2)
+  public func initializeWithCustomWaitingViewController(idenfySettingsV2: iDenfySDK.IdenfySettingsV2, idenfyInProcessIdentificationResultsDelegate: iDenfySDK.IdenfyInProcessIdentificationResultsDelegate)
+  public func initializeWithCustomWaitingViewController(idenfySettingsV2: iDenfySDK.IdenfySettingsV2, idenfyInProcessIdentificationResultsDelegate: iDenfySDK.IdenfyInProcessIdentificationResultsDelegate, idenfyViewsV2: iDenfySDK.IdenfyViewsV2)
+  @objc public func initializeFaceAuthentication(faceAuthenticationInitialization: iDenfySDK.FaceAuthenticationInitialization)
+  @objc public func initializeFaceAuthentication(faceAuthenticationInitialization: iDenfySDK.FaceAuthenticationInitialization, idenfyViewsV2: iDenfySDK.IdenfyViewsV2)
+  @objc public func setIdenfyLoggingHandler(idenfyLoggingHandler: iDenfySDK.IdenfyLoggingHandlerUseCase)
+  @objc public func getIdenfySDKVersion() -> Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyBuilderV2 : ObjectiveC.NSObject {
+  @objc public func withUISettingsV2(_ idenfyUISettingsV2: iDenfySDK.IdenfyUISettingsV2) -> iDenfySDK.IdenfyBuilderV2
+  @objc public func withAuthToken(_ authToken: Swift.String) -> iDenfySDK.IdenfyBuilderV2
+  @objc public func withSelectedLocale(_ selectedLocale: idenfycore.IdenfyLocaleEnum) -> iDenfySDK.IdenfyBuilderV2
+  @objc public func withSSLPinning(_ sslPinning: Swift.Bool) -> iDenfySDK.IdenfyBuilderV2
+  @objc public func build() -> iDenfySDK.IdenfySettingsV2
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct IdenfyCoreNotificationManager {
+  public static let startProcessingReady: Foundation.Notification.Name
+  public static let providerLoginFinished: Foundation.Notification.Name
+  public static let startCheckingResults: Foundation.Notification.Name
+  public static let checkIfCanStartProcessing: Foundation.Notification.Name
+  public static let restartInitialAgreementUIN: Foundation.Notification.Name
+  public static let bundleDownloadedNotification: Foundation.Notification.Name
+  public static let handleDocumentAnalyzationResponseErrorWithContinue: Foundation.Notification.Name
+  public static let handleDocumentAnalyzationResponseSuccess: Foundation.Notification.Name
+  public static let documentInitialPhotoAnalysisFinished: Foundation.Notification.Name
+  public static let finishSDK: Foundation.Notification.Name
+  public static let continueFlow: Foundation.Notification.Name
+  public static let handleZipUpload: Foundation.Notification.Name
+}
+public enum CustomCameraSessionDrawerState {
+  case expanded
+  case collapsed
+  case hidden
+  public static func == (a: iDenfySDK.CustomCameraSessionDrawerState, b: iDenfySDK.CustomCameraSessionDrawerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LivelinessLicenseDTO : Swift.Codable {
+  public let expiryDate: Swift.String?
+  public let key: Swift.String?
+  public let appId: Swift.String?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class IdenfyIdentificationResult : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let autoIdentificationStatus: iDenfySDK.AutoIdentificationStatus
+  @objc final public let manualIdentificationStatus: iDenfySDK.ManualIdentificationStatus
+  @objc final public let suspectedIdentificationStatus: iDenfySDK.SuspectedIdentificationStatus
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public protocol IdenfyCustomCameraSessionDrawerDelegate {
+  @objc func drawerBackButtonPressed()
+  @objc func drawerToggleFlashButtonPressed()
+  @objc func drawerInstructionDialogButtonPressed()
+  @objc func expandCollapseDrawerPressed()
+  @objc func nextInstructionButtonPressed()
+  @objc func previousInstructionButtonPressed()
+}
+public protocol ManualReviewingIdentificationTimerActionsDelegate : AnyObject {
+  func updateTime(_ time: Swift.String)
+}
+public protocol NFCReadingTimerActionsDelegate : AnyObject {
+  func updateTime(_ time: Swift.String)
+  func timeOutOccured()
+}
+public struct ConstsIdenfyImages {
+}
+public struct ConstsNotification {
+}
+@objc public protocol IdenfyLoggingHandlerUseCase {
+  @objc func logEvent(event: Swift.String, message: Swift.String, token: Swift.String)
+}
+extension iDenfySDK.CustomCameraSessionDrawer : idenfyviews.CameraSessionDrawerDelegate {
+  @_Concurrency.MainActor(unsafe) public func expandDrawerAction()
+  @_Concurrency.MainActor(unsafe) public func collapseDrawerAction()
+  @_Concurrency.MainActor(unsafe) public func previousInstructionButtonPressedAction()
+  @_Concurrency.MainActor(unsafe) public func nextInstructionButtonPressedAction()
+  @_Concurrency.MainActor(unsafe) public func backButtonPressedAction()
+  @_Concurrency.MainActor(unsafe) public func toggleFlashButtonPressedAction()
+  @_Concurrency.MainActor(unsafe) public func instructionDialogButtonPressedAction()
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class CustomCameraSessionDrawer : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var drawerContentView: idenfyviews.DrawerContentViewableV2?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: iDenfySDK.IdenfyCustomCameraSessionDrawerDelegate?
+  @_Concurrency.MainActor(unsafe) public func setIntentedDrawerState(_ state: iDenfySDK.CustomCameraSessionDrawerState, slideDuration: Swift.Double? = nil, isUserInteractionEnabled: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func getCurrentDrawerState() -> iDenfySDK.CustomCameraSessionDrawerState
+  @_Concurrency.MainActor(unsafe) public init(frame _: CoreGraphics.CGRect, idenfyController: iDenfySDK.IdenfyController?, gradientLayer: QuartzCore.CAGradientLayer, cameraSessionInstructions: idenfycore.IdenfyInstructionsEnum)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func resetIntructionsState()
+  @objc deinit
+}
+public enum IdenfyIdentificationStatus : Swift.String, Swift.Codable {
+  case APPROVED
+  case DENIED
+  case SUSPECTED
+  case REVIEWING
+  case UNKNOWN
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum InstructionEnum : Swift.String {
+  case PASSPORT
+  case ID_CARD_FRONT
+  case ID_CARD_BACK
+  case DRIVER_LICENSE
+  case RESIDENCE_PERMIT_FRONT
+  case RESIDENCE_PERMIT_BACK
+  case OTHER_FRONT
+  case OTHER_BACK
+  case FACE_PHOTO
+  case FACE_PHOTO_WITH_LIVENESS
+  case INSTRUCTION_NOT_NEEDED
+  case DOCUMENT_GENERIC
+  case FACE_GENERIC
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyIdentificationResultsUISettingsV2 : ObjectiveC.NSObject {
+  @objc public var isShowSuccessSpinnerImmediateRedirect: Swift.Bool
+  @objc public var isShowErrorSpinnerImmediateRedirect: Swift.Bool
+  @objc public var isAdditionalUploadingInformationVisible: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class IdenfyErrorResponse : ObjectiveC.NSObject, Swift.Codable {
+  public var message: Swift.String
+  public var identifier: Swift.String
+  public var severity: Swift.String?
+  required public init(message: Swift.String, identifier: Swift.String)
+  required public init(message: Swift.String, identifier: Swift.String, severity: Swift.String?)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public enum ImmediateRedirectEnum : Swift.Int {
+  case none
+  case partial
+  case full
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum IdenfyOnBoardingViewTypeEnum : Swift.Int {
+  case single
+  case multipleDynamic
+  case multipleStatic
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct ConstsIdenfyStrings {
+}
+public protocol IdenfyInProcessIdentificationResultsDelegate : ObjectiveC.NSObject {
+  func onIdenfyFlowFinished(idenfyFlowSettings: iDenfySDK.IdenfyFlowSettings) -> iDenfySDK.CustomWaitingViewController
+  func onIdentificationStatusReceived(idenfyIdentificationResultStatus: iDenfySDK.IdenfyIdentificationResultStatus)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfyFaceAuthenticationNavigationController : iDenfySDK.IdenfySDKNavigationController {
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) override public func deinitResources()
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyViewsBuilderV2 : ObjectiveC.NSObject {
+  public func withSplashScreenV2View(_ splashScreenV2View: idenfyviews.SplashScreenV2Viewable) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withPrivacyPolicyView(_ privacyPolicyViewV2: idenfyviews.PrivacyPolicyViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withQuestionnaireView(_ questionnaireViewV2: idenfyviews.QuestionnaireViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withTextQuestionCellView(_ textQuestionCellView: idenfyviews.TextQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withEmailQuestionCellView(_ emailQuestionCellView: idenfyviews.EmailQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withFloatQuestionCellView(_ floatQuestionCellView: idenfyviews.FloatQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIntegerQuestionCellView(_ integerQuestionCellView: idenfyviews.IntegerQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withPasswordQuestionCellView(_ passwordQuestionCellView: idenfyviews.PasswordQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withTelQuestionCellView(_ telQuestionCellView: idenfyviews.TelQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withUrlQuestionCellView(_ urlQuestionCellView: idenfyviews.UrlQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withTextAreaQuestionCellView(_ textAreaQuestionCellView: idenfyviews.TextAreaQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withSelectQuestionCellView(_ selectQuestionCellView: idenfyviews.SelectQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withSelectMultiQuestionCellView(_ selectMultiQuestionCellView: idenfyviews.SelectMultiQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCheckBoxQuestionCellView(_ checkBoxQuestionCellView: idenfyviews.CheckBoxQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withFileQuestionCellView(_ fileQuestionCellView: idenfyviews.FileQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withImageQuestionCellView(_ imageQuestionCellView: idenfyviews.ImageQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withRadioQuestionCellView(_ radioQuestionCellView: idenfyviews.RadioQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDateQuestionCellView(_ dateQuestionCellView: idenfyviews.DateQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withTimeQuestionCellView(_ timeQuestionCellView: idenfyviews.TimeQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDateTimeQuestionCellView(_ dateTimeQuestionCellView: idenfyviews.DateTimeQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCountryQuestionCellView(_ countryQuestionCellView: idenfyviews.CountryQuestionCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withProviderSelectionView(_ providerSelectionViewV2: idenfyviews.ProviderSelectionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withProviderCellView(_ providerSelectionCellView: idenfyviews.ProviderCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withProviderLoginView(_ providerLoginViewV2: idenfyviews.ProviderLoginViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withMFAMethodSelectionView(_ mfaMethodSelectionViewV2: idenfyviews.MFAMethodSelectionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withMFACaptchaView(_ mfaCaptchaViewV2: idenfyviews.MFACaptchaViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withMFAGeneralView(_ mfaGeneralViewV2: idenfyviews.MFAGeneralViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withNFCRequiredView(_ nfcRequiredViewV2: idenfyviews.NFCRequiredViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIssuedCountryView(_ issuedCountryViewV2: idenfyviews.IssuedCountryViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCountrySelectionView(_ countrySelectionViewV2: idenfyviews.CountrySelectionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCountryCellView(_ countrySelectionCellView: idenfyviews.CountryCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withLanguageSelectionView(_ languageSelectionViewV2: idenfyviews.LanguageSelectionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withLanguageCellView(_ langaugeSelectionCellView: idenfyviews.LanguageCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDocumentSelectionView(_ documentSelectionViewV2: idenfyviews.DocumentSelectionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDocumentCellView(_ documentCellView: idenfyviews.DocumentCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withConfirmationView(_ confirmationViewV2: idenfyviews.ConfirmationViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withConfirmationViewDocumentStepCellView(_ confirmationViewDocumentStepCellView: idenfyviews.DocumentStepCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDynamicCameraOnBoardingView(_ dynamicCameraOnBoardingViewV2: idenfyviews.DynamicCameraOnBoardingViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withStaticCameraOnBoardingView(_ staticCameraOnBoardingViewV2: idenfyviews.StaticCameraOnBoardingViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCameraOnBoardingInstructionDescriptionsCellView(_ cameraOnBoardingInstructionDescriptionsCellView: idenfyviews.InstructionDescriptionsCellViewableV2.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCameraPermissionView(_ cameraPermissionViewV2: idenfyviews.CameraPermissionViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withUploadPhotoView(_ uploadPhotoViewV2: idenfyviews.UploadPhotoViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDrawerContentView(_ drawerContentViewV2: idenfyviews.DrawerContentViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withDocumentCameraView(_ documentCameraViewV2: idenfyviews.DocumentCameraViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCameraWithRectangleResultViewV2(_ cameraResultViewV2: idenfyviews.CameraResultViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withPdfResultView(_ pdfResultViewV2: idenfyviews.PdfResultViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withFaceCameraView(_ faceCameraViewV2: idenfyviews.FaceCameraViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withCameraWithoutRectangleResultViewV2(_ cameraResultViewV2: idenfyviews.CameraResultViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withNFCReadingView(_ nfcReadingViewV2: idenfyviews.NFCReadingViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withNFCReadingTimeOutView(_ nfcReadingTimeOutViewV2: idenfyviews.NFCReadingTimeOutViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIdentificationResultsView(_ identificationResultsViewV2: idenfyviews.IdentificationResultsViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIdentificationResultsStepCellView(_ resultsStepCellView: idenfyviews.ResultsStepCellViewable.Type) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIdentificationSuccessResultsView(_ identificationSuccessResultsViewV2: idenfyviews.IdentificationSuccessResultsViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withIdentificationSuspectedResultsView(_ identificationSuspectedResultsViewV2: idenfyviews.IdentificationSuspectedResultsViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withManualReviewingStatusWaitingView(_ manualReviewingStatusWaitingViewV2: idenfyviews.ManualReviewingStatusWaitingViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withManualReviewingStatusFailedView(_ manualReviewingStatusFailedViewV2: idenfyviews.ManualReviewingStatusFailedViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withManualReviewingStatusApprovedView(_ manualReviewingStatusApprovedViewV2: idenfyviews.ManualReviewingStatusApprovedViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withAdditionalSupportView(_ additionalSupportViewV2: idenfyviews.AdditionalSupportViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withFaceAuthenticationSplashScreenV2View(_ faceAuthenticationSplashScreenV2View: idenfyviews.FaceAuthenticationSplashScreenV2Viewable) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func withFaceAuthenticationResultsViewV2(_ faceAuthenticationResultsViewV2: idenfyviews.FaceAuthenticationResultsViewableV2) -> iDenfySDK.IdenfyViewsBuilderV2
+  public func build() -> iDenfySDK.IdenfyViewsV2
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyViewsV2 : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LocaleToUIViewModelMapperUseCase {
+  public static func execute() -> [iDenfySDK.Language]
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyUIBuilderV2 : ObjectiveC.NSObject {
+  public var isAdditionalSupportEnabled: Swift.Bool?
+  public var idenfyOnBoardingViewType: iDenfySDK.IdenfyOnBoardingViewTypeEnum
+  public var idenfyDocumentSelectionType: iDenfySDK.IdenfyDocumentSelectionTypeEnum
+  public var isLanguageSelectionNeeded: Swift.Bool
+  public var idenfyInstructionsEnum: idenfycore.IdenfyInstructionsEnum?
+  public var idenfyLivenessUISettings: IdenfyLiveness.IdenfyLivenessUISettings?
+  public var idenfyIdentificationResultsUISettingsV2: iDenfySDK.IdenfyIdentificationResultsUISettingsV2
+  public var immediateRedirectEnum: iDenfySDK.ImmediateRedirectEnum?
+  public var skipInternalPrivacyPolicyView: Swift.Bool?
+  public func withAdditionalSupportView(_ isAdditionalSupportEnabled: Swift.Bool) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withInstructions(_ idenfyInstructionsEnum: idenfycore.IdenfyInstructionsEnum) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withOnBoadringViewType(_ idenfyOnBoardingViewType: iDenfySDK.IdenfyOnBoardingViewTypeEnum) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withIdenfyDocumentSelectionType(_ idenfyDocumentSelectionType: iDenfySDK.IdenfyDocumentSelectionTypeEnum) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withLanguageSelection(_ isLanguageSelectionNeeded: Swift.Bool) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withLivenessUISettings(_ idenfyLivenessUISettings: IdenfyLiveness.IdenfyLivenessUISettings) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withIdenfyIdentificationResultsUISettingsV2(_ idenfyIdentificationResultsUISettingsV2: iDenfySDK.IdenfyIdentificationResultsUISettingsV2) -> iDenfySDK.IdenfyUIBuilderV2
+  @objc public func withImmediateRedirect(_ immediateRedirectEnum: iDenfySDK.ImmediateRedirectEnum) -> iDenfySDK.IdenfyUIBuilderV2
+  public func withSkipInternalPrivacyPolicy(_ skipInternalPrivacyPolicyView: Swift.Bool) -> iDenfySDK.IdenfyUIBuilderV2
+  public func build() -> iDenfySDK.IdenfyUISettingsV2
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class AuthenticationResultResponse : ObjectiveC.NSObject, Swift.Codable {
+  final public let idenfyIdentificationStatus: iDenfySDK.IdenfyIdentificationStatus
+  final public let identificationStatus: Swift.String?
+  final public let errorMessage: idenfycore.ErrorMessage?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public enum FaceAuthenticationType : Swift.Int, Swift.Codable {
+  case enrollment
+  case authentication
+  case identification
+  public typealias RawValue = Swift.String
+  public var rawValue: iDenfySDK.FaceAuthenticationType.RawValue {
+    get
+  }
+  public init?(rawValue: iDenfySDK.FaceAuthenticationType.RawValue)
+}
+@objc public enum IdenfyDocumentSelectionTypeEnum : Swift.Int {
+  case navigateOnContinueButton
+  case navigateOnTableViewSelection
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AutoIdentificationStatus : Swift.Int, Swift.Codable {
+  case APPROVED
+  case FAILED
+  case UNVERIFIED
+  public typealias RawValue = Swift.String
+  public var rawValue: iDenfySDK.AutoIdentificationStatus.RawValue {
+    get
+  }
+  public init?(rawValue: iDenfySDK.AutoIdentificationStatus.RawValue)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func fillSuperview(padding: UIKit.UIEdgeInsets)
+  @_Concurrency.MainActor(unsafe) public func fillSuperview()
+  @_Concurrency.MainActor(unsafe) public func anchor(top: UIKit.NSLayoutYAxisAnchor?, left: UIKit.NSLayoutXAxisAnchor?, bottom: UIKit.NSLayoutYAxisAnchor?, right: UIKit.NSLayoutXAxisAnchor?, padding: UIKit.UIEdgeInsets = .zero, size: CoreGraphics.CGSize = .zero)
+}
+extension UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) public func halfTextColorChange(fullText: Swift.String, changeText: Swift.String, color: UIKit.UIColor, font: UIKit.UIFont?)
+}
+extension UIKit.UIColor {
+  convenience public init(hexString: Swift.String, alpha: CoreGraphics.CGFloat = 1.0)
+  public func toHexString() -> Swift.String
+}
+public enum IdentificationResultsStepStateEnum : Swift.String {
+  case LOADING
+  case ERROR
+  case SUCCESS
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public enum ManualIdentificationStatus : Swift.Int, Swift.Codable {
+  case APPROVED
+  case FAILED
+  case WAITING
+  case INACTIVE
+  public typealias RawValue = Swift.String
+  public var rawValue: iDenfySDK.ManualIdentificationStatus.RawValue {
+    get
+  }
+  public init?(rawValue: iDenfySDK.ManualIdentificationStatus.RawValue)
+}
+public struct ConstsLiveness {
+}
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+}
+extension Swift.String {
+  public func localized(_ lang: Swift.String? = nil, isCustomStrings _: Swift.Bool = true) -> Swift.String
+}
+public struct FontsLoader {
+}
+extension UIKit.UIFont {
+  public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyLivenessUIBuilder : ObjectiveC.NSObject {
+  public var livenessFeedbackBackgroundColor: UIKit.UIColor?
+  public var livenessFeedbackFont: UIKit.UIFont?
+  public var livenessFeedbackFontSize: CoreGraphics.CGFloat?
+  public var livenessFeedbackFontColor: UIKit.UIFont?
+  public var livenessMainBackgroundColor: UIKit.UIColor?
+  public var livenessMainForegroundColor: UIKit.UIColor?
+  public func build() -> IdenfyLiveness.IdenfyLivenessUISettings
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum CustomWaitingViewController {
+  case viewControllerProvided(vc: UIKit.UIViewController)
+}
+@objc public class SuspectedIdentificationStatus : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var autoSuspected: Swift.Bool
+  @objc public var manualSuspected: Swift.Bool
+  public init(_ autoSuspected: Swift.Bool, _ manualSuspected: Swift.Bool)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public struct IdenfyFlowSettings {
+  public let identificationSteps: [idenfycore.Step]
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class IdenfySettingsV2 : ObjectiveC.NSObject {
+  public var selectedLocale: Swift.String? {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class FaceAuthenticationResult : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let faceAuthenticationStatus: iDenfySDK.FaceAuthenticationStatus
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class FaceAuthenticationInitialization : ObjectiveC.NSObject {
+  final public let authenticationToken: Swift.String
+  public var withImmediateRedirect: Swift.Bool
+  public init(authenticationToken: Swift.String, withImmediateRedirect: Swift.Bool = false)
+  @objc deinit
+}
+@objc public enum FaceAuthenticationStatus : Swift.Int, Swift.Codable {
+  case SUCCESS
+  case FAILED
+  case EXIT
+  public typealias RawValue = Swift.String
+  public var rawValue: iDenfySDK.FaceAuthenticationStatus.RawValue {
+    get
+  }
+  public init?(rawValue: iDenfySDK.FaceAuthenticationStatus.RawValue)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfySDKNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) public func deinitResources()
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class IdenfySDKNavigationControllerImpl : iDenfySDK.IdenfySDKNavigationController {
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) override public func deinitResources()
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+public enum IdenfyProcessingResultState {
+  case PROCESSING
+  case FINISHED(canRetry: Swift.Bool, retakeSteps: idenfycore.RetakeSteps?)
+}
+public struct ConstsCameraOnBoarding {
+  public static var cameraOnBoardingDocumentWaitingDuration: Swift.Int
+  public static var cameraOnBoardingFaceWaitingDuration: Swift.Int
+  public static var cameraOnBoardingLivenessWaitingDuration: Swift.Int
+}
+@_inheritsConvenienceInitializers @objc public class IdenfyUISettingsV2 : ObjectiveC.NSObject {
+  public var isAdditionalSupportEnabled: Swift.Bool?
+  public var idenfyOnBoardingViewType: iDenfySDK.IdenfyOnBoardingViewTypeEnum
+  public var idenfyDocumentSelectionType: iDenfySDK.IdenfyDocumentSelectionTypeEnum
+  public var isLanguageSelectionNeeded: Swift.Bool
+  public var idenfyLivenessUISettingsV2: IdenfyLiveness.IdenfyLivenessUISettings
+  public var idenfyInstructionsEnum: idenfycore.IdenfyInstructionsEnum?
+  public var idenfyIdentificationResultsUISettingsV2: iDenfySDK.IdenfyIdentificationResultsUISettingsV2
+  public var idenfyInProcessIdentificationResultsDelegate: iDenfySDK.IdenfyInProcessIdentificationResultsDelegate?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension iDenfySDK.CustomCameraSessionDrawerState : Swift.Equatable {}
+extension iDenfySDK.CustomCameraSessionDrawerState : Swift.Hashable {}
+extension iDenfySDK.IdenfyIdentificationStatus : Swift.Equatable {}
+extension iDenfySDK.IdenfyIdentificationStatus : Swift.Hashable {}
+extension iDenfySDK.IdenfyIdentificationStatus : Swift.RawRepresentable {}
+extension iDenfySDK.InstructionEnum : Swift.Equatable {}
+extension iDenfySDK.InstructionEnum : Swift.Hashable {}
+extension iDenfySDK.InstructionEnum : Swift.RawRepresentable {}
+extension iDenfySDK.ImmediateRedirectEnum : Swift.Equatable {}
+extension iDenfySDK.ImmediateRedirectEnum : Swift.Hashable {}
+extension iDenfySDK.ImmediateRedirectEnum : Swift.RawRepresentable {}
+extension iDenfySDK.IdenfyOnBoardingViewTypeEnum : Swift.Equatable {}
+extension iDenfySDK.IdenfyOnBoardingViewTypeEnum : Swift.Hashable {}
+extension iDenfySDK.IdenfyOnBoardingViewTypeEnum : Swift.RawRepresentable {}
+extension iDenfySDK.FaceAuthenticationType : Swift.Equatable {}
+extension iDenfySDK.FaceAuthenticationType : Swift.Hashable {}
+extension iDenfySDK.FaceAuthenticationType : Swift.RawRepresentable {}
+extension iDenfySDK.IdenfyDocumentSelectionTypeEnum : Swift.Equatable {}
+extension iDenfySDK.IdenfyDocumentSelectionTypeEnum : Swift.Hashable {}
+extension iDenfySDK.IdenfyDocumentSelectionTypeEnum : Swift.RawRepresentable {}
+extension iDenfySDK.AutoIdentificationStatus : Swift.Equatable {}
+extension iDenfySDK.AutoIdentificationStatus : Swift.Hashable {}
+extension iDenfySDK.AutoIdentificationStatus : Swift.RawRepresentable {}
+extension iDenfySDK.IdentificationResultsStepStateEnum : Swift.Equatable {}
+extension iDenfySDK.IdentificationResultsStepStateEnum : Swift.Hashable {}
+extension iDenfySDK.IdentificationResultsStepStateEnum : Swift.RawRepresentable {}
+extension iDenfySDK.ManualIdentificationStatus : Swift.Equatable {}
+extension iDenfySDK.ManualIdentificationStatus : Swift.Hashable {}
+extension iDenfySDK.ManualIdentificationStatus : Swift.RawRepresentable {}
+extension iDenfySDK.FaceAuthenticationStatus : Swift.Equatable {}
+extension iDenfySDK.FaceAuthenticationStatus : Swift.Hashable {}
+extension iDenfySDK.FaceAuthenticationStatus : Swift.RawRepresentable {}

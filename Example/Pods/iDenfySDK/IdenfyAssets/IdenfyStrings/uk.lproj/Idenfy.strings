@@ -1,0 +1,726 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Політика конфіденційності";
+"idenfy_privacy_policy_agree_button_title_v2" = "ПОГОДЖЕН";
+"idenfy_privacy_policy_disagree_button_title_v2" = "НЕ ЗГОДЖЕН";
+"idenfy_privacy_policy_alert_title_v2" = "ІНФОРМАЦІЯ";
+"idenfy_privacy_policy_alert_description_v2" = "Щоб продовжити процес, ви повинні погодитися з правилами. Якщо ви не згодні, скасуйте процес перевірки або закрийте вікно.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "ХОЧУ ПОГОДИТИСЯ";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "СКАСУВАТИ ПЕРЕВІРКУ";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_questionnaire_email_error_message_v2" = "Введіть дійсну адресу електронної пошти!";
+"idenfy_questionnaire_url_error_message_v2" = "Будь ласка, введіть дійсну адресу веб-сайту!";
+"idenfy_questionnaire_tel_error_message_v2" = "Будь ласка введіть дійсний номер телефону!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Виберіть свого провайдера";
+"idenfy_provider_selection_common_information_description_v2" = "Виберіть свого постачальника комунальних послуг зі списку нижче";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Пошук постачальника…";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Прив\'язати обліковий запис";
+"idenfy_provider_login_view_common_information_description_v2" = "Введіть дані для входу в свій обліковий запис комунальних послуг";
+"idenfy_provider_login_view_username_hint_title_v2" = "Ім\'я користувача";
+"idenfy_provider_login_view_password_hint_title_v2" = "Пароль";
+"idenfy_provider_login_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_provider_login_view_login_retry_title_v2" = "Недійсні облікові дані";
+"idenfy_provider_login_view_login_retry_description_v2" = "Введіть дійсні облікові дані та повторіть спробу!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Помилка входу";
+"idenfy_provider_login_view_login_failed_description_v2" = "Нам не вдалося увійти…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Верифікація облікового запису";
+"idenfy_mfa_method_selection_view_description_v2" = "Виберіть бажаний метод автентифікації з наведених нижче варіантів";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Метод автентифікації";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Одноразовий пароль";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Контрольне запитання та відповідь";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Автентифікуйте себе";
+"idenfy_mfa_captcha_method_description_v2" = "Введіть код captcha, як на зображенні нижче";
+"idenfy_mfa_captcha_method_code_hint_v2" = "Код Captcha";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Автентифікуйте себе";
+"idenfy_mfa_code_method_description_v2" = "Введіть код, який ви отримали на свій телефон або електронною поштою";
+"idenfy_mfa_code_method_code_hint_v2" = "Код автентифікації";
+"idenfy_mfa_question_method_title_v2" = "Дайте відповідь на наведене нижче запитання";
+"idenfy_mfa_question_method_answer_hint_v2" = "Ваша відповідь";
+"idenfy_mfa_notification_method_title_v2" = "Підтвердьте доступ через програму вашого провайдера";
+"idenfy_mfa_notification_method_description_v2" = "Після завершення натисніть кнопку Продовжити";
+"idenfy_mfa_pass_code_method_title_v2" = "Автентифікуйте себе";
+"idenfy_mfa_pass_code_method_description_v2" = "Введіть пароль, який ви задали у свого постачальника комунальних послуг";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Пароль";
+"idenfy_mfa_general_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Почніть верифікацію особи";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Країна видачі документа";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Розпочнемо";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Виберіть країну видачі";
+"idenfy_country_selection_view_information_description_v2" = "Виберіть країну, в якій видано ваш документ";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Пошук країни видачі документа…";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Оберіть мову";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_documents_selection_view_information_title_v2" = "Виберіть документ";
+"idenfy_documents_selection_view_information_description_v2" = "Який тип документа ви хотіли б ідентифікувати?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Паспорт";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "ID-картка";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Інше";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Водійське посвідчення";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Посвідка на проживання";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Віза";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "Картка для перетину кордону США";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Посвідка на проживання в Австрії як біженець";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Паспорт громадянина РФ";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Закордонний паспорт громадянина РФ";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "Тимчасове водійське посвідчення Великої Британії";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Посвідчення особи виборця";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Стара ID-картка";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Проїзний квиток";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Картка з фото";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Військовий (ветеранський) квиток";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Картка підтвердження віку";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Дипломатичне посвідчення";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "Картка PAN";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Картка Aadhaar";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Підтвердьте тип документа";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Приготуйте своє **id-картку** для ідентифікації";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Приготуйте свій **паспорт** для ідентифікації";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Приготуйте свою **посвідку на проживання** для ідентифікації";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Приготуйте своє **водійське посвідчення** для ідентифікації";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Приготуйте свій **документ** для ідентифікації";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Приготуйте свою";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "id-картку";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "паспорт";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "посвідку на проживання";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "водійське посвідчення";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "документ";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "візу";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "картку для перетину кордону США";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "посвідку на проживання в Австрії як біженець";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "паспорт громадянина РФ";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "закордонний паспорт громадянина РФ";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "тимчасове водійське посвідчення  Великої Британії";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "посвідчення особи виборця";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "стару ID-картку";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "проїзний квиток";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "картку з фото";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "військовий (ветеранський) квиток";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "картку підтвердження віку";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "дипломатичне посвідчення";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "картку PAN";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "картку Aadhaar";
+"idenfy_confirmation_view_information_description_part_3_v2" = "для ідентифікації";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Перевірка займе **5** кроків:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Перевірка займе";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "кроків:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Фото лицьового боку документа";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Фото зворотного боку документа";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Фото обличчя";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Перевірка живості";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Фото обкладинки паспорта";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Фото документа, що підтверджує адресу";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Друге фото документа, що підтверджує адресу";
+"idenfy_confirmation_view_upload_image_title_v2" = "Ви можете завантажувати фотографії на кожному кроці";
+"idenfy_confirmation_view_begin_identification_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "ПРОДОВЖИТИ ЧЕРЕЗ **x** …";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Переконайтеся, що ви перебуваєте в освітленому місці";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Натисніть Готово під появи та дотримуйтесь інструкцій";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Щоб завершити перевірку, вам потрібно буде наблизитися або відійти від камери";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Дотримуйтеся наведених нижче інструкцій.";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Переконайтеся, що зображення вибраного документа:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Чітко видно і НЕ розмито";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Добре освітлене і не закрите тінню";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Відсутні відбиття світла/відблиски";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Не блокується пальцем і поміщається в білу рамку";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Оригінал документа, а не його копія";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Лицьовий бік ID-картки";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Зворотний бік ID-картки";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Лицьовий бік документа";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Зворотний бік документа";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Лицьовий бік посвідки на проживання";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Зворотний бік посвідки на проживання";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Лицьовий бік водійського посвідчення";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Зворотний бік водійського посвідчення";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Лицьовий бік обкладинки паспорта";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Сторінка паспорта з фото";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Підтвердження адреси";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Друге підтвердження адреси";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Лицьовий бік візи";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Зворотний бік візи";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "Лицьовий бік картки для перетину кордону США";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "Зворотний бік картки для перетину кордону США";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Лицьовий бік посвідки на проживання в Австрії як біженець";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Зворотний бік посвідки на проживання в Австрії як біженець";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Лицьовий бік паспорта громадянина РФ";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Зворотний бік паспорта громадянина РФ";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Лицьовий бік закордонного паспорта громадянина РФ";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Зворотний бік закордонного паспорта громадянина РФ";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Лицьовий бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Зворотний бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Лицьовий бік посвідчення особи виборця";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Зворотний бік посвідчення особи виборця";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Лицьовий бік старої ID-картки";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Зворотний бік старої ID-картки";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Лицьовий бік проїзного квитка";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Зворотний бік проїзного квитка";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Лицьовий бік картки з фото";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Зворотний бік картки з фото";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Лицьовий бік військового (ветеранського) квитка";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Зворотний бік військового (ветеранського) квитка";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Лицьовий бік картки підтвердження віку";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Зворотний бік картки підтвердження віку";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Лицьовий бік дипломатичного посвідчення";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Зворотний бік дипломатичного посвідчення";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "Лицьовий бік картки PAN";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "Зворотний бік картки PAN";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Лицьовий бік картки Aadhaar";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Зворотний бік картки Aadhaar";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Помістіть документ у рамку та зробіть чітке фото";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Помістіть документ у рамку та дочекайтеся його сканування";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Виберіть тип файлу";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Який тип файлу ви хочете завантажити?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "Фото";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Як ідентифікувати?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "ПРОПУСТИТИ ІНСТРУКЦІЇ";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Переконайтеся, що ваше селфі чітке та поміщається в білу рамку";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Переконайтеся, що джерело світла знаходиться попереду, а не позаду вас";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Переконайтеся, що зображення вибраного документа: чітке і НЕ розмите";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Переконайтеся, що зображення вибраного документа: добре освітлене та не закрите тінню";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Переконайтеся, що на зображенні вибраного вами документа: відсутні відбиття світла/відблиски";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Переконайтеся, що зображення вибраного документа: не блокується пальцем і вписується в білу рамку";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "Лицьовий бік ID-картки";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "Зворотний бік ID-картки";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Лицьовий бік документа";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Зворотний бік документа";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Лицьовий бік посвідки на проживання";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Зворотний бік посвідки на проживання";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Лицьовий бік водійського посвідчення";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Зворотний бік водійського посвідчення";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Лицьовий бік обкладинки паспорта";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Cторінка паспорта з фото";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Підтвердження адреси";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Друге підтвердження адреси";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Лицьовий бік візи";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Зворотний бік візи";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "Лицьовий бік картки для перетину кордону США";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "Зворотний бік картки для перетину кордону США";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Лицьовий бік посвідки на проживання в Австрії як біженець";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Зворотний бік посвідки на проживання в Австрії як біженець";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Лицьовий бік паспорта громадянина РФ";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Зворотний бік паспорта громадянина РФ";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Лицьовий бік закордонного паспорта громадянина РФ";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Зворотний бік закордонного паспорта громадянина РФ";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Лицьовий бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Зворотний бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Лицьовий бік посвідчення особи виборця";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Зворотний бік посвідчення особи виборця";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Лицьовий бік старої ID-картки";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Зворотний бік старої ID-картки";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Лицьовий бік проїзного квитка";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Зворотний бік проїзного квитка";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Лицьовий бік картки з фото";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Зворотний бік картки з фото";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Лицьовий бік військового (ветеранського) квитка";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Зворотний бік військового (ветеранського) квитка";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Лицьовий бік картки підтвердження віку";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Зворотний бік картки підтвердження віку";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Лицьовий бік дипломатичного посвідчення";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Зворотний бік дипломатичного посвідчення";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "Лицьовий бік картки PAN";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "Зворотний бік картки PAN";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Лицьовий бік картки Aadhaar";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Зворотний бік картки Aadhaar";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "**Лицьовий бік ID-картки** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "**Зворотній бік ID-картки** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "**Лицьовий бік документа** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "**Зворотний бік документа** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "**Лицьовий бік посвідки на проживання** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "**Зворотний бік посвідки на проживання** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "**Лицьовий бік водійського посвідчення** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "**Зворотний бік водійського посвідчення*** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "**Лицьовий бік обкладинки паспорта** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "**Підтвердження адреси** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "**Друге підтвердження адреси** в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "**Сторінка паспорта з фото** в рамці та її чітко видно?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Це";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "лицьовий бік ID-картки";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "зворотний бік ID-картки";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "лицьовий бік документа";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "зворотний бік документа";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "лицьовий бік посвідки на проживання";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "зворотний бік посвідки на проживання";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "лицьовий бік водійського посвідчення";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "зворотний бік водійського посвідчення";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "лицьовий бік обкладинки паспорта";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "підтвердження адреси";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "друге підтвердження адреси";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "сторінка паспорта з фото";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Чи чітке зображення вашого обличчя?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Чи можете ви легко прочитати вміст документа?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Це зворотний бік документа?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Чи можете ви легко прочитати вміст документ?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Чи можете ви легко прочитати вміст документ?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Впевнені, що бажаєте завантажити цей файл?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Помістіть своє обличчя в зазначену область і зробіть чітке фото";
+"idenfy_face_camera_preview_title_v2" = "Сфотографуйте своє обличчя";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Підтвердьте снімок обличчя";
+"idenfy_face_camera_results_description_v2" = "Ваше фото обличчя в рамці та його чітко видно?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "Ваше **фото обличчя** в рамці та його чітко видно?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Ваше обличчя чітко видно і воно достатньо близько для перевірки?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Перевірте фото";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "На базі iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "ЗРОБИТИ НОВЕ ФОТО";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "ТАК, ПРОДОВЖИТИ";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Лицьовий бік ID-картки";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Зворотний бік ID-картки";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Лицьовий бік документа";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Зворотний бік документа";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Лицьовий бік посвідки на проживання";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Зворотний бік посвідки на проживання";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Лицьовий бік водійського посвідчення";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Зворотний бік водійського посвідчення";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Лицьовий бік обкладинки паспорта";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Сторінка паспорта з фото";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Підтвердження адреси";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Друге підтвердження адреси";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Лицьовий бік візи";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Зворотний бік візи";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "Лицьовий бік картки для перетину кордону США";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "Зворотний бік картки для перетину кордону США";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Лицьовий бік посвідки на проживання в Австрії як біженець";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Зворотний бік посвідки на проживання в Австрії як біженець";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Лицьовий бік паспорта громадянина РФ";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Зворотний бік паспорта громадянина РФ";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Лицьовий бік закордонного паспорта громадянина РФ";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Зворотний бік закордонного паспорта громадянина РФ";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Лицьовий бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Зворотний бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Лицьовий бік посвідчення особи виборця";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Зворотний бік посвідчення особи виборця";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Лицьовий бік старої ID-картки";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Зворотний бік старої ID-картки";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Лицьовий бік проїзного квитка";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Зворотний бік проїзного квитка";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Лицьовий бік картки з фото";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Зворотний бік картки з фото";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Лицьовий бік військового (ветеранського) квитка";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Зворотний бік військового (ветеранського) квитка";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Лицьовий бік картки підтвердження віку";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Зворотний бік картки підтвердження віку";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Лицьовий бік дипломатичного посвідчення";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Зворотний бік дипломатичного посвідчення";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "Лицьовий бік картки PAN";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "Зворотний бік картки PAN";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Лицьовий бік картки Aadhaar";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Зворотний бік картки Aadhaar";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Підтвердіть фото обличчя";
+"idenfy_upload_results_view_cropping_description_v2" = "Вирівняйте завантажене фото в зазначеній області";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "ОБРАТИ ІНШЕ";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Перевищено максимальний розмір файлу";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Виберіть файл із допустимим розміром не більше ніж 5 Мб";
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Непідтримуваний тип файлу";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Підтримувані типи файлів:";
+"idenfy_upload_results_view_failed_to_upload_file_title_v2" = "Помилка завантаження";
+"idenfy_upload_results_view_failed_to_upload_file_description_v2" = "Нам не вдалося завантажити вибраний файл. Повторіть спробу!";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Аналіз вашої верифікації…";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Зачекайте, поки ми все налаштуємо для вас!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Перевірка зазнала невдачі";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Лицьовий бік ID-картки";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Зворотний бік ID-картки";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Лицьовий бік обкладинки паспорта";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Підтвердження адреси";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Друге підтвердження адреси";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Cторінка паспорта з фото";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Лицьовий бік документа";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Зворотний бік документа";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Лицьовий бік посвідки на проживання";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Зворотний бік посвідки на проживання";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Лицьовий бік водійського посвідчення";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Зворотний бік водійського посвідчення";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Лицьовий бік візи";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Зворотний бік візи";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "Лицьовий бік картки для перетину кордону США";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "Зворотний бік картки для перетину кордону США";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Лицьовий бік посвідки на проживання в Австрії як біженець";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Зворотний бік посвідки на проживання в Австрії як біженець";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Лицьовий бік паспорта громадянина РФ";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Зворотний бік паспорта громадянина РФ";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Лицьовий бік закордонного паспорта громадянина РФ";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Зворотний бік закордонного паспорта громадянина РФ";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Лицьовий бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Зворотний бік тимчасового водійського посвідчення Великої Британії";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Лицьовий бік посвідчення особи виборця";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Зворотний бік посвідчення особи виборця";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Лицьовий бік старої ID-картки";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Зворотний бік старої ID-картки";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Лицьовий бік проїзного квитка";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Зворотний бік проїзного квитка";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Лицьовий бік картки з фото";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Зворотний бік картки з фото";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Лицьовий бік військового (ветеранського) квитка";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Зворотний бік військового (ветеранського) квитка";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Лицьовий бік картки підтвердження віку";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Зворотний бік картки підтвердження віку";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Лицьовий бік дипломатичного посвідчення";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Зворотний бік дипломатичного посвідчення";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "Лицьовий бік картки PAN";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "Зворотний бік картки PAN";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Лицьовий бік картки Aadhaar";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Зворотний бік картки Aadhaar";
+"idenfy_identification_results_step_face" = "Фото обличчя";
+"idenfy_identification_results_retake_button_title_v2" = "ПОВТОРИТИ СПРОБУ";
+"idenfy_identification_results_error_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Переконайтеся, що ваш документ має машинозчитувану зону";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Машинозчитувана зона (MRZ) зазвичай складається з 2 (паспорт) або 3 (ID-картка) рядків символів. Зразок MRZ представлений на зображенні нижче, позначеному червоним прямокутником.";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "НАЗАД";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "ВПЕВНЕНИЙ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Документ не знайдено. Переконайтеся, що ви показуєте";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "і країна видачі документа";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "ПАСПОРТ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "ID-КАРТКУ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "ПОСВІДКУ НА ПРОЖИВАННЯ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "ВОДІЙСЬКЕ ПОСВІДЧЕННЯ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "ДОКУМЕНТ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "ВІЗУ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "КАРТУ ДЛЯ ПЕРЕТИНУ КОРДОНУ США";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "ПОСВІДКУ НА ПРОЖИВАННЯ В АВСТРІЇ ЯК БІЖЕНЕЦЬ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "ПАСПОРТ ГРОМАДЯНИНА РФ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "ЗАКОРДОННИЙ ПАСПОРТ ГРОМАДЯНИНА РФ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "ТИМЧАСОВЕ ВОДІЙСЬКЕ ПОСВІДЧЕННЯ ВЕЛИКОЇ БРИТАНІЇ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "ПОСВІДЧЕННЯ ОСОБИ ВИБОРЦЯ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "СТАРУ ID-КАРТКУ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "ПРОЇЗДНИЙ КВИТОК";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "КАРТКУ З ФОТО";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "ВІЙСЬКОВИЙ (ВЕТЕРАНСЬКИЙ) КВИТОК";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "КАРТКУ ПІДТВЕРДЖЕННЯ ВІКУ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "ДИПЛОМАТИЧНЕ ПОСВІДЧЕННЯ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "КАРТКУ PAN";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "КАРТКУ Aadhaar";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = " Переконайтеся, що країна видачі вашого документа";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Вашу інформацію надіслано";
+"idenfy_identification_results_suspected_view_description_v2" = "Якщо у вас виникли запитання, зверніться до нашої служби підтримки клієнтів";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Верифікацію пройдено";
+"idenfy_identification_results_success_fragment_description_v2" = "";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Верифіковано";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Результат верифікації надіслано";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Ваша верифікація потребує додаткової перевірки вручну. Вам буде повідомлено, коли перевірку буде завершено.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Зазвичай отримання результатів займає від 1 до 5 хвилин";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "НАЗАД ДО ОБЛІКОВОГО ЗАПИСУ";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Перевірка додаткових даних";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Автоматизовану перевірку ШІ завершено";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "ЗАЛИШИЛОСЯ";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Скасувати перевірку";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Впевнені, що бажаєте скасувати верифікацію?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "ТАК";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "НІ";
+
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Ваша верифікація пройшла успішно!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Дякуємо вам";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Верифікація не вдалася";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "Ми не змогли підтвердити вашу особу";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Зв\'яжіться з";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "для подальшої підтримки";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Чи можемо ми використовувати вашу камеру?";
+"idenfy_camera_permissions_view_information_description_v2" = "Нам потрібна ваша камера, щоб зробити фото вашого документа і вашого обличчя";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Щоб надати доступ до камери, перейдіть до налаштувань і натисніть Дозволи";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "УВІМКНУТИ КАМЕРУ";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Доторкніться серединою паспорта до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Доторкніться серединою ID-картки до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Доторкніться серединою документа до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Доторкніться серединою паспорта до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Доторкніться серединою ID-картки до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Доторкніться серединою документа до верхньої частини телефону";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Зчитування даних документа…";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Зчитування зображення документа…";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Зчитування паспорта закінчено";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "ПРОДОВЖИТИ";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Просимо зачекати…";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Ой! Щось пішло не так.";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "З\'єднання перервано. Піднесіть телефон ближче!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Час вийшов";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "Час очікування зчитування NFC минув";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "ПРОДОВЖИТИ";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_no_nfc_title_v2" = "Ваш пристрій не підтримується";
+"idenfy_nfc_required_view_information_no_nfc_description_v2" = "Використовуйте мобільний телефон із вбудованим зчитувачем NFC-міток";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Ваш пристрій не підтримується";
+"idenfy_nfc_required_view_information_description_v2" = "Використовуйте мобільний телефон із вбудованим зчитувачем NFC-міток";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Ви скасували процедуру верифікації";
+"idenfy_additional_support_view_description" = "Процедура верифікації не проводився. Якщо у вас виникли запитання, зверніться до нашої служби підтримки клієнтів.";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "НАЗАД";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Надавати дозволи вручну";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = "Перевірку на живість не вдалося пройти занадто багато разів";
+"IDENFY_SERVER_ERROR_MESSAGE" = "Ой! Щось пішло не так.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Сеанс закінчився!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Занадто багато спроб!";
+"IDENFY_NFC_FAILED_MESSAGE" = "Помилка автентифікації NFC!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Назад";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Завантаження фото лицьового боку документа…";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Завантаження фото зворотного боку документа…";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Завантаження фото обличчя з документа…";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Перевірка живості…";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Завантаження фото обкладинки паспорта…";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Завантаження фото, що підтверджує адресу…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Завантаження другого фото, що підтверджує адресу.";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Проблеми зі з\'єднанням. Переконайтеся, що у вас стабільне підключення до Інтернету";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Далі";
+"idenfy_alert_title_manual_reviewing_information" = "ІНФОРМАЦІЯ";
+"idenfy_alert_message_manual_reviewing_information" = "Оскільки ви вибрали документ, відмінний від ID-картки чи паспорта, нам потрібно ще раз переглянути ваші дані.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Продовжити";
+"idenfy_alert_title_liveness_default_error" = "ІНФОРМАЦІЯ";
+"idenfy_alert_message_liveness_default_error" = "Не вдалося перевірити живість, повторіть спробу.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Час для перевірки живості обличчя минув. Повторіть спробу.";
+
+/*Document Analysis Alert*/
+
+"idenfy_alert_positive_button_document_analysis_information" = "Продовжити";
+"idenfy_alert_title_document_analysis_information" = "О НІ!";
+"idenfy_alert_message_document_analysis_information" = "Не вдалося визначити тип документа. На наступному кроці виберіть тип документа.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Впевнені, що хочете скасувати верифікацію?";
+"idenfy_alert_title_abort_identification_information" = "Скасувати верифікацію?";
+"idenfy_alert_positive_button_abort_identification_information" = "ТАК";
+"idenfy_alert_negative_button_abort_identification_information" = "НІ";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Впевнені, що хочете почати спочатку?";
+"idenfy_alert_title_restart_identification_information" = "Розпочати знову";
+"idenfy_alert_positive_button_restart_identification_information" = "ТАК";
+"idenfy_alert_negative_button_restart_identification_information" = "НІ";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Аналіз…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Просимо трохи зачекати.";
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Покажіть свій паспорт";
+"idenfy_instructions_passport_correct_text" = "Переконайтеся, що під час верифікації показуйте свій паспорт, а не інший документ.";
+
+"idenfy_instructions_passport_mrz_title" = "У паспорті є зона MRZ";
+"idenfy_instructions_passport_mrz_text" = "Переконайтеся, що ваш документ має MRZ (2 або 3 рядки символів). Якщо ваш документ не має зони MRZ, оберіть \“ІНШІ ДОКУМЕНТИ\” у вікні вибору документів.";
+
+"idenfy_instructions_passport_fits_frame_title" = "Паспорт поміщається в білі рамки";
+"idenfy_instructions_passport_fits_frame_text" = "Переконайтеся, що паспорт поміщається в білі рамки і не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_passport_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_passport_finger_text" = "Не закривайте обличчя чи іншу інформацію в документі.";
+"idenfy_instructions_passport_reflection_title" = "Немає відбиття світла";
+
+"idenfy_instructions_passport_reflection_text" = "Переконайтеся, що відбиття світла чи голограма документа не закривають обличчя чи іншу важливу інформацію в документі.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Покажіть свою ID-картку";
+"idenfy_instructions_id_front_correct_text" = "Переконайтеся, що під час верифікації показуйте ID-картку, а не інший документ.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "Лицьовий бік ID-картки поміщається в білі рамки";
+"idenfy_instructions_id_front_fit_frame_text" = "Переконайтеся, що лицьовий бік ID-картки вписується в білу рамку та не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_id_front_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_id_front_finger_text" = "Не закривайте обличчя чи іншу інформацію в документі.";
+
+"idenfy_instructions_id_front_reflection_title" = "Немає відбиття світла";
+"idenfy_instructions_id_front_reflection_text" = "Переконайтеся, що відбиття світла або голограма документа не закривають обличчя чи іншу важливу інформацію в документі.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Покажіть зворотний бік своєї ID-картки";
+"idenfy_instructions_id_back_correct_text" = "Переконайтеся, що ви показуєте зворотний бік ID-картки.";
+
+"idenfy_instructions_id_back_mrz_title" = "У документі є зона MRZ";
+"idenfy_instructions_id_back_mrz_text" = "Переконайтеся, що ваш документ має MRZ (2 або 3 рядки символів). Якщо ваш документ не має зони MRZ, оберіть \"ІНШІ ДОКУМЕНТИ\" у вікні вибору документів.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "Зворотний бік ID-картки поміщається в білі рамки";
+"idenfy_instructions_id_back_fit_frame_text" = "Переконайтеся, що зворотний бік ID-картки вписується в білу рамку і не виходить за краї рамки. Також переконайтеся, що документ, який ви демонструєте, не розмитий і розбірливий.";
+
+"idenfy_instructions_id_back_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_id_back_finger_text" = "Не закривайте пальцем інформацію в документі.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Покажіть свою посвідку на проживання";
+"idenfy_instructions_residence_permit_front_correct_text" = "Переконайтеся, що під час верифікації ви показуєте посвідку на проживання, а не інший документ.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "Лицьовий бік посвідки на проживання поміщається в білі рамки";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Переконайтеся, що лицьовий бік посвідки на проживання вписується в білу рамку та не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_residence_permit_front_finger_text" = "Не закривайте обличчя чи іншу інформацію в документі.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Немає відбиття світла";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Переконайтеся, що відбиття світла або голограма документа не закривають обличчя чи іншу важливу інформацію в документі.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Покажіть зворотний бік своєї посвідки на проживання";
+"idenfy_instructions_residence_permit_back_correct_text" = "Переконайтеся, що ви показуєте зворотний бік посвідки на проживання.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "У документі є зона MRZ";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Переконайтеся, що ваш документ має MRZ (2 або 3 рядки символів). Якщо ваш документ не має зони MRZ, оберіть \"ІНШІ ДОКУМЕНТИ\" у вікні вибору документа.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "Зворотний бік посвідки на проживання поміщається в білі рамки";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Переконайтеся, що зворотний бік посвідки на проживання вписується в білу рамку і не виходить за краї рамки. Також переконайтеся, що документ, який ви демонструєте, не розмитий і розбірливий.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_residence_permit_back_finger_text" = "Не закривайте пальцем інформацію в документі.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Покажіть своє водійське посвідчення";
+"idenfy_instructions_driver_license_front_correct_text" = "Під час верифікації переконайтеся, що ви показали водійське посвідчення, а не інший документ.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Лицьовий бік водійського посвідчення поміщається в білі рамки";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Переконайтеся, що лицьовий бік водійського посвідчення вписується в білу рамку та не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_driver_license_front_finger_text" = "Не закривайте обличчя чи іншу інформацію в документі.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Немає відбиття світла";
+"idenfy_instructions_driver_license_front_reflection_text" = "Переконайтеся, що відбиття світла або голограма документа не закривають обличчя чи іншу важливу інформацію документа.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Покажіть свій документ, в якому немає MRZ";
+"idenfy_instructions_other_front_mrz_text" = "Переконайтеся, що ви показуєте документ без MRZ.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "Лицьовий бік документа поміщається в білі рамки";
+"idenfy_instructions_other_front_fit_frame_text" = "Переконайтеся, що лицьовий бік документа вписується в білу рамку та не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_other_front_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_other_front_finger_text" = "Не закривайте обличчя чи іншу інформацію в документі.";
+
+"idenfy_instructions_other_front_reflection_title" = "Немає відбиття світла";
+"idenfy_instructions_other_front_reflection_text" = "Переконайтеся, що відбиття світла або голограма документа не закривають обличчя чи іншу важливу інформацію документа.";
+
+/* Other documents front */
+"idenfy_instructions_other_back_fit_frame_title" = "Зворотний бік документа поміщається в білі рамки";
+"idenfy_instructions_other_back_fit_frame_text" = "Переконайтеся, що зворотний бік документа вписується в білу рамку та не виходить за межі рамки, а сам документ не розмитий і розбірливий.";
+
+"idenfy_instructions_other_back_finger_title" = "Палець не закриває документ";
+"idenfy_instructions_other_back_finger_text" = "Не закривайте пальцем інформацію в документі.";
+
+/* Other documents back */
+"idenfy_instructions_face_fit_frame_title" = "Обличчя поміщається у білі рамки";
+"idenfy_instructions_face_fit_frame_text" = "Переконайтеся, що ваше обличчя вписується в білі рамки.";
+
+"idenfy_instructions_face_one_face_title" = "Видно лише одне обличчя";
+"idenfy_instructions_face_one_face_text" = "Переконайтеся, що на зображенні не видно інших облич.";
+
+"idenfy_instructions_face_shadow_title" = "Обличчя не закрите тінню";
+"idenfy_instructions_face_shadow_text" = "Переконайтеся, що ваше обличчя добре освітлене і на нього не падає тінь.";
+
+"idenfy_instructions_face_zoom_title" = "Обличчя вписується в рамку";
+"idenfy_instructions_face_zoom_text" = "Переконайтеся, що обличчя поміщається в рамку. Зробивши селфі, наблизите ваше обличчя.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Неможливо отримати доступ до камери";
+"idenfy_alert_message_camera_permission_not_enabled" = "Щоб увімкнути доступ, перейдіть у Налаштування > Конфіденційність > Камера та ввімкніть доступ до камери для цієї програми.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "B порядку";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "У вас є";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "спроби, щоб автентифікувати себе!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "У вас є **3** спроби, щоб автентифікувати себе!";
+"idenfy_face_authentication_initial_view_button_title" = "ПРОДОВЖИТИ";
+"idenfy_face_authentication_initial_view_alert_message" = "Не вдалося верифікувати обличчя!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Успішна автентифікація";
+"idenfy_face_authentication_results_success_description" = "Ви успішно пройшли автентифікацію!";
+"idenfy_face_authentication_results_final_failed_title" = "Верифікація обличчя зазнала невдачі.";
+"idenfy_face_authentication_results_final_failed_description" = "Дотримуйтеся вказівок на екрані та забезпечте гарне освітлення. Намагайтеся уникати: розмиття, тіні, відблисків, пальців або інших об’єктів на фото.";
+"idenfy_face_authentication_results_failed_description" = "Верифікація обличчя зазнала невдачі. Дотримуйтеся вказівок на екрані та забезпечте гарне освітлення. Намагайтеся уникати: розмиття, тіні, відблисків, пальців або інших об’єктів на фото.";
+"idenfy_face_authentication_results_button_title" = "ПРОДОВЖИТИ";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Скасувати автентифікацію";
+"idenfy_face_authentication_exit_alert_description" = "Впевнені, що бажаєте скасувати автентифікацію за обличчям?";
+

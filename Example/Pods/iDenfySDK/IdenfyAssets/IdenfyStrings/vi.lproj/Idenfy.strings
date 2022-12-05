@@ -1,0 +1,720 @@
+/**V2**/
+/*Idenfy Splash Screen V2*/
+"idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+
+/*Idenfy Privacy Policy View V2*/
+"idenfy_privacy_policy_title_v2" = "Chính sách bảo mật";
+"idenfy_privacy_policy_agree_button_title_v2" = "ĐỒNG Ý";
+"idenfy_privacy_policy_disagree_button_title_v2" = "KHÔNG ĐỒNG Ý";
+"idenfy_privacy_policy_alert_title_v2" = "THÔNG TIN";
+"idenfy_privacy_policy_alert_description_v2" = "Để tiếp tục quy trình, bạn phải đồng ý với các quy định. Nếu bạn không đồng ý, hãy hủy quá trình xác minh hoặc đóng cửa sổ.";
+"idenfy_privacy_policy_alert_agree_button_title_v2" = "TÔI MUỐN ĐỒNG Ý";
+"idenfy_privacy_policy_alert_cancel_button_title_v2" = "HỦY XÁC NHẬN";
+
+/*Idenfy Questionnaire View V2*/
+"idenfy_questionnaire_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_questionnaire_email_error_message_v2" = "Vui lòng nhập email hợp lệ!";
+"idenfy_questionnaire_url_error_message_v2" = "Vui lòng nhập một địa chỉ trang web hợp lệ!";
+"idenfy_questionnaire_tel_error_message_v2" = "Xin vui lòng nhập một số điện thoại hợp lệ!";
+
+/*Idenfy Provider Selection View V2*/
+"idenfy_provider_selection_common_information_title_v2" = "Vui lòng chọn nhà cung cấp của bạn";
+"idenfy_provider_selection_common_information_description_v2" = "Vui lòng chọn nhà cung cấp hóa đơn tiện ích của bạn từ danh sách dưới đây";
+"idenfy_provider_selection_search_bar_hint_title_v2" = "Tìm kiếm nhà cung cấp…";
+
+/*Idenfy Provider Login View V2*/
+"idenfy_provider_login_view_common_information_title_v2" = "Kết nối tài khoản của bạn";
+"idenfy_provider_login_view_common_information_description_v2" = "Nhập thông tin đăng nhập của bạn cho tài khoản tiện ích trực tuyến của bạn";
+"idenfy_provider_login_view_username_hint_title_v2" = "Tên người dùng";
+"idenfy_provider_login_view_password_hint_title_v2" = "Mật khẩu";
+"idenfy_provider_login_view_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_provider_login_view_login_retry_title_v2" = "Thông tin không hợp lệ";
+"idenfy_provider_login_view_login_retry_description_v2" = "Vui lòng nhập thông tin đăng nhập hợp lệ và thử lại!";
+"idenfy_provider_login_view_login_failed_title_v2" = "Đăng nhập thất bại";
+"idenfy_provider_login_view_login_failed_description_v2" = "Chúng tôi không thể đăng nhập cho bạn…";
+
+/*Idenfy MFA Method Selection View V2*/
+"idenfy_mfa_method_selection_view_title_v2" = "Xác minh tài khoản";
+"idenfy_mfa_method_selection_view_description_v2" = "Vui lòng chọn phương thức xác thực mong muốn của bạn từ các tùy chọn bên dưới";
+"idenfy_mfa_method_selection_view_mfa_hint_title_v2" = "Phương pháp xác thực";
+"idenfy_mfa_method_selection_view_mfa_method_code_title_v2" = "Mật khẩu một lần";
+"idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2" = "Câu hỏi và câu trả lời bảo mật";
+"idenfy_mfa_method_selection_view_continue_button_title_v2" = "TIẾP TỤC";
+
+/*Idenfy MFA Captcha Method View V2*/
+"idenfy_mfa_captcha_method_title_v2" = "Xác thực bản thân";
+"idenfy_mfa_captcha_method_description_v2" = "Vui lòng nhập mã captcha bạn thấy trong hình bên dưới";
+"idenfy_mfa_captcha_method_code_hint_v2" = "mã captcha";
+"idenfy_mfa_captcha_method_continue_button_title_v2" = "TIẾP TỤC";
+
+/*Idenfy MFA General View V2*/
+"idenfy_mfa_code_method_title_v2" = "Xác thực bản thân";
+"idenfy_mfa_code_method_description_v2" = "Vui lòng nhập mã bạn đã nhận được trên điện thoại hoặc email";
+"idenfy_mfa_code_method_code_hint_v2" = "Mã xác thực";
+"idenfy_mfa_question_method_title_v2" = "Vui lòng trả lời câu hỏi được cung cấp bên dưới";
+"idenfy_mfa_question_method_answer_hint_v2" = "Câu trả lời của bạn";
+"idenfy_mfa_notification_method_title_v2" = "Vui lòng xác minh quyền truy cập thông qua ứng dụng của nhà cung cấp của bạn";
+"idenfy_mfa_notification_method_description_v2" = "Khi bạn làm xong, hãy nhấn nút tiếp tục";
+"idenfy_mfa_pass_code_method_title_v2" = "Xác thực bản thân";
+"idenfy_mfa_pass_code_method_description_v2" = "Vui lòng nhập mật mã bạn đã thiết lập với nhà cung cấp tiện ích của mình";
+"idenfy_mfa_pass_code_method_code_hint_v2" = "Mật mã";
+"idenfy_mfa_general_view_continue_button_title_v2" = "TIẾP TỤC";
+
+/*Idenfy Start Identification Predefined View V2*/
+"idenfy_start_identification_predefined_view_information_title_v2" = "Bắt đầu xác minh danh tính";
+"idenfy_start_identification_predefined_view_information_description_v2" = "Quốc gia phát hành tài liệu";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Hãy bắt đầu nào";
+
+/*Idenfy Country Selection View V2*/
+"idenfy_country_selection_view_information_title_v2" = "Chọn quốc gia phát hành";
+"idenfy_country_selection_view_information_description_v2" = "Vui lòng chọn quốc gia nơi tài liệu của bạn được phát hành";
+"idenfy_country_selection_view_searchbar_hint_v2" = "Tìm kiếm quốc gia của tài liệu…";
+
+/*Idenfy Language Selection View V2*/
+"idenfy_language_selection_view_information_title_v2" = "Chọn một ngôn ngữ";
+
+/*Idenfy Documents Selection View V2*/
+"idenfy_documents_selection_view_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_documents_selection_view_information_title_v2" = "Chọn một tài liệu";
+"idenfy_documents_selection_view_information_description_v2" = "Bạn muốn xác định loại tài liệu nào?";
+"idenfy_documents_selection_view_list_item_document_type_passport_title_v2" = "Hộ chiếu";
+"idenfy_documents_selection_view_list_item_document_type_id_card_title_v2" = "Căn cước Công dân";
+"idenfy_documents_selection_view_list_item_document_type_other_title_v2" = "Khác";
+"idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2" = "Giấy phép lái xe";
+"idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2" = "Giấy phép cư trú";
+"idenfy_documents_selection_view_list_item_document_type_visa_title_v2" = "Thị thực";
+"idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2" = "Thẻ qua biên giới Hoa Kỳ";
+"idenfy_documents_selection_view_list_item_document_type_asylum_title_v2" = "Giấy phép cư trú tị nạn của Áo";
+"idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2" = "Hộ chiếu Nội Nga";
+"idenfy_documents_selection_view_list_item_document_type_international_passport_title_v2" = "Hộ chiếu quốc tế Nga";
+"idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2" = "Giấy phép Lái ​​xe Tạm thời của Vương quốc Anh";
+"idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2" = "Thẻ cử tri";
+"idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2" = "Chứng minh thư cũ";
+"idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2" = "Thẻ du lịch";
+"idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2" = "Thẻ ảnh";
+"idenfy_documents_selection_view_list_item_document_type_military_card_title_v2" = "Thẻ quân nhân (Cựu chiến binh)";
+"idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2" = "Thẻ Chứng minh tuổi";
+"idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2" = "Thẻ ngoại giao";
+"idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2" = "Thẻ PAN";
+"idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Thẻ Aadhaar";
+
+/*Idenfy Confirmation View V2*/
+"idenfy_confirmation_view_information_title_v2" = "Xác nhận loại tài liệu";
+"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Vui lòng chuẩn bị sẵn **CCCD** của bạn để nhận dạng";
+"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Vui lòng chuẩn bị sẵn **hộ chiếu** của bạn để nhận dạng";
+"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Vui lòng chuẩn bị sẵn **giấy phép cư trú** của bạn để nhận dạng";
+"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Vui lòng chuẩn bị sẵn **giấy phép bằng lái xe của bạn** để nhận dạng";
+"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Vui lòng chuẩn bị sẵn **tài liệu** của bạn để nhận dạng";
+"idenfy_confirmation_view_information_description_part_1_v2" = "Xin vui lòng chuẩn bị";
+"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "CCCD";
+"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "hộ chiếu";
+"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "giấy phép cư trú";
+"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "GPLX";
+"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "tài liệu";
+"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "thị thực";
+"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "Thẻ qua biên giới Hoa Kỳ";
+"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "Giấy phép cư trú tị nạn của Áo";
+"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "Hộ chiếu Nội Nga";
+"idenfy_confirmation_view_information_document_type_international_passport_description_part_2_v2" = "Hộ chiếu quốc tế Nga";
+"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "Giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "thẻ cử tri";
+"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "thẻ căn cước cũ";
+"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "thẻ du lịch";
+"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "thẻ ảnh";
+"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "thẻ quân nhân (cựu chiến binh)";
+"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "thẻ chứng minh độ tuổi";
+"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "thẻ ngoại giao";
+"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "thẻ PAN";
+"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "thẻ aadhaar";
+"idenfy_confirmation_view_information_description_part_3_v2" = "sẵn sàng để nhận dạng";
+"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Quá trình xác minh sẽ thực hiện **5** bước:";
+"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Quá trình xác minh sẽ mất";
+"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
+"idenfy_confirmation_view_document_steps_title_part_3_v2" = "bước:";
+"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Ảnh mặt trước tài liệu";
+"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Ảnh mặt sau tài liệu";
+"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Ảnh khuôn mặt";
+"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Kiểm tra người thật";
+"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Ảnh bìa hộ chiếu";
+"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Ảnh chứng minh địa chỉ";
+"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Ảnh chứng minh địa chỉ thứ hai";
+"idenfy_confirmation_view_upload_image_title_v2" = "Bạn có thể tải ảnh lên ở mọi bước";
+"idenfy_confirmation_view_begin_identification_title_v2" = "TIẾP TỤC";
+
+/*Idenfy Camera OnBoarding View V2*/
+"idenfy_camera_onboarding_view_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "TIẾP TỤC TRONG **x**…";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_1" = "Đảm bảo bạn đang ở trong môi trường sáng";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_2" = "Nhấp vào «Tôi đã sẵn sàng» khi được nhắc và làm theo hướng dẫn";
+"idenfy_camera_onboarding_view_liveness_instructions_description_part_3" = "Bạn sẽ cần di chuyển lại gần hoặc xa ra khỏi máy ảnh để hoàn thành việc kiểm tra này";
+
+/*Idenfy Camera Static OnBoarding View V2*/
+"idenfy_camera_static_onboarding_view_face_instructions_title" = "Hãy làm theo hướng dẫn dưới đây:";
+"idenfy_camera_static_onboarding_view_instructions_title" = "Đảm bảo rằng hình ảnh của tài liệu bạn đã chọn:";
+"idenfy_camera_static_onboarding_view_instructions_description_part_1" = "Có thể nhìn thấy rõ ràng và KHÔNG bị mờ";
+"idenfy_camera_static_onboarding_view_instructions_description_part_2" = "Được chiếu sáng tốt và không bị bóng che";
+"idenfy_camera_static_onboarding_view_instructions_description_part_3" = "Không bị che bởi phản quang/lóa sáng";
+"idenfy_camera_static_onboarding_view_instructions_description_part_4" = "Không bị chặn bởi ngón tay và vựa vặn trong khung màu trắng";
+"idenfy_camera_static_onboarding_view_instructions_description_part_5" = "Bản chính tài liệu chứ không phải bản sao";
+
+/*Idenfy Document Camera Preview Session View V2*/
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Mặt trước của CCCD";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Mặt sau của CCCD";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2" = "Mặt trước tài liệu";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2" = "Mặt sau tài liệu";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2" = "Mặt trước giấy phép cư trú";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2" = "Mặt sau giấy phép cư trú";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2" = "Mặt trước của GPLX";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2" = "Mặt sau của GPLX";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2" = "Mặt trước của bìa hộ chiếu";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2" = "Trang hộ chiếu có ảnh";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2" = "Chứng minh địa chỉ";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Chứng minh địa chỉ bổ sung";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2" = "Mặt trước thị thực";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2" = "Mặt sau thị thực";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2" = "Mặt trước thẻ qua biên giới Hoa Kỳ";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2" = "Mặt sau thẻ qua biên giới Hoa Kỳ";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2" = "Mặt trước giấy phép cư trú tị nạn Áo";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2" = "Mặt sau giấy phép cư trú Tị nạn Áo";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2" = "Mặt trước hộ chiếu Nội Nga";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2" = "Mặt sau hộ chiếu Nội Nga";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_international_passport_title_v2" = "Mặt trước hộ chiếu quốc tế Nga";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_international_passport_title_v2" = "Mặt sau hộ chiếu quốc tế Nga";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Mặt trước giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Mặt sau giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2" = "Mặt trước thẻ cử tri";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2" = "Mặt sau thẻ cử tri";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2" = "Mặt trước CMND cũ";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2" = "Mặt sau CMND cũ";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2" = "Mặt trước thẻ du lịch";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2" = "Mặt sau thẻ du lịch";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2" = "Mặt trước thẻ ảnh";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2" = "Mặt sau thẻ ảnh";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2" = "Mặt trước thẻ quân nhân (cựu chiến binh)";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2" = "Mặt sau thẻ quân nhân (cựu chiến binh)";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Mặt trước thẻ chứng minh độ tuổi";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Mặt sau thẻ chứng minh độ tuổi";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Mặt trước thẻ ngoại giao";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Mặt sau thẻ ngoại giao";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2" = "Mặt trước thẻ PAN";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2" = "Mặt sau thẻ PAN";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2" = "Mặt trước thẻ aadhaar";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2" = "Mặt sau thẻ aadhaar";
+"idenfy_document_camera_preview_session_view_information_description_v2" = "Đặt tài liệu của bạn vào khung và chụp ảnh rõ nét";
+"idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Đặt tài liệu của bạn vào khung và đợi nó được quét";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Vui lòng chọn một loại file";
+"idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default" = "Bạn muốn tải lên loại file nào?";
+"idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default" = "ảnh";
+"idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default" = "PDF";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title" = "Làm thế nào để nhận dạng?";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title" = "BỎ QUA HƯỚNG DẪN";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description" = "Đảm bảo rằng ảnh tự chụp của bạn hiển thị rõ ràng và vừa vặn trong khung màu trắng";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1" = "Đảm bảo nguồn sáng ở phía trước chứ không phải phía sau bạn";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2" = "Đảm bảo rằng hình ảnh của tài liệu bạn đã chọn: Hiển thị rõ ràng và KHÔNG bị mờ";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3" = "Đảm bảo rằng ảnh của tài liệu bạn đã chọn: Được chiếu sáng tốt và không bị bóng che";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4" = "Đảm bảo rằng hình ảnh của tài liệu bạn đã chọn: Không bị che bởi phản quang/lóa sáng";
+"idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5" = "Đảm bảo ảnh của tài liệu bạn đã chọn: Không bị ngón tay chặn và vừa vặn trong khung màu trắng";
+
+/*Idenfy Document Camera Results View V2*/
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2" = "Mặt trước CCCD";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2" = "Mặt sau CCCD";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2" = "Mặt trước tài liệu";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2" = "Mặt sau tài liệu";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2" = "Mặt trước giấy phép cư trú";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2" = "Mặt sau giấy phép cư trú";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2" = "Mặt trước của GPLX";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2" = "Mặt sau của GPLX";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2" = "Mặt trước của bìa hộ chiếu";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2" = "Trang hộ chiếu có ảnh";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Chứng minh địa chỉ";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Chứng minh địa chỉ bổ sung";
+"idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2" = "Mặt trước thị thực";
+"idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2" = "Mặt sau thị thực";
+"idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2" = "Mặt trước thẻ qua biên giới Hoa Kỳ";
+"idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2" = "Mặt sau thẻ qua biên giới Hoa Kỳ";
+"idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2" = "Mặt trước giấy phép cư trú tị nạn Áo";
+"idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2" = "Mặt sau giấy phép cư trú Tị nạn Áo";
+"idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2" = "Mặt trước hộ chiếu Nội Nga";
+"idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2" = "Mặt sau hộ chiếu Nội Nga";
+"idenfy_document_camera_results_view_information_step_front_document_type_international_passport_title_v2" = "Mặt trước hộ chiếu quốc tế Nga";
+"idenfy_document_camera_results_view_information_step_back_document_type_international_passport_title_v2" = "Mặt sau hộ chiếu quốc tế Nga";
+"idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Mặt trước giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Mặt sau giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2" = "Mặt trước thẻ cử tri";
+"idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2" = "Mặt sau thẻ cử tri";
+"idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2" = "Mặt trước CMND cũ";
+"idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2" = "Mặt sau CMND cũ";
+"idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2" = "Mặt trước thẻ du lịch";
+"idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2" = "Mặt sau thẻ du lịch";
+"idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2" = "Mặt trước thẻ ảnh";
+"idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2" = "Mặt sau thẻ ảnh";
+"idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2" = "Mặt trước thẻ quân nhân (cựu chiến binh)";
+"idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2" = "Mặt sau thẻ quân nhân (cựu chiến binh)";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Mặt trước thẻ chứng minh độ tuổi";
+"idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Mặt sau thẻ chứng minh độ tuổi";
+"idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Mặt trước thẻ ngoại giao";
+"idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Mặt sau thẻ ngoại giao";
+"idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2" = "Mặt trước thẻ PAN";
+"idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2" = "Mặt sau thẻ PAN";
+"idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Mặt trước thẻ aadhaar";
+"idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Mặt sau thẻ aadhaar";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "**Mặt trước CCCD** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "**Mặt sau  CCCD** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "**Mặt trước tài liệu** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2" = "**Mặt sau tài liệu** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2" = "**Mặt trước giấy phép cư trú** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2" = "**Mặt sau giấy phép cư trú** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2" = "**Mặt trước GPLX** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2" = "**Mặt sau GPLX** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2" = "**Mặt trước trang bìa hộ chiếu** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2" = "**Chứng minh địa chỉ** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2" = "** Chứng minh địa chỉ bổ sung ** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2" = "**Trang hộ chiếu có ảnh** của bạn có hiển thị rõ ràng và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_description_part_1_v2" = "Liệu";
+"idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2" = "mặt trước CCCD";
+"idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2" = "mặt sau CCCD";
+"idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2" = "mặt trước tài liệu";
+"idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2" = "mặt sau tài liệu";
+"idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2" = "mặt trước giấy phép cư trú";
+"idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2" = "mặt sau giấy phép cư trú";
+"idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2" = "mặt trước GPLX";
+"idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2" = "mặt sau GPLX";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2" = "mặt trước bìa hộ chiếu";
+"idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2" = "chứng minh địa chỉ";
+"idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2" = "chứng minh địa chỉ bổ sung";
+"idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2" = "trang hộ chiếu có ảnh";
+"idenfy_document_camera_results_view_information_description_part_3_v2" = "có nhìn rõ và nằm trong khung hay không?";
+"idenfy_document_camera_results_view_details_first_title_v2_front" = "Hình ảnh khuôn mặt của bạn có được nhìn thấy rõ ràng không?";
+"idenfy_document_camera_results_view_details_second_title_v2_front" = "Bạn có thể đọc rõ ràng thông tin của tài liệu?";
+"idenfy_document_camera_results_view_details_first_title_v2_back" = "Nó có phải là mặt sau của tài liệu không?";
+"idenfy_document_camera_results_view_details_second_title_v2_back" = "Bạn có thể đọc rõ ràng thông tin của tài liệu?";
+"idenfy_document_camera_results_view_details_title_v2_default" = "Bạn có thể đọc rõ ràng thông tin của tài liệu?";
+"idenfy_document_camera_results_view_details_pdf_title_v2_default" = "Bạn có chắc chắn muốn tải lên file này không?";
+
+/*Idenfy Face Camera Preview Session View V2*/
+"idenfy_face_camera_preview_session_description_v2" = "Đặt khuôn mặt của bạn vào khu vực được đánh dấu và chụp ảnh rõ nét";
+"idenfy_face_camera_preview_title_v2" = "Chụp ảnh khuôn mặt của bạn";
+
+/*Idenfy Face Camera Results View V2*/
+"idenfy_face_camera_results_title_v2" = "Xác nhận ảnh khuôn mặt";
+"idenfy_face_camera_results_description_v2" = "Ảnh khuôn mặt của bạn có được nhìn rõ và nằm trong khung không?";
+"idenfy_document_camera_results_view_information_step_face_description_placeholder_v2" = "**Ảnh khuôn mặt** của bạn có nhìn thấy rõ ràng và nằm trong khung không?";
+"idenfy_face_camera_results_view_details_first_title_v2" = "Khuôn mặt của bạn có được nhìn rõ và đủ gần để kiểm tra không?";
+
+/*Idenfy Document And Face Results View V2*/
+"idenfy_document_and_face_camera_results_title_v2" = "Kiểm tra ảnh";
+"idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2" = "Được cung cấp bởi iDenfy";
+"idenfy_document_and_face_camera_results_button_retake_photo_title_v2" = "CHỤP ẢNH MỚI";
+"idenfy_document_and_face_camera_results_button_next_step_title_v2" = "CÓ, TIẾP TỤC";
+
+/*Upload document photo V2*/
+"idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2" = "Mặt trước CCCD";
+"idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2" = "Mặt sau CCCD";
+"idenfy_upload_results_view_information_step_front_document_type_other_title_v2" = "Mặt trước tài liệu";
+"idenfy_upload_results_view_information_step_back_document_type_other_title_v2" = "Mặt sau tài liệu";
+"idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2" = "Mặt trước giấy phép cư trú";
+"idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2" = "Mặt sau giấy phép cư trú";
+"idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2" = "Mặt trước của GPLX";
+"idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2" = "Mặt sau của GPLX";
+"idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2" = "Mặt trước của bìa hộ chiếu";
+"idenfy_upload_results_view_information_step_front_document_type_passport_title_v2" = "Trang hộ chiếu có ảnh";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2" = "Chứng minh địa chỉ";
+"idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2" = "Chứng minh địa chỉ bổ sung";
+"idenfy_upload_results_view_information_step_front_document_type_visa_title_v2" = "Mặt trước thị thực";
+"idenfy_upload_results_view_information_step_back_document_type_visa_title_v2" = "Mặt sau thị thực";
+"idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2" = "Mặt trước thẻ qua biên giới Hoa Kỳ";
+"idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2" = "Mặt sau thẻ qua biên giới Hoa Kỳ";
+"idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2" = "Mặt trước giấy phép cư trú tị nạn Áo";
+"idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2" = "Mặt sau giấy phép cư trú Tị nạn Áo";
+"idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2" = "Mặt trước hộ chiếu Nội Nga";
+"idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2" = "Mặt sau hộ chiếu Nội Nga";
+"idenfy_upload_results_view_information_step_front_document_type_international_passport_title_v2" = "Mặt trước hộ chiếu quốc tế Nga";
+"idenfy_upload_results_view_information_step_back_document_type_international_passport_title_v2" = "Mặt sau hộ chiếu quốc tế Nga";
+"idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2" = "Mặt trước giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2" = "Mặt sau giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2" = "Mặt trước thẻ cử tri";
+"idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2" = "Mặt sau thẻ cử tri";
+"idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2" = "Mặt trước CMND cũ";
+"idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2" = "Mặt sau CMND cũ";
+"idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2" = "Mặt trước thẻ du lịch";
+"idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2" = "Mặt sau thẻ du lịch";
+"idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2" = "Mặt trước thẻ ảnh";
+"idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2" = "Mặt sau thẻ ảnh";
+"idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2" = "Mặt trước thẻ quân nhân (cựu chiến binh)";
+"idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2" = "Mặt sau thẻ quân nhân (cựu chiến binh)";
+"idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2" = "Mặt trước thẻ chứng minh độ tuổi";
+"idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2" = "Mặt sau thẻ chứng minh độ tuổi";
+"idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2" = "Mặt trước thẻ ngoại giao";
+"idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2" = "Mặt sau thẻ ngoại giao";
+"idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2" = "Mặt trước thẻ PAN";
+"idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2" = "Mặt sau thẻ PAN";
+"idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2" = "Mặt trước thẻ aadhaar";
+"idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2" = "Mặt sau thẻ aadhaar";
+"idenfy_upload_results_view_information_step_face_title_v2" = "Xác nhận ảnh khuôn mặt";
+"idenfy_upload_results_view_cropping_description_v2" = "Căn chỉnh ảnh đã tải lên vào khu vực được đánh dấu";
+"idenfy_upload_results_view_choose_another_photo_button_title_v2" = "CHỌN MỘT CÁI KHÁC";
+"idenfy_upload_results_view_document_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_upload_results_view_pdf_size_alert_title_v2" = "Đã vượt quá kích thước file tối đa";
+"idenfy_upload_results_view_pdf_size_alert_message_v2" = "Vui lòng chọn file có kích thước hợp lệ không lớn hơn 5MB";
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Định dạng không được hỗ trợ";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Các định dạng được hỗ trợ:";
+"idenfy_upload_results_view_failed_to_upload_file_title_v2" = "Tải lên không thành công";
+"idenfy_upload_results_view_failed_to_upload_file_description_v2" = "Chúng tôi không thể tải lên file đã chọn. Vui lòng thử lại!";
+
+/*Idenfy Identification Results View V2*/
+"idenfy_identification_results_identification_status_loading_title_v2" = "Đang phân tích xác minh của bạn…";
+"idenfy_identification_results_identification_status_loading_description_v2" = "Vui lòng đợi trong khi chúng tôi thiết lập mọi thứ cho bạn!";
+"idenfy_identification_results_identification_status_error_title_v2" = "Xác minh không thành công";
+"idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Mặt trước CCCD";
+"idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Mặt sau CCCD";
+"idenfy_identification_results_step_passport_cover_title_v2" = "Mặt trước tài liệu";
+"idenfy_identification_results_step_proof_of_address_title_v2" = "Mặt sau tài liệu";
+"idenfy_identification_results_step_second_proof_of_address_title_v2" = "Mặt trước giấy phép cư trú";
+"idenfy_identification_results_step_front_document_type_passport_title_v2" = "Mặt sau giấy phép cư trú";
+"idenfy_identification_results_step_front_document_type_other_title_v2" = "Mặt trước của GPLX";
+"idenfy_identification_results_step_back_document_type_other_title_v2" = "Mặt sau của GPLX";
+"idenfy_identification_results_step_front_document_type_residence_permit_title_v2" = "Mặt trước của bìa hộ chiếu";
+"idenfy_identification_results_step_back_document_type_residence_permit_title_v2" = "Trang hộ chiếu có ảnh";
+"idenfy_identification_results_step_front_document_type_driver_license_title_v2" = "Chứng minh địa chỉ";
+"idenfy_identification_results_step_back_document_type_driver_license_title_v2" = "Chứng minh địa chỉ bổ sung";
+"idenfy_identification_results_step_front_document_type_visa_title_v2" = "Mặt trước thị thực";
+"idenfy_identification_results_step_back_document_type_visa_title_v2" = "Mặt sau thị thực";
+"idenfy_identification_results_step_front_document_type_border_crossing_title_v2" = "Mặt trước thẻ qua biên giới Hoa Kỳ";
+"idenfy_identification_results_step_back_document_type_border_crossing_title_v2" = "Mặt sau thẻ qua biên giới Hoa Kỳ";
+"idenfy_identification_results_step_front_document_type_asylum_title_v2" = "Mặt trước giấy phép cư trú tị nạn Áo";
+"idenfy_identification_results_step_back_document_type_asylum_title_v2" = "Mặt sau giấy phép cư trú Tị nạn Áo";
+"idenfy_identification_results_step_front_document_type_national_passport_title_v2" = "Mặt trước hộ chiếu Nội Nga";
+"idenfy_identification_results_step_back_document_type_national_passport_title_v2" = "Mặt sau hộ chiếu Nội Nga";
+"idenfy_identification_results_step_front_document_type_international_passport_title_v2" = "Mặt trước hộ chiếu quốc tế Nga";
+"idenfy_identification_results_step_back_document_type_international_passport_title_v2" = "Mặt sau hộ chiếu quốc tế Nga";
+"idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2" = "Mặt trước giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2" = "Mặt sau giấy phép lái xe tạm thời của Vương quốc Anh";
+"idenfy_identification_results_step_front_document_type_voter_card_title_v2" = "Mặt trước thẻ cử tri";
+"idenfy_identification_results_step_back_document_type_voter_card_title_v2" = "Mặt sau thẻ cử tri";
+"idenfy_identification_results_step_front_document_type_old_id_card_title_v2" = "Mặt trước CMND cũ";
+"idenfy_identification_results_step_back_document_type_old_id_card_title_v2" = "Mặt sau CMND cũ";
+"idenfy_identification_results_step_front_document_type_travel_card_title_v2" = "Mặt trước thẻ du lịch";
+"idenfy_identification_results_step_back_document_type_travel_card_title_v2" = "Mặt sau thẻ du lịch";
+"idenfy_identification_results_step_front_document_type_photo_card_title_v2" = "Mặt trước thẻ ảnh";
+"idenfy_identification_results_step_back_document_type_photo_card_title_v2" = "Mặt sau thẻ ảnh";
+"idenfy_identification_results_step_front_document_type_military_card_title_v2" = "Mặt trước thẻ quân nhân (cựu chiến binh)";
+"idenfy_identification_results_step_back_document_type_military_card_title_v2" = "Mặt sau thẻ quân nhân (cựu chiến binh)";
+"idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2" = "Mặt trước thẻ chứng minh độ tuổi";
+"idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2" = "Mặt sau thẻ chứng minh độ tuổi";
+"idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2" = "Mặt trước thẻ ngoại giao";
+"idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2" = "Mặt sau thẻ ngoại giao";
+"idenfy_identification_results_step_front_document_type_pan_card_title_v2" = "Mặt trước thẻ PAN";
+"idenfy_identification_results_step_back_document_type_pan_card_title_v2" = "Mặt sau thẻ PAN";
+"idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2" = "Mặt trước thẻ aadhaar";
+"idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2" = "Mặt sau thẻ aadhaar";
+"idenfy_identification_results_step_face" = "Ảnh khuôn mặt";
+"idenfy_identification_results_retake_button_title_v2" = "THỬ LẠI";
+"idenfy_identification_results_error_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Vui lòng đảm bảo tài liệu của bạn có khu vực đọc được bằng máy";
+"idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Khu vực đọc được bởi máy (MRZ) thường gồm 2 (hộ chiếu) hoặc 3 (CCCD) dòng ký tự. Ví dụ của MRZ được hiển thị ở ảnh bên dưới, đánh dấu bởi khung màu đỏ";
+"idenfy_identification_results_mrz_not_found_back_button_title_v2" = "QUAY LẠI";
+"idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "TÔI CHẮC CHẮN";
+"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Không tìm thấy tài liệu. Đảm bảo bạn đang xuất trình";
+"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "và quốc gia phát hành tài liệu";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "HỘ CHIẾU";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "CCCD";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "GIẤY PHÉP CƯ TRÚ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "GIẤY PHÉP LÁI XE";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "TÀI LIỆU";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "THỊ THỰC";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "THẺ QUA BIÊN GIỚI HOA KỲ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "THẺ CƯ TRÚ TỊ NẠN ÁO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "HỘ CHIẾU NỘI NGA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_international_passport_v2" = "HỘ CHIẾU QUỐC TẾ NGA";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "GIẤY PHÉP LÁI XE TẠM THỜI CỦA VƯƠNG QUỐC ANH";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "THẺ CỬ TRI";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "CMND CŨ";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "THẺ DU LỊCH";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "THẺ ẢNH";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "THẺ QUÂN NHÂN (CỰU CHIẾN BINH)";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "THẺ CHỨNG MINH ĐỘ TUỔI";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "THẺ NGOẠI GIAO";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "THẺ PAN";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "THẺ AADHAAR";
+"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Đảm bảo quốc gia phát hành của bạn là";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Đã xác minh thành công";
+"idenfy_identification_results_success_fragment_description_v2" = "";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Đã xác thực";
+
+/*Idenfy Identification Results Suspected View V2*/
+"idenfy_identification_results_suspected_view_title_v2" = "Đã gửi lên thông tin của bạn";
+"idenfy_identification_results_suspected_view_description_v2" = "Nếu bạn có thắc mắc, vui lòng liên hệ bộ phận hỗ trợ khách hàng của chúng tôi";
+"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
+"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "TIẾP TỤC";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
+"idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Đã gửi yêu cầu xác thực";
+"idenfy_manual_reviewing_status_waiting_view_information_top_description_v2" = "Xác minh của bạn yêu cầu xem xét thủ công bổ sung. Bạn sẽ được thông báo khi hoàn tất việc xem xét.";
+"idenfy_manual_reviewing_status_waiting_view_information_description_v2" = "Thường mất từ 1 đến 5 phút để nhận được kết quả của bạn";
+"idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2" = "QUAY LẠI TÀI KHOẢN";
+"idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2" = "Đánh giá dữ liệu bổ sung";
+"idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2" = "Kiểm tra AI tự động đã hoàn thành";
+"idenfy_manual_reviewing_status_waiting_view_time_left_title_v2" = "THỜI GIAN CÒN LẠI";
+
+/*Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2*/
+"idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information" = "Hủy xác minh";
+"idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information" = "Bạn có chắc chắn muốn hủy xác minh không?";
+"idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information" = "CÓ";
+"idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information" = "KHÔNG";
+
+/*Idenfy Manual Reviewing Identification Results Status Approved View V2*/
+"idenfy_manual_reviewing_status_approved_view_information_title_v2" = "Xác minh của bạn đã thành công!";
+"idenfy_manual_reviewing_status_approved_view_information_description_v2" = "Cảm ơn";
+"idenfy_manual_reviewing_status_approved_view_continue_button_v2" = "TIẾP TỤC";
+
+/*Idenfy Manual Reviewing Identification Results Status Failed View V2*/
+"idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Xác minh thất bại";
+"idenfy_manual_reviewing_status_failed_view_information_description_v2" = "Chúng tôi không thể xác nhận danh tính của bạn";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Xin vui lòng liên hệ";
+"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
+"idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "để được hỗ trợ thêm";
+"idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "TIẾP TỤC";
+
+/*Idenfy Camera Permission View V2*/
+"idenfy_camera_permissions_view_information_title_v2" = "Chúng tôi có thể sử dụng máy ảnh của bạn không?";
+"idenfy_camera_permissions_view_information_description_v2" = "Chúng tôi cần sử dụng máy ảnh của bạn để chụp ảnh tài liệu và ảnh khuôn mặt của bạn";
+"idenfy_camera_permissions_view_guidance_information_description_v2" = "Đi tới cài đặt, nhấn vào “Cấp quyền” để cấp quyền truy cập vào máy ảnh";
+"idenfy_camera_permissions_view_goto_settings_button_title_v2" = "CHO PHÉP BẬT MÁY ẢNH";
+
+/*Idenfy NFC Reading View V2*/
+"idenfy_nfc_reading_view_information_alert_title_passport_v2" = "Chạm vào giữa hộ chiếu ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_alert_title_id_card_v2" = "Chạm vào giữa CCCD  ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_alert_title_document_v2" = "Chạm vào giữa tài liệu ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_title_passport_v2" = "Chạm vào giữa hộ chiếu ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_title_id_card_v2" = "Chạm vào giữa CCCD  ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_title_document_v2" = "Chạm vào giữa tài liệu ở phần phía trên điện thoại";
+"idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Đang đọc dữ liệu tài liệu…";
+"idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Đang đọc hình ảnh tài liệu…";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Đã đọc xong hộ chiếu";
+"idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "TIẾP TỤC";
+"idenfy_nfc_reading_view_information_reading_started_title_v2" = "Xin vui lòng chờ trong giây lát…";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Ồ không! Đã xảy ra lỗi.";
+"idenfy_nfc_reading_view_information_reading_snackbar_title_v2" = "Vui lòng di chuyển điện thoại ra khỏi tài liệu!";
+"idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Kết nối bị gián đoạn. Hãy di chuyển điện thoại lại gần hơn!";
+
+/*Idenfy NFC Reading Time Out View V2*/
+"idenfy_nfc_reading_view_information_reading_time_out_title_v2" = "Hết giờ";
+"idenfy_nfc_reading_view_information_reading_time_out_description_v2" = "Thời gian đọc NFC đã hết";
+"idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "TIẾP TỤC";
+
+/*Idenfy NFC Required View V2*/
+"idenfy_nfc_required_view_information_title_v2" = "Thiết bị của bạn không được hỗ trợ";
+"idenfy_nfc_required_view_information_description_v2" = "Vui lòng sử dụng điện thoại di động có đầu đọc thẻ NFC tích hợp";
+
+/*Idenfy Additional Support View V2*/
+"idenfy_additional_support_view_title" = "Bạn đã hủy quá trình xác minh";
+"idenfy_additional_support_view_description" = "Quá trình xác minh không được thực hiện. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với nhóm hỗ trợ khách hàng của chúng tôi.";
+"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_button_title" = "QUAY LẠI";
+
+/**Shared strings**/
+/*Idenfy Permissions*/
+"idenfy_permission_asks_to_provide_camera_permission_manually" = "Cung cấp quyền theo cách thủ công";
+
+/*Idenfy Error messages*/
+"IDENFY_FACE_LIVENESS_MESSAGE" = "Quá nhiều lần kiểm tra người thật không thành công";
+"IDENFY_SERVER_ERROR_MESSAGE" = "Ồ không! Đã xảy ra lỗi.";
+"IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Phiên hết hạn!";
+"IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Quá nhiều lần thử!";
+"IDENFY_NFC_FAILED_MESSAGE" = "Xác thực NFC không thành công!";
+
+/*Idenfy navigation*/
+"idenfy_common_title_navigation_back" = "Quay lại";
+
+/*Idenfy Identification Results Additional Information*/
+"idenfy_identification_results_title_additional_info_uploading_front_document_photo" = "Đang tải lên ảnh trước của tài liệu…";
+"idenfy_identification_results_title_additional_info_uploading_back_document_photo" = "Đang tải lên ảnh mặt sau của tài liệu…";
+"idenfy_identification_results_title_additional_info_uploading_face_document_photo" = "Đang tải lên ảnh khuôn mặt trên tài liệu…";
+"idenfy_identification_results_title_additional_info_uploading_liveness_document_photo" = "Kiểm tra người thật…";
+"idenfy_identification_results_title_additional_info_uploading_passport_cover_photo" = "Đang tải lên ảnh bìa hộ chiếu…";
+"idenfy_identification_results_title_additional_info_uploading_proof_of_address_photo" = "Đang tải lên ảnh chứng minh địa chỉ…";
+"idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Đang tải lên ảnh chứng minh địa chỉ thứ hai…";
+
+/*Idenfy Alerts*/
+
+/*Idenfy Internet Connection Alert*/
+"idenfy_internet_connection_lost_title" = "Các vấn đề kết nối. Hãy đảm bảo rằng bạn có kết nối internet ổn định";
+
+/*Manual Reviewing Alert*/
+"idenfy_alert_positive_button_manual_reviewing_information" = "Tiếp tục";
+"idenfy_alert_title_manual_reviewing_information" = "THÔNG TIN";
+"idenfy_alert_message_manual_reviewing_information" = "Bởi vì bạn đã chọn một tài liệu không phải là CCCD hoặc hộ chiếu, chúng tôi buộc phải xem xét trường hợp của bạn một lần nữa.";
+
+/*Idenfy Liveness Failed Alert*/
+"idenfy_alert_positive_button_liveness_default_error" = "Tiếp tục";
+"idenfy_alert_title_liveness_default_error" = "THÔNG TIN";
+"idenfy_alert_message_liveness_default_error" = "Kiểm tra người thật không thành công, vui lòng thử lại.";
+"idenfy_alert_message_liveness_face_timeout_error" = "Thời gian thực hiện kiểm tra người thật của khuôn mặt đã hết. Vui lòng thử lại.";
+
+/*Document Analysis Alert*/
+"idenfy_alert_positive_button_document_analysis_information" = "Tiếp tục";
+"idenfy_alert_title_document_analysis_information" = "Ồ KHÔNG ĐƯỢC RỒI!";
+"idenfy_alert_message_document_analysis_information" = "Không thể xác định loại tài liệu. Vui lòng chọn loại tài liệu trong bước tiếp theo.";
+
+/*Abort Identification Alert*/
+"idenfy_alert_message_abort_identification_information" = "Bạn có chắc chắn muốn hủy xác minh không?";
+"idenfy_alert_title_abort_identification_information" = "Hủy xác minh";
+"idenfy_alert_positive_button_abort_identification_information" = "ĐỒNG Ý";
+"idenfy_alert_negative_button_abort_identification_information" = "KHÔNG";
+
+/*Abort Restart Identification Alert*/
+"idenfy_alert_message_restart_identification_information" = "Bạn có chắc chắn muốn bắt đầu lại không?";
+"idenfy_alert_title_restart_identification_information" = "Bắt đầu lại";
+"idenfy_alert_positive_button_restart_identification_information" = "ĐỒNG Ý";
+"idenfy_alert_negative_button_restart_identification_information" = "KHÔNG";
+
+/*Unknown Document Analysis Alert*/
+"idenfy_document_and_face_camera_results_document_analysis_title" = "Đang phân tích…";
+"idenfy_document_and_face_camera_results_document_analysis_description" = "Xin vui lòng chờ trong giây lát.";
+
+/**/
+
+/*Idenfy Instruction strings */
+
+/* Passport */
+"idenfy_instructions_passport_correct_title" = "Xuất trình hộ chiếu của bạn";
+"idenfy_instructions_passport_correct_text" = "Đảm bảo rằng bạn xuất trình hộ chiếu của mình trong quá trình xác minh chứ không phải tài liệu khác.";
+
+"idenfy_instructions_passport_mrz_title" = "Hộ chiếu có khu vực MRZ";
+"idenfy_instructions_passport_mrz_text" = "Đảm bảo tài liệu của bạn có MRZ (2 hoặc 3 dòng chữ cái). Nếu tài liệu của bạn không có vùng MRZ, hãy chọn \“TÀI LIỆU KHÁC\” trong cửa sổ chọn tài liệu.";
+
+"idenfy_instructions_passport_fits_frame_title" = "Hộ chiếu vừa vặn trong khung màu trắng";
+"idenfy_instructions_passport_fits_frame_text" = "Đảm bảo hộ chiếu vừa vặn trong khung màu trắng và không vượt khỏi đường viền của khung và tài liệu được xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_passport_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_passport_finger_text" = "Không che mặt hoặc bất kỳ thông tin nào khác trong tài liệu.";
+
+"idenfy_instructions_passport_reflection_title" = "Không có phản quang";
+"idenfy_instructions_passport_reflection_text" = "Đảm bảo phản quang hoặc ảnh nổi của tài liệu không che đi khuôn mặt hoặc thông tin quan trọng khác trên tài liệu.";
+
+/* ID-Card front */
+"idenfy_instructions_id_front_correct_title" = "Xuất trình CCCD của bạn";
+"idenfy_instructions_id_front_correct_text" = "Hãy chắc chắn rằng bạn xuất trình CCCD tại thời điểm xác minh, không phải tài liệu khác.";
+
+"idenfy_instructions_id_front_fit_frame_title" = "Mặt trước CCCD vừa vặn trong khung màu trắng";
+"idenfy_instructions_id_front_fit_frame_text" = "Đảm bảo mặt trước của CCCD vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung và tài liệu được hiển thị không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_id_front_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_id_front_finger_text" = "Không che mặt hoặc bất kỳ thông tin nào khác trên tài liệu.";
+
+"idenfy_instructions_id_front_reflection_title" = "Không có phản quang";
+"idenfy_instructions_id_front_reflection_text" = "Đảm bảo phản quang hoặc ảnh nổi của tài liệu không che đi khuôn mặt hoặc thông tin tài liệu khác trên tài liệu.";
+
+/* ID-Card back */
+"idenfy_instructions_id_back_correct_title" = "Xuất trình mặt sau CCCD của bạn";
+"idenfy_instructions_id_back_correct_text" = "Đảm bảo rằng bạn đang hiển thị mặt sau của CCCD.";
+
+"idenfy_instructions_id_back_mrz_title" = "Tài liệu có khu vực MRZ";
+"idenfy_instructions_id_back_mrz_text" = "Đảm bảo tài liệu của bạn có MRZ (2 hoặc 3 dòng chữ cái). Nếu tài liệu của bạn không có vùng MRZ, hãy chọn \ “TÀI LIỆU KHÁC \” trong cửa sổ chọn tài liệu.";
+
+"idenfy_instructions_id_back_fit_frame_title" = "Mặt sau của CCCD nằm gọn trong khung màu trắng";
+"idenfy_instructions_id_back_fit_frame_text" = "Đảm bảo mặt sau của CCCD vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung. Ngoài ra, hãy đảm bảo rằng tài liệu bạn đang xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_id_back_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_id_back_finger_text" = "Không dùng ngón tay che thông tin trên tài liệu.";
+
+/* Residence-permit front */
+"idenfy_instructions_residence_permit_front_correct_title" = "Xuất trình Giấy phép cư trú của bạn";
+"idenfy_instructions_residence_permit_front_correct_text" = "Đảm bảo rằng bạn xuất trình Giấy phép cư trú tại thời điểm xác minh, không phải tài liệu khác.";
+
+"idenfy_instructions_residence_permit_front_fit_frame_title" = "Mặt trước Giấy phép cư trú vừa vặn trong khung màu trắng";
+"idenfy_instructions_residence_permit_front_fit_frame_text" = "Đảm bảo mặt trước của Giấy phép cư trú vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung và tài liệu được xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_residence_permit_front_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_residence_permit_front_finger_text" = "Không che mặt hoặc bất kỳ thông tin nào khác trên tài liệu.";
+
+"idenfy_instructions_residence_permit_front_reflection_title" = "Không có phản quang";
+"idenfy_instructions_residence_permit_front_reflection_text" = "Đảm bảo phản quang hoặc ảnh nổi của tài liệu không che đi khuôn mặt hoặc thông tin quan trọng khác trên tài liệu.";
+
+/* Residence-permit back */
+"idenfy_instructions_residence_permit_back_correct_title" = "Hiển thị mặt sau Giấy phép cư trú của bạn";
+"idenfy_instructions_residence_permit_back_correct_text" = "Đảm bảo rằng bạn đang xuất trình mặt sau của Giấy phép cư trú.";
+
+"idenfy_instructions_residence_permit_back_mrz_title" = "Tài liệu có khu vực MRZ";
+"idenfy_instructions_residence_permit_back_mrz_text" = "Đảm bảo tài liệu của bạn có MRZ (2 hoặc 3 dòng chữ cái). Nếu tài liệu của bạn không có vùng MRZ, hãy chọn \“TÀI LIỆU KHÁC\” trong cửa sổ chọn tài liệu.";
+
+"idenfy_instructions_residence_permit_back_fit_frame_title" = "Mặt sau của Giấy phép cư trú vừa văn trong khung màu trắng";
+"idenfy_instructions_residence_permit_back_fit_frame_text" = "Đảm bảo mặt sau của Giấy phép cư trú vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung. Ngoài ra, hãy đảm bảo rằng tài liệu bạn đang xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_residence_permit_back_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_residence_permit_back_finger_text" = "Không dùng ngón tay che thông tin trên tài liệu.";
+
+/* Driver-license front */
+"idenfy_instructions_driver_license_front_correct_title" = "Xuất trình GPLX của bạn";
+"idenfy_instructions_driver_license_front_correct_text" = "Đảm bảo rằng bạn xuất trình GPLX tại thời điểm xác minh, không phải tài liệu khác.";
+
+"idenfy_instructions_driver_license_front_fit_frame_title" = "Mặt trước của GPLX vừa vặn trong khung màu trắng";
+"idenfy_instructions_driver_license_front_fit_frame_text" = "Đảm bảo mặt trước của GPLX vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung và tài liệu được hiển thị không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_driver_license_front_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_driver_license_front_finger_text" = "Không che mặt hoặc bất kỳ thông tin nào khác trên tài liệu.";
+
+"idenfy_instructions_driver_license_front_reflection_title" = "Không có phản quang";
+"idenfy_instructions_driver_license_front_reflection_text" = "Đảm bảo phản quang hoặc ảnh nổi của tài liệu không che đi khuôn mặt hoặc thông tin quan trọng khác trên tài liệu.";
+
+/* Other documents front */
+"idenfy_instructions_other_front_mrz_title" = "Xuất trình tài liệu không có MRZ của bạn";
+"idenfy_instructions_other_front_mrz_text" = "Đảm bảo rằng bạn xuất trình tài liệu không có MRZ.";
+
+"idenfy_instructions_other_front_fit_frame_title" = "Mặt trước của tài liệu vừa vặn trong khung màu trắng";
+"idenfy_instructions_other_front_fit_frame_text" = "Đảm bảo mặt trước của tài liệu vừa vặn trong khung màu trắng và không vượt khỏi các cạnh của khung và tài liệu được xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_other_front_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_other_front_finger_text" = "Không che mặt hoặc bất kỳ thông tin nào khác trong tài liệu.";
+
+"idenfy_instructions_other_front_reflection_title" = "Không có phản quang";
+"idenfy_instructions_other_front_reflection_text" = "Đảm bảo phản quang hoặc ảnh nổi của tài liệu không che đi khuôn mặt hoặc thông tin quan trọng khác trên tài liệu.";
+
+/* Other documents back */
+"idenfy_instructions_other_back_fit_frame_title" = "Mặt sau của tài liệu nằm gọn trong khung màu trắng";
+"idenfy_instructions_other_back_fit_frame_text" = "Đảm bảo mặt sau của tài liệu vừa với khung màu trắng và không vượt khỏi các cạnh của khung và tài liệu được xuất trình không bị mờ và rõ ràng dễ đọc.";
+
+"idenfy_instructions_other_back_finger_title" = "Ngón tay không che tài liệu";
+"idenfy_instructions_other_back_finger_text" = "Không dùng ngón tay che thông tin trong tài liệu.";
+
+/* Face camera */
+"idenfy_instructions_face_fit_frame_title" = "Khuôn mặt vừa vặn trong khung màu trắng";
+"idenfy_instructions_face_fit_frame_text" = "Đảm bảo rằng khuôn mặt của bạn vừa vặn trong khung màu trắng.";
+
+"idenfy_instructions_face_one_face_title" = "Chỉ  được thấy một khuôn mặt";
+"idenfy_instructions_face_one_face_text" = "Đảm bảo rằng không có khuôn mặt nào khác có thể nhìn thấy trong hình.";
+
+"idenfy_instructions_face_shadow_title" = "Khuôn mặt không bị bóng che";
+"idenfy_instructions_face_shadow_text" = "Đảm bảo rằng khuôn mặt của bạn được chiếu sáng tốt và không có bóng trên đó.";
+
+"idenfy_instructions_face_zoom_title" = "Khuôn mặt vừa vặn trong khung";
+"idenfy_instructions_face_zoom_text" = "Đảm bảo rằng khuôn mặt của bạn vừa vặn trong khung hình. Sau khi chụp ảnh tự chụp, hãy di chuyển khuôn mặt của bạn lại gần hơn.";
+
+/**/
+///*System specific*///
+/* <!--Camera Permission Not Enabled Alert--> */
+"idenfy_alert_title_camera_permission_not_enabled" = "Không thể truy cập máy ảnh";
+"idenfy_alert_message_camera_permission_not_enabled" = "Để bật quyền truy cập, hãy đi tới Cài đặt> Quyền riêng tư> Máy ảnh và bật quyền truy cập Máy ảnh cho ứng dụng này.";
+"idenfy_alert_positive_button_camera_permission_not_enabled" = "ĐƯỢC RỒI";
+
+/*Face Authentication Initial View V2*/
+"idenfy_face_authentication_initial_view_failed_title_part_1" = "Bạn có";
+"idenfy_face_authentication_initial_view_failed_title_part_2" = "3";
+"idenfy_face_authentication_initial_view_failed_title_part_3" = "lần thử xác thực bản thân!";
+"idenfy_face_authentication_initial_view_failed_title_placeholder" = "Bạn có **3** lần thử xác thực bản thân!";
+"idenfy_face_authentication_initial_view_button_title" = "TIẾP TỤC";
+"idenfy_face_authentication_initial_view_alert_message" = "Xác minh khuôn mặt không thành công!";
+
+/*Face Authentication Results V2*/
+"idenfy_face_authentication_results_success_title" = "Xác thực thành công";
+"idenfy_face_authentication_results_success_description" = "Bạn đã được xác thực thành công!";
+"idenfy_face_authentication_results_final_failed_title" = "Xác minh khuôn mặt không thành công.";
+"idenfy_face_authentication_results_final_failed_description" = "Làm theo các bước được nhắc trên màn hình và đảm bảo môi trường đủ ánh sáng. Cố gắng tránh: mờ, bóng, lóa, ngón tay hoặc các vật thể khác trong ảnh.";
+"idenfy_face_authentication_results_failed_description" = "Xác minh khuôn mặt không thành công. Làm theo các bước được nhắc trên màn hình và đảm bảo môi trường đủ ánh sáng. Cố gắng tránh: mờ, bóng, lóa, ngón tay hoặc các vật thể khác trong ảnh.";
+"idenfy_face_authentication_results_button_title" = "TIẾP TỤC";
+
+/* Face Authentication Exit Alert*/
+"idenfy_face_authentication_exit_alert_title" = "Hủy xác thực";
+"idenfy_face_authentication_exit_alert_description" = "Bạn có chắc chắn muốn hủy xác thực khuôn mặt không?";

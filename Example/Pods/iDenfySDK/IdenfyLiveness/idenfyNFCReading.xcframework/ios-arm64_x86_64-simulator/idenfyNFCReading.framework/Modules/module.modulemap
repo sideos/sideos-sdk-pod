@@ -1,0 +1,11 @@
+framework module idenfyNFCReading {
+  umbrella header "idenfyNFCReading.h"
+
+  export *
+  module * { export * }
+}
+
+module idenfyNFCReading.Swift {
+    header "idenfyNFCReading-Swift.h"
+    requires objc
+}
